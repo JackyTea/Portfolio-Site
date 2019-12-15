@@ -1,0 +1,330 @@
+/* desktop */
+
+.ProjectsPage {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.ProjectsPage>.landingSection {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 800px;
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    vertical-align: middle;
+    background: url("../../images/projectsPage/topBackground.svg");
+    background-size: cover;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+.ProjectsPage>.landingSection>.mainTitle {
+    margin: auto;
+}
+
+.ProjectsPage>.landingSection>.mainTitle>h1 {
+    font-family: robotoBold, sans-serif;
+    font-size: 4.5vw;
+}
+
+.ProjectsPage>.landingSection>.mainTitle>p {
+    font-family: robotoRegular, sans-serif;
+    font-size: 1.6vw;
+}
+
+.ProjectsPage>.projectShowcase {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 450px;
+    min-height: 450px;
+    display: grid;
+    grid-template-rows: 8fr 2fr;
+    grid-template-columns: 3fr 7fr;
+    grid-template-areas: "proj-icon proj-desc" "proj-icon proj-tools";
+}
+
+.ProjectsPage>.projectShowcase>.projectIcon {
+    margin: auto;
+    padding: 0;
+    grid-area: proj-icon;
+}
+
+.ProjectsPage>.projectShowcase>.projectIcon>svg {
+    width: 15vw;
+    height: 15vw;
+}
+
+.ProjectsPage>.projectShowcase>.projectDescription {
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    text-align: left;
+    grid-area: proj-desc;
+}
+
+.ProjectsPage>.projectShowcase>.projectDescription>h1 {
+    margin: 5vh 0 0 0;
+    font-family: robotoBold, sans-serif;
+    font-size: 2vw;
+}
+
+.ProjectsPage>.projectShowcase>.projectDescription>p {
+    font-family: robotoRegular, sans-serif;
+    font-size: 1.2vw;
+    line-height: 200%;
+}
+
+.ProjectsPage>.projectShowcase>.projectDescription>p>button {
+    margin: 0 3% 0 0;
+    background: none;
+}
+
+.ProjectsPage>.projectShowcase>.projectDescription>p>button>a {
+    color: black;
+}
+
+.ProjectsPage>.projectShowcase>.projectDescription>p>.unavailable {
+    color: rgb(206, 0, 0);
+}
+
+.ProjectsPage>.projectShowcase>.projectDescription>p>button>svg {
+    width: 1vw;
+    height: 1vw;
+}
+
+.ProjectsPage>.projectShowcase>.projectDescription>p>.unavailable>svg {
+    fill: rgb(206, 0, 0);
+}
+
+.ProjectsPage>.projectShowcase>.projectDescription>p>button:hover a, .ProjectsPage>.projectShowcase>.projectDescription>p>button:hover svg {
+    cursor: pointer;
+    color: rgb(0, 58, 182);
+    fill: rgb(0, 58, 182);
+}
+
+.ProjectsPage>.projectShowcase>.projectDescription>p>.unavailable:hover, .ProjectsPage>.projectShowcase>.projectDescription>p>.unavailable:hover svg {
+    cursor: default;
+    color: rgb(138, 0, 0);
+    fill: rgb(138, 0, 0);
+}
+
+.ProjectsPage>.projectShowcase>.projectTools {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: robotoRegular, sans-serif;
+    grid-area: proj-tools;
+}
+
+.ProjectsPage>.projectShowcase>.projectTools>span {
+    margin: 0 1% 0 0;
+    font-size: 1.2vw;
+}
+
+.ProjectsPage>.projectShowcase>.projectTools>button {
+    margin: 0 1% 0 0;
+    padding: 10px;
+    border-radius: 1000px;
+    color: white;
+    font-size: 1.1vw;
+    background: rgb(31, 102, 255);
+}
+
+.ProjectsPage>.projectShowcase>.projectTools>button:hover {
+    transition: 0.25s;
+    background: rgb(0, 58, 182);
+}
+
+.ProjectsPage>.endMsg {
+    font-family: robotoRegular, sans-serif;
+    font-size: 2vw;
+}
+
+/* tablet */
+
+@media only screen and (max-width: 1000px) {
+    .ProjectsPage>.landingSection {
+        height: 800px;
+        min-height: 800px;
+        background: url("../../images/projectsPage/topBackgroundTablet.svg");
+        background-size: contain;
+        background-position: top left;
+        background-repeat: no-repeat;
+    }
+    .ProjectsPage>.landingSection>.mainTitle>h1 {
+        font-size: 7vw;
+    }
+    .ProjectsPage>.landingSection>.mainTitle>p {
+        font-size: 3vw;
+    }
+    .ProjectsPage>.projectShowcase {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 400px;
+        min-height: 400px;
+    }
+    .ProjectsPage>.projectShowcase>.projectIcon>svg {
+        width: 15vw;
+        height: 15vw;
+    }
+    .ProjectsPage>.projectShowcase>.projectDescription {
+        width: 100%;
+        text-align: left;
+    }
+    .ProjectsPage>.projectShowcase>.projectDescription>h1 {
+        margin: 0px 0 0 0;
+        font-family: robotoBold, sans-serif;
+        font-size: 3vw;
+    }
+    .ProjectsPage>.projectShowcase>.projectDescription>p {
+        font-size: 1.7vw;
+        line-height: 200%;
+    }
+    .ProjectsPage>.projectShowcase>.projectDescription>p>button>svg {
+        width: 1.5vw;
+        height: 1.5vw;
+    }
+    .ProjectsPage>.projectShowcase>.projectTools {
+        text-align: left;
+    }
+    .ProjectsPage>.projectShowcase>.projectTools>span {
+        font-size: 1.7vw;
+    }
+    .ProjectsPage>.projectShowcase>.projectTools>button {
+        font-size: 1.5vw;
+    }
+    .ProjectsPage>.endMsg {
+        font-size: 3vw;
+    }
+}
+
+/* mobile */
+
+@media only screen and (max-width: 650px) {
+    .ProjectsPage>.landingSection {
+        height: 600px;
+        min-height: 600px;
+        background: url("../../images/projectsPage/topBackgroundTablet.svg");
+        background-size: contain;
+        background-position: top left;
+        background-repeat: no-repeat;
+    }
+    .ProjectsPage>.landingSection>.mainTitle>h1 {
+        font-size: 8vw;
+    }
+    .ProjectsPage>.landingSection>.mainTitle>p {
+        font-size: 4vw;
+    }
+    .ProjectsPage>.projectShowcase {
+        margin: 0 0 15vh 0;
+        padding: 0;
+        width: 100%;
+        height: 600px;
+        min-height: 600px;
+        display: grid;
+        grid-template-rows: 1fr 7fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: "proj-icon" "proj-desc" "proj-tools";
+    }
+    .ProjectsPage>.projectShowcase>.projectIcon>svg {
+        width: 40vw;
+        height: 40vw;
+    }
+    .ProjectsPage>.projectShowcase>.projectDescription {
+        margin: auto;
+        width: 90%;
+        text-align: center;
+    }
+    .ProjectsPage>.projectShowcase>.projectDescription>h1 {
+        margin: 0 0 0 0;
+        font-family: robotoBold, sans-serif;
+        font-size: 5vw;
+    }
+    .ProjectsPage>.projectShowcase>.projectDescription>p {
+        font-size: 2.7vw;
+        line-height: 200%;
+    }
+    .ProjectsPage>.projectShowcase>.projectDescription>p>button>svg {
+        width: 3vw;
+        height: 3vw;
+    }
+    .ProjectsPage>.projectShowcase>.projectTools {
+        text-align: center;
+    }
+    .ProjectsPage>.projectShowcase>.projectTools>span {
+        font-size: 2.5vw;
+    }
+    .ProjectsPage>.projectShowcase>.projectTools>button {
+        font-size: 2.5vw;
+    }
+    .ProjectsPage>.endMsg {
+        font-size: 6vw;
+    }
+}
+
+/* mobile - small */
+
+@media only screen and (max-width: 450px) {
+    .ProjectsPage>.landingSection {
+        height: 500px;
+        min-height: 500px;
+        background: url("../../images/projectsPage/topBackgroundTablet.svg");
+        background-size: contain;
+        background-position: top left;
+        background-repeat: no-repeat;
+    }
+    .ProjectsPage>.landingSection>.mainTitle>h1 {
+        font-size: 10vw;
+    }
+    .ProjectsPage>.landingSection>.mainTitle>p {
+        font-size: 4vw;
+    }
+    .ProjectsPage>.projectShowcase {
+        margin: 0 0 15vh 0;
+        padding: 0;
+        width: 100%;
+        height: 700px;
+        min-height: 700px;
+    }
+    .ProjectsPage>.projectShowcase>.projectIcon>svg {
+        width: 50vw;
+        height: 50vw;
+    }
+    .ProjectsPage>.projectShowcase>.projectDescription {
+        margin: auto;
+        width: 90%;
+        text-align: center;
+    }
+    .ProjectsPage>.projectShowcase>.projectDescription>h1 {
+        margin: 0 0 0 0;
+        font-family: robotoBold, sans-serif;
+        font-size: 7vw;
+    }
+    .ProjectsPage>.projectShowcase>.projectDescription>p {
+        font-size: 3.2vw;
+        line-height: 200%;
+    }
+    .ProjectsPage>.projectShowcase>.projectDescription>p>button>svg {
+        width: 5vw;
+        height: 5vw;
+    }
+    .ProjectsPage>.projectShowcase>.projectTools {
+        text-align: center;
+    }
+    .ProjectsPage>.projectShowcase>.projectTools>span {
+        font-size: 3vw;
+    }
+    .ProjectsPage>.projectShowcase>.projectTools>button {
+        font-size: 3vw;
+    }
+    .ProjectsPage>.endMsg {
+        font-size: 8vw;
+    }
+}

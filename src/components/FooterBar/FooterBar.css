@@ -1,0 +1,147 @@
+/* desktop */
+
+.FooterBar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    min-height: 185px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    vertical-align: middle;
+    justify-content: flex-end;
+    background: url("../../images/footerBar/footerBackground.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.FooterBar>.copyright{
+    order: 1;
+    margin: 0 0 2vh 0;
+}
+
+.FooterBar>.copyright>span{
+    color: grey;
+    font-family: robotoRegular;
+    font-size: 1.1vw;
+}
+
+
+.FooterBar>.links>.linksList{
+    order: 2;
+    margin: 0 0 3vh 0;
+}
+
+
+.FooterBar>.links>.linksList>.listItem{
+    margin: 0 0 0 0;
+    padding: 0 3% 0 3%;
+    font-family: robotoRegular, sans-serif;
+    color: black;
+    display: inline;
+}
+
+.FooterBar>.links>.linksList>.listItem>a>svg{
+    fill: grey;
+    width: 3vw;
+    height: 3vw;
+}
+
+.FooterBar>.links>.linksList>.listItem>a>svg:hover{
+    transition: 0.25s;
+    fill: black;
+}
+
+/* tablet */
+
+@media only screen and (max-width: 1000px) {
+    .FooterBar {
+        height: 150px;
+        min-height: 150px;
+    }
+    .FooterBar>.copyright{
+        order: 1;
+        margin: 0 0 2vh 0;
+    }
+    
+    .FooterBar>.copyright>span{
+        color: grey;
+        font-family: robotoRegular;
+        font-size: 1.3vw;
+    }
+    .FooterBar>.links>.linksList{
+        order: 2;
+        margin: 0 0 2vh 0;
+    }
+    .FooterBar>.links>.linksList>.listItem>a>svg{
+        fill: grey;
+        width: 4vw;
+        height: 4vw;
+    }
+}
+
+/* mobile */
+
+@media only screen and (max-width: 650px) {
+    .FooterBar {
+        height: 250px;
+        min-height: 250px;
+        background: url("../../images/footerBar/footerBackgroundPhone.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    .FooterBar>.copyright{
+        order: 1;
+        margin: 0 0 2vh 0;
+    }
+    
+    .FooterBar>.copyright>span{
+        color: grey;
+        font-family: robotoRegular;
+        font-size: 2vw;
+    }
+    .FooterBar>.links>.linksList{
+        order: 2;
+        margin: 0 0 1vh 0;
+    }
+    .FooterBar>.links>.linksList>.listItem>a>svg{
+        fill: grey;
+        width: 5vw;
+        height: 5vw;
+    }
+}
+
+/* mobile - small */
+
+@media only screen and (max-width: 450px) {
+    .FooterBar {
+        height: 200px;
+        min-height: 200px;
+        background: url("../../images/footerBar/footerBackgroundPhone.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    .FooterBar>.copyright{
+        order: 1;
+        margin: 0 0 2vh 0;
+    }
+    
+    .FooterBar>.copyright>span{
+        color: grey;
+        font-family: robotoRegular;
+        font-size: 4vw;
+    }
+    .FooterBar>.links>.linksList{
+        order: 2;
+        margin: 0 0 1vh 0;
+    }
+    .FooterBar>.links>.linksList>.listItem>a>svg{
+        fill: grey;
+        width: 7vw;
+        height: 7vw;
+    }
+}

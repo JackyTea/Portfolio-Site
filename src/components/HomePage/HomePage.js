@@ -24,7 +24,7 @@ class HomePage extends Component {
               <h1>Hi, I'm Jacky.</h1>
               <h3>A software development student.</h3>
               <button>
-                <Link to="/projects">Check out my stuff.</Link>
+                <Link to="/projects">Check out my projects.</Link>
               </button>
             </div>
           </div>
@@ -33,14 +33,9 @@ class HomePage extends Component {
           <div className="aboutMe">
             <h1>About Me</h1>
             <p>
-              I am a driven individual with the goal of solving practical
-              problems and building software for the benefit of others.
-              Currently enrolled in a software development program, my main
-              areas of focus include web development and network-driven
-              applications. Alongside my current concentration, I have started
-              projects involving UI/UX design, game development and mobile
-              development. In the future, I plan on looking into projects
-              involving machine learning and robotics.
+              Hey there, I am a software development student dedicated to
+              solving problems and building applications to make the lives of
+              others easier.
             </p>
             {/*
             <button>

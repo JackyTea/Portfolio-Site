@@ -12,7 +12,6 @@ class AboutPage extends Component {
             <h1>Resume</h1>
             <p>
               I am a software development student dedicated to solving problems{" "}
-              <br />
               and building applications to make the lives of others easier.
             </p>
             <button>

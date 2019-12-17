@@ -19,6 +19,7 @@
 
 .AboutPage>.aboutSection>.aboutMe {
     margin: 0;
+    width: 80%;
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -69,15 +70,52 @@
 /* tablet */
 
 @media only screen and (max-width: 1200px) {
+    .AboutPage>.aboutSection {
+        background: none;
+    }
     .AboutPage>.aboutSection>.aboutMe>h1 {
-        font-size: 3.5vw;
+        text-align: center;
+        font-size: 4.5vw;
     }
     
     .AboutPage>.aboutSection>.aboutMe>p {
-        font-size: 1.5vw;
+        font-size: 2.5vw;
     }
     
     .AboutPage>.aboutSection>.aboutMe>button {
-        font-size: 1.5vw;
+        font-size: 2.5vw;
+    }
+}
+
+/* mobile */
+
+@media only screen and (max-width: 600px) {
+    .AboutPage>.aboutSection>.aboutMe>h1 {
+        font-size: 6.5vw;
+    }
+    
+    .AboutPage>.aboutSection>.aboutMe>p {
+        font-size: 4.5vw;
+    }
+    
+    .AboutPage>.aboutSection>.aboutMe>button {
+        font-size: 4.5vw;
+    }
+}
+
+
+/* mobile - small */
+
+@media only screen and (max-width: 450px) {
+    .AboutPage>.aboutSection>.aboutMe>h1 {
+        font-size: 8vw;
+    }
+    
+    .AboutPage>.aboutSection>.aboutMe>p {
+        font-size: 5.5vw;
+    }
+    
+    .AboutPage>.aboutSection>.aboutMe>button {
+        font-size: 5.5vw;
     }
 }

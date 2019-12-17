@@ -38,7 +38,7 @@ let currentScrollPos = window.pageYOffset;
     document.getElementById("logoMain").style.color = "white";
   } else {
     document.getElementById("theNav").style.background = "white";
-    document.getElementById("theNav").style.boxShadow = "3px 3px 25px rgba(0, 0, 0, 0.288)"
+    document.getElementById("theNav").style.boxShadow = "2vh 2vh 3vh rgba(0, 0, 0, 0.388)"
     document.getElementById("logoMain").style.color = "black";
   }
   if (prevScrollpos > currentScrollPos) {
@@ -97,7 +97,7 @@ class NavigationBar extends Component {
           <div className="mainLogo">
             <h1>
               <Link id="logoMain" to="/">
-                Jacky Tea <span id="blinkingCursor">_</span>
+                Jacky Tea {/*<span id="blinkingCursor">_</span>*/}
               </Link>
             </h1>
           </div>

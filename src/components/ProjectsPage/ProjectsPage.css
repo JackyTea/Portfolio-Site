@@ -3,26 +3,27 @@
 .ProjectsPage {
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 95%;
     height: 100%;
+    border-radius: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     vertical-align: middle;
+    box-shadow: 0 1.5vh 1.5vh rgba(0, 0, 0, 0.12), 0 1vh 1vh rgba(0, 0, 0, 0.24);
+    transition: all 0.25s cubic-bezier(.25, .8, .25, 1);
+    border-top: 0.1vw solid rgba(0, 0, 0, 0.158);
+    border-left: 0.1vw solid rgba(0, 0, 0, 0.158);
+    border-right: 0.1vw solid rgba(0, 0, 0, 0.158);
 }
 
 .ProjectsPage>.title {
     margin: 50px;
     padding: 20px;
-    width: 71%;
-    font-family: robotoRegular, sans-serif;
+    width: 100%;
+    font-family: robotoBold, sans-serif;
     font-size: 3vw;
-    box-shadow: 0 1.5vh 1.5vh rgba(0, 0, 0, 0.12), 0 1vh 1vh rgba(0, 0, 0, 0.24);
-    transition: all 0.25s cubic-bezier(.25, .8, .25, 1);
-    border-top: 1px solid rgba(0, 0, 0, 0.158);
-    border-left: 1px solid rgba(0, 0, 0, 0.158);
-    border-right: 1px solid rgba(0, 0, 0, 0.158);
 }
 
 .ProjectsPage>.projectContainer {
@@ -49,11 +50,10 @@
     justify-content: center;
     align-content: flex-end;
     vertical-align: bottom;
-    box-shadow: 0 1.5vh 1.5vh rgba(0, 0, 0, 0.12), 0 1vh 1vh rgba(0, 0, 0, 0.24);
     transition: all 0.25s cubic-bezier(.25, .8, .25, 1);
-    border-top: 1px solid rgba(0, 0, 0, 0.158);
-    border-left: 1px solid rgba(0, 0, 0, 0.158);
-    border-right: 1px solid rgba(0, 0, 0, 0.158);
+    border-top: 0.15vw solid rgba(0, 0, 0, 0.158);
+    border-left: 0.15vw solid rgba(0, 0, 0, 0.158);
+    border-right: 0.15vw solid rgba(0, 0, 0, 0.158);
     background: white;
 }
 

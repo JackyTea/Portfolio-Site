@@ -23,6 +23,11 @@
 
 .HomePage>#theProjectsPage {
     margin: 0 0 5% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    vertical-align: middle;
 }
 
 .HomePage>#theSkillsPage {

@@ -7,9 +7,7 @@ document.onclick = event => {
   let sideNav = document.getElementById("sideNav");
   let sideIcon = document.getElementById("sideBarIcon");
   let overLay = document.getElementById("overLay");
-  if (
-    event.target.className !== "sideBar"
-  ) {
+  if (event.target.className !== "sideBar") {
     overLay.style.width = "";
     sideNav.style.width = "";
     sideIcon.className = "fa fa-lg fa-bars";
@@ -30,14 +28,15 @@ window.onresize = () => {
 
 let prevScrollpos = window.pageYOffset;
 window.onscroll = () => {
-let currentScrollPos = window.pageYOffset;
-  if(currentScrollPos <= 100) {
+  let currentScrollPos = window.pageYOffset;
+  if (currentScrollPos <= 100) {
     document.getElementById("theNav").style.background = "none";
-    document.getElementById("theNav").style.boxShadow = "none"
+    document.getElementById("theNav").style.boxShadow = "none";
     document.getElementById("logoMain").style.color = "white";
   } else {
     document.getElementById("theNav").style.background = "white";
-    document.getElementById("theNav").style.boxShadow = "2vh 2vh 3vh rgba(0, 0, 0, 0.388)"
+    document.getElementById("theNav").style.boxShadow =
+      "2vh 2vh 3vh rgba(0, 0, 0, 0.388)";
     document.getElementById("logoMain").style.color = "black";
   }
   if (prevScrollpos > currentScrollPos) {
@@ -46,8 +45,7 @@ let currentScrollPos = window.pageYOffset;
     document.getElementById("theNav").style.top = "-20vh";
   }
   prevScrollpos = currentScrollPos;
-}
-
+};
 
 class NavigationBar extends Component {
   state = {};
@@ -62,6 +60,10 @@ class NavigationBar extends Component {
     }
   }
   */
+
+  changeTitle(title) {
+    document.title = "Jacky Tea | " + title;
+  }
 
   //sidebar toggle
   toggleSideNav = () => {
@@ -102,14 +104,52 @@ class NavigationBar extends Component {
           </div>
           <div className="navigationLinks">
             <nav>
-              <a href="#theHomePageLanding">Home</a>
-              <a href="#theSkillsPage">Skills</a>
-              <a href="#theProjectsPage">Projects</a>
-              <a href="#theAboutPage">Resume</a>
-              <a className="sideLink" href="https://github.com/JackyTea" target="_blank" rel="noopener noreferrer">
+              <a
+                onClick={() => {
+                  this.changeTitle("Home");
+                }}
+                href="#theHomePageLanding"
+              >
+                Home
+              </a>
+              <a
+                onClick={() => {
+                  this.changeTitle("Projects");
+                }}
+                href="#theProjectsPage"
+              >
+                Projects
+              </a>
+              <a
+                onClick={() => {
+                  this.changeTitle("Skills");
+                }}
+                href="#theSkillsPage"
+              >
+                Skills
+              </a>
+              <a
+                onClick={() => {
+                  this.changeTitle("Resume");
+                }}
+                href="#theAboutPage"
+              >
+                Resume
+              </a>
+              <a
+                className="sideLink"
+                href="https://github.com/JackyTea"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 GitHub
               </a>
-              <a className="sideLink" href="https://linkedin.com/in/jackytea" target="_blank" rel="noopener noreferrer">
+              <a
+                className="sideLink"
+                href="https://linkedin.com/in/jackytea"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 LinkedIn
               </a>
               <button className="sideNavButton">
@@ -123,22 +163,56 @@ class NavigationBar extends Component {
           </div>
         </div>
         <div className="sideBar" id="sideNav">
-          <a className="sideLink" href="#theHomePageLanding">
+          <a
+            className="sideLink"
+            onClick={() => {
+              this.changeTitle("Home");
+            }}
+            href="#theHomePageLanding"
+          >
             Home
           </a>
-          <a className="sideLink" href="#theSkillsPage">
-            Skills
-          </a>
-          <a className="sideLink" href="#theProjectsPage">
+          <a
+            className="sideLink"
+            onClick={() => {
+              this.changeTitle("Projects");
+            }}
+            href="#theProjectsPage"
+          >
             Projects
           </a>
-          <a className="sideLink" href="#theAboutPage">
+          <a
+            className="sideLink"
+            onClick={() => {
+              this.changeTitle("Skills");
+            }}
+            href="#theSkillsPage"
+          >
+            Skills
+          </a>
+          <a
+            className="sideLink"
+            onClick={() => {
+              this.changeTitle("Resume");
+            }}
+            href="#theAboutPage"
+          >
             Resume
           </a>
-          <a className="sideLink" href="https://github.com/JackyTea" target="_blank" rel="noopener noreferrer">
+          <a
+            className="sideLink"
+            href="https://github.com/JackyTea"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             GitHub
           </a>
-          <a className="sideLink" href="https://linkedin.com/in/jackytea" target="_blank" rel="noopener noreferrer">
+          <a
+            className="sideLink"
+            href="https://linkedin.com/in/jackytea"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             LinkedIn
           </a>
           <button onClick={this.closeSideNav} className="sideLink">

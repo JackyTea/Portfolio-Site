@@ -17,44 +17,58 @@
     margin: 0;
     padding: 0;
     width: 100%;
+    height: auto;
+    min-height: 100%;
 }
+
+.HomePage>#theProjectsPage {
+    margin: 0 0 5% 0;
+}
+
+.HomePage>#theSkillsPage {
+    margin: 0 0 10% 0;
+}
+
+
 
 .HomePage>.landingSection {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 800px;
-    min-height: 800px;
+    min-height: 100%;
+    height: auto;
     background: url("../../images/homePage/topBackground.svg");
-    background-size: cover;
+    background-size: contain;
     background-position: top left;
     background-repeat: no-repeat;
 }
 
+/*
 .HomePage>.landingSection>.topBar {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100px;
-    min-height: 100px;
+    height: auto;
+    min-height: 70vh;
 }
+*/
 
 .HomePage>.landingSection>.mainTitle {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 900px;
-    min-height: 900px;
+    height: auto;
+    min-height: 90vh;
 }
 
 .HomePage>.landingSection>.mainTitle>.introContainer {
-    margin: 15% 0 0 50%;
+    margin: 0;
     padding: 0;
 }
 
 .HomePage>.landingSection>.mainTitle>.introContainer>h1 {
     margin: 0 0 10px 0;
-    padding: 0;
+    padding: 15% 0 0 50%;
     font-family: robotoBold, sans-serif;
     font-size: 3.5vw;
     color: rgb(0, 0, 0);
@@ -62,14 +76,14 @@
 
 .HomePage>.landingSection>.mainTitle>.introContainer>h3 {
     margin: 0 0 15px 0;
-    padding: 0;
+    padding: 0 0 0 50%;
     font-family: robotoRegular, sans-serif;
     font-size: 1.8vw;
     color: rgb(0, 0, 0);
 }
 
 .HomePage>.landingSection>.mainTitle>.introContainer>button {
-    margin: 0;
+    margin: 0 0 0 50%;
     padding: 10px 15px 10px 15px;
     border: none;
     border-radius: 1000px;
@@ -85,6 +99,7 @@
 }
 
 .HomePage>.landingSection>.mainTitle>.introContainer>button:hover {
+    cursor: pointer;
     transition: 0.25s;
     background: rgb(0, 58, 182);
 }
@@ -93,11 +108,11 @@
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 1000px;
-    min-height: 1000px;
+    height: auto;
+    min-height: 100%;
     display: flex;
     background: url("../../images/homePage/middleBackground.svg");
-    background-size: cover;
+    background-size: contain;
     background-position: bottom right;
     background-repeat: no-repeat;
 }
@@ -179,27 +194,27 @@
 
 /* tablet */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
     .HomePage {
         margin: 0;
         padding: 0;
         width: 100%;
     }
     .HomePage>.landingSection {
-        height: 700px;
-        min-height: 700px;
+        min-height: 100%;
+        height: auto;
         background: url("../../images/homePage/topBackgroundTablet.svg");
         background-size: contain;
         background-position: top left;
         background-repeat: no-repeat;
     }
     .HomePage>.landingSection>.topBar {
-        height: 100px;
-        min-height: 100px;
+        height: auto;
+        min-height: 10vh;
     }
     .HomePage>.landingSection>.mainTitle {
-        height: 600px;
-        min-height: 600px;
+        height: auto;
+        min-height: 90vh;
         margin: 0;
         padding: 0;
         display: flex;
@@ -211,12 +226,16 @@
         padding: 0;
     }
     .HomePage>.landingSection>.mainTitle>.introContainer>h1 {
+        padding: 25% 0 0 0;
         font-size: 5vw;
     }
     .HomePage>.landingSection>.mainTitle>.introContainer>h3 {
+
+        padding: 0;
         font-size: 2.5vw;
     }
     .HomePage>.landingSection>.mainTitle>.introContainer>button {
+        margin: 0;
         font-size: 2vw;
     }
     .HomePage>.aboutSection {
@@ -253,20 +272,20 @@
 
 @media only screen and (max-width: 650px) {
     .HomePage>.landingSection {
-        height: 900px;
-        min-height: 900px;
+        min-height: 100%;
+        height: auto;
         background: url("../../images/homePage/topBackgroundPhone.svg");
         background-size: contain;
         background-position: top left;
         background-repeat: no-repeat;
     }
     .HomePage>.landingSection>.topBar {
-        height: 100px;
-        min-height: 100px;
+        height: auto;
+        min-height: 10vh;
     }
     .HomePage>.landingSection>.mainTitle {
-        height: 800px;
-        min-height: 800px;
+        height: auto;
+        min-height: 90vh;
     }
     .HomePage>.landingSection>.mainTitle>.introContainer>h1 {
         font-size: 7vw;
@@ -296,20 +315,20 @@
 
 @media only screen and (max-width: 450px) {
     .HomePage>.landingSection {
-        height: 600px;
-        min-height: 600px;
+        height: auto;
+        min-height: 100%;
         background: url("../../images/homePage/topBackgroundPhone.svg");
         background-size: contain;
         background-position: top left;
         background-repeat: no-repeat;
     }
     .HomePage>.landingSection>.topBar {
-        height: 100px;
-        min-height: 100px;
+        height: auto;
+        min-height: 10vh;
     }
     .HomePage>.landingSection>.mainTitle {
-        height: 500px;
-        min-height: 500px;
+        height: auto;
+        min-height: 90vh;
     }
     .HomePage>.landingSection>.mainTitle>.introContainer>h1 {
         font-size: 8vw;

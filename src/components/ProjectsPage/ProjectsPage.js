@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import FooterBar from "../FooterBar/FooterBar";
 import { ReactComponent as GithubIcon } from "../../images/projectsPage/githubIcon.svg";
 import { ReactComponent as VisitIcon } from "../../images/projectsPage/visitIcon.svg";
+import { ReactComponent as XIcon } from "../../images/projectsPage/xIcon.svg";
+import { ReactComponent as EyeIcon } from "../../images/projectsPage/eyeIcon.svg";
+import { ReactComponent as ProjectsIcon } from "../../images/projectsPage/projectsIcon.svg";
+import { ReactComponent as SkillsIcon } from "../../images/projectsPage/skillsIcon.svg";
 import { ReactComponent as Proj1 } from "../../images/projectsPage/proj1.svg";
 import { ReactComponent as Proj2 } from "../../images/projectsPage/proj2.svg";
 import { ReactComponent as Proj3 } from "../../images/projectsPage/proj3.svg";
@@ -10,6 +14,7 @@ import { ReactComponent as Proj5 } from "../../images/projectsPage/proj5.svg";
 import { ReactComponent as Proj6 } from "../../images/projectsPage/proj6.svg";
 import { ReactComponent as Proj7 } from "../../images/projectsPage/proj7.svg";
 import "./ProjectsPage.css";
+import { Redirect } from "react-router-dom";
 
 class ProjectsPage extends Component {
   state = {};
@@ -21,17 +26,10 @@ class ProjectsPage extends Component {
   render() {
     return (
       <div className="ProjectsPage">
-        <div className="landingSection">
-          <div className="mainTitle">
-            <h1>Projects</h1>
-            <p>Some stuff I made.</p>
-          </div>
-        </div>
-        <div className="projectShowcase">
-          <div className="projectIcon">
-            <Proj1></Proj1>
-          </div>
-          <div className="projectDescription">
+        <h1 className="title">Projects</h1>
+        <div className="projectContainer">
+          <div className="projectCard">
+            <img src="https://doc-0g-bg-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/cl85d3ru0s58v4dolh1pk00arfj8cvlt/1576548000000/07294837811039641421/*/1uki6Z6bbngSq6mrYQ6cTq0Ag2yceSZeN"></img>
             <h1>Real Time Polling Application</h1>
             <br />
             <p>
@@ -40,33 +38,93 @@ class ProjectsPage extends Component {
               database to be stored. Data is then rendered to a generated
               polling asynchronously so that the webpage is updated without the
               need for a refresh.
-              <br />
-              <br />
-              <button>
-                <a href="https://github.com/JackyTea/Real-Time-Polling-Application">
-                  Source Code
-                </a>{" "}
-                <GithubIcon></GithubIcon>
-              </button>
-              <button>
-                <a href="https://sheltered-inlet-92987.herokuapp.com/">
-                  Visit Site
-                </a>{" "}
-                <VisitIcon></VisitIcon>
-              </button>
             </p>
+            <br />
+            <div className="projectTools">
+              Technologies Used:&nbsp;
+              <button>JavaScript</button> <button>Node.JS</button>
+              <button>MongoDB</button>
+              <button>Pusher API</button>
+              <br />
+              <span style={{ color: "orangered" }}>
+                <b>Note:</b> Heroku site may take time to connect.
+              </span>
+            </div>
+            <div className="projectLinks">
+              <a href="https://sheltered-inlet-92987.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                Visit Site <VisitIcon></VisitIcon>
+              </a>
+              <a href="https://github.com/JackyTea/Real-Time-Polling-Application" target="_blank" rel="noopener noreferrer">
+                View Source Code <GithubIcon></GithubIcon>
+              </a>
+            </div>
           </div>
-          <div className="projectTools">
-            <span>Languages and Technologies Used: </span>
-            <button>JavaScript</button> <button>Node.JS</button>
-            <button>MongoDB</button> <button>Pusher</button>
+          <div className="projectCard">
+            <img src="https://doc-0o-bg-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/r5j48oqjr0hkp35k6qafundgb7niocsl/1576548000000/07294837811039641421/*/1wmlDv3voZdoexaP4G2KfN-13nj44Dn9S"></img>
+            <h1>Make It Rain (Browser Game)</h1>
+            <br />
+            <p>
+              A simple browser clicker game that makes use of CSS3 animations
+              and DOM manipulation with JavaScript. The game is optimized
+              through dynamic removal of DOM elements that are no longer in use.
+              JavaScript is also used here to take care of game logic and serve
+              the Node.JS application.
+            </p>
+            <br />
+            <br />
+            <div className="projectTools">
+              Technologies Used:&nbsp;
+              <button>JavaScript</button> <button>Node.JS</button>
+              <br />
+              <span style={{ color: "orangered" }}>
+                <b>Note:</b> Heroku site may take time to connect.
+              </span>
+            </div>
+            <div className="projectLinks">
+              <a href="https://cryptic-river-57921.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                Visit Site <VisitIcon></VisitIcon>
+              </a>
+              <a href="https://github.com/JackyTea/Make-It-Rain" target="_blank" rel="noopener noreferrer">
+                View Source Code <GithubIcon></GithubIcon>
+              </a>
+            </div>
           </div>
         </div>
-        <div className="projectShowcase">
-          <div className="projectIcon">
-            <Proj2></Proj2>
+        <div className="projectContainer">
+          <div className="projectCard">
+            <img src="https://doc-0g-bg-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/cl85d3ru0s58v4dolh1pk00arfj8cvlt/1576548000000/07294837811039641421/*/1uki6Z6bbngSq6mrYQ6cTq0Ag2yceSZeN"></img>
+            <h1>Student Enrolment Application</h1>
+            <br />
+            <p>
+              An Angular application designed to render student information
+              fetched from a web service and allow students to perform CRUD
+              operations on their school account. The application makes use of
+              two-way data binding to render a visual schedule builder for
+              students to easily enrol in courses and see course conflicts as
+              they build their timetable.
+            </p>
+            <br />
+            <div className="projectTools">
+              Technologies Used:&nbsp;
+              <button>JavaScript</button> <button>Angular</button>
+              <button>Node.JS</button>
+              <button>MongoDB</button>
+              <br />
+              <span style={{ color: "orangered" }}>
+                <b>Note:</b> Heroku site may take time to connect.
+              </span>
+            </div>
+            <div className="projectLinks">
+              <a href="https://quiet-cliffs-46230.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                Visit Site <VisitIcon></VisitIcon>
+              </a>
+              <a href="https://github.com/JackyTea/Real-Time-Polling-Application" target="_blank" rel="noopener noreferrer">
+                View Source Code <GithubIcon></GithubIcon>
+              </a>
+            </div>
           </div>
-          <div className="projectDescription">
+          <div className="projectCard">
+            <img src="https://doc-0o-bg-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/r5j48oqjr0hkp35k6qafundgb7niocsl/1576548000000/07294837811039641421/*/1wmlDv3voZdoexaP4G2KfN-13nj44Dn9S"></img>
             <h1>Arduino Socket Remote Controller</h1>
             <br />
             <p>
@@ -75,28 +133,96 @@ class ProjectsPage extends Component {
               commands are executed with a serial port library that allows
               received data packets to be processed into the appropriate format.
               The library feeds data via a USB connection to the Arduino once
-              the client has sent a command to the controlling server module.
-              <br />
-              <br />
-              <button>
-                <a href="https://github.com/JackyTea/Arduino-Socket-Controller">
-                  Source Code
-                </a>{" "}
-                <GithubIcon></GithubIcon>
-              </button>
+              the client has sent a command to the controlling server module. In
+              this iteration, the controlled system is an LED circuit.
             </p>
-          </div>
-          <div className="projectTools">
-            <span>Languages and Technologies Used: </span>
-            <button>C++</button> <button>WinSock</button>
-            <button>Arduino</button>
+            <br />
+            <br />
+            <div className="projectTools">
+              Technologies Used:&nbsp;
+              <button>C++</button> <button>WinSock</button>{" "}
+              <button>Arduino</button>
+              <br />
+              <span style={{ color: "orangered" }}>
+                <b>Note:</b> No notes here.
+              </span>
+            </div>
+            <div className="projectLinks">
+              <a className="unavailable">
+                No Live Demo Available <XIcon></XIcon>
+              </a>
+              <a href="https://github.com/JackyTea/Arduino-Socket-Controller" target="_blank" rel="noopener noreferrer">
+                View Source Code <GithubIcon></GithubIcon>
+              </a>
+            </div>
           </div>
         </div>
-        <div className="projectShowcase">
-          <div className="projectIcon">
-            <Proj3></Proj3>
+        <div className="projectContainer">
+          <div className="projectCard">
+            <img src="https://doc-0g-bg-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/cl85d3ru0s58v4dolh1pk00arfj8cvlt/1576548000000/07294837811039641421/*/1uki6Z6bbngSq6mrYQ6cTq0Ag2yceSZeN"></img>
+            <h1>Daemonized Keyboard Logger</h1>
+            <br />
+            <p>
+              A network driven application that utilizes SSH to inject a
+              targeted machine with keyboard logging malware to record
+              keystrokes. The logging malware runs in the background for a
+              indefinite amount of time or until a "kill" command is sent from
+              the controlling daemon module. All data collected is then sent
+              back via a discrete SFTP connection.
+            </p>
+            <br />
+            <div className="projectTools">
+              Technologies Used:&nbsp;
+              <button>Python 3</button>
+              <br />
+              <span style={{ color: "orangered" }}>
+                <b>Note:</b> No notes here.
+              </span>
+            </div>
+            <div className="projectLinks">
+              <a className="unavailable">
+                No Live Demo Available <XIcon></XIcon>
+              </a>
+              <a className="unavailable">
+                Source Code Unavailable <XIcon></XIcon>
+              </a>
+            </div>
           </div>
-          <div className="projectDescription">
+          <div className="projectCard">
+            <img src="https://doc-0o-bg-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/r5j48oqjr0hkp35k6qafundgb7niocsl/1576548000000/07294837811039641421/*/1wmlDv3voZdoexaP4G2KfN-13nj44Dn9S"></img>
+            <h1>Data Processing Assembly Line</h1>
+            <br />
+            <p>
+              A server-client system that processes data read from configuration
+              files and csv files. Data is serialized to optimize transport
+              before being processed in the backend to complete an assembly line
+              request. All processed data is then printed to the terminal on
+              both the client and server ends and into files for logging
+              purposes.
+            </p>
+            <br />
+            <br />
+            <div className="projectTools">
+              Technologies Used:&nbsp;
+              <button>Java</button>
+              <br />
+              <span style={{ color: "orangered" }}>
+                <b>Note:</b> No notes here.
+              </span>
+            </div>
+            <div className="projectLinks">
+              <a className="unavailable">
+                No Live Demo Available <XIcon></XIcon>
+              </a>
+              <a href="https://github.com/JackyTea/Make-It-Rain" target="_blank" rel="noopener noreferrer">
+                View Source Code <GithubIcon></GithubIcon>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="projectContainer">
+          <div className="projectCard">
+            <img src="https://doc-0g-bg-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/cl85d3ru0s58v4dolh1pk00arfj8cvlt/1576548000000/07294837811039641421/*/1uki6Z6bbngSq6mrYQ6cTq0Ag2yceSZeN"></img>
             <h1>Discord Logger Bot</h1>
             <br />
             <p>
@@ -105,133 +231,58 @@ class ProjectsPage extends Component {
               MongoDB database for historical records. Messages are
               distinguished by what user and channel they are sent in, allowing
               for ease of querying.
-              <br />
-              <br />
-              <button>
-                <a href="https://github.com/JackyTea/Logger-Bot">Source Code</a>{" "}
-                <GithubIcon></GithubIcon>
-              </button>
             </p>
+            <br />
+            <div className="projectTools">
+              Technologies Used:&nbsp;
+              <button>JavaScript</button> <button>Node.JS</button>
+              <button>Discord.JS</button> <button>MongoDB</button>
+              <br />
+              <span style={{ color: "orangered" }}>
+                <b>Note:</b> No notes here.
+              </span>
+            </div>
+            <div className="projectLinks">
+              <a className="unavailable">
+                No Live Demo Available <XIcon></XIcon>
+              </a>
+              <a href="https://github.com/JackyTea/Logger-Bot" target="_blank" rel="noopener noreferrer">
+                View Source Code <GithubIcon></GithubIcon>
+              </a>
+            </div>
           </div>
-          <div className="projectTools">
-            <span>Languages and Technologies Used: </span>
-            <button>JavaScript</button> <button>Node.JS</button>
-            <button>Discord.JS</button> <button>MongoDB</button>
-          </div>
-        </div>
-        <div className="projectShowcase">
-          <div className="projectIcon">
-            <Proj4></Proj4>
-          </div>
-          <div className="projectDescription">
-            <h1>Make It Rain (Browser Game)</h1>
+          <div className="projectCard">
+            <img src="https://doc-0o-bg-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/r5j48oqjr0hkp35k6qafundgb7niocsl/1576548000000/07294837811039641421/*/1wmlDv3voZdoexaP4G2KfN-13nj44Dn9S"></img>
+            <h1>Personal Portfolio Site</h1>
             <br />
             <p>
-              A simple browser game that makes use of CSS3 animations and DOM
-              manipulation with JavaScript. Optimizes the game through dynamic
-              removal of DOM elements that are no longer in use.
-              <br />
-              <br />
-              <button>
-                <a href="https://github.com/JackyTea/Make-It-Rain">
-                  Source Code
-                </a>{" "}
-                <GithubIcon></GithubIcon>
-              </button>
-              <button>
-                <a href="https://cryptic-river-57921.herokuapp.com/">
-                  Visit Site
-                </a>{" "}
-                <VisitIcon></VisitIcon>
-              </button>
+              A personal site I made for showcasing recent projects and
+              practicing React. Originally making use of React routing, the
+              functinality was eventually overhauled for a single page approach
+              for the sake of simplicity and ease of navigation for the visitor.
+              This site is a personal experiment with the React library.
             </p>
-          </div>
-          <div className="projectTools">
-            <span>Languages and Technologies Used: </span>
-            <button>JavaScript</button> <button>Node.JS</button>
-          </div>
-        </div>
-        <div className="projectShowcase">
-          <div className="projectIcon">
-            <Proj5></Proj5>
-          </div>
-          <div className="projectDescription">
-            <h1>Student Enrolment Application</h1>
             <br />
-            <p>
-              An Angular application designed to render student information
-              fetched from a web service and allow students to perform CRUD
-              operations on their school account. The application makes use of two-way 
-              data binding to render a visual schedule builder for students 
-              to easily enrol in courses and see course conflicts as they build
-              their timetable.
-              <br />
-              <br />
-              <button className="unavailable">
-                  Source Code Unavailable [School Assignment] {" "}
-                <GithubIcon></GithubIcon>
-              </button>
-            </p>
-          </div>
-          <div className="projectTools">
-            <span>Languages and Technologies Used: </span>
-            <button>JavaScript</button> <button>Node.JS</button>
-            <button>Angular</button> <button>MongoDB</button>
-          </div>
-        </div>
-        <div className="projectShowcase">
-          <div className="projectIcon">
-            <Proj6></Proj6>
-          </div>
-          <div className="projectDescription">
-            <h1>Daemonized Keyboard Logger</h1>
             <br />
-            <p>
-              A network driven application that utilizes SSH to inject a targeted machine
-              with keyboard logging malware to record keystrokes. The logging malware runs
-              in the background for a indefinite amount of time or until a "kill" command 
-              is sent from the controlling daemon module. All data collected is then sent back
-              via a discrete SFTP connection. 
+            <div className="projectTools">
+              Technologies Used:&nbsp;
+              <button>JavaScript</button> <button>Node.JS</button>
+              <button>React</button>
               <br />
-              <br />
-              <button className="unavailable">
-                  Source Code Unavailable [School Assignment] {" "}
-                <GithubIcon></GithubIcon>
-              </button>
-            </p>
-          </div>
-          <div className="projectTools">
-            <span>Languages and Technologies Used: </span>
-            <button>Python 3</button>
+              <span style={{ color: "orangered" }}>
+                <b>Note:</b> No notes here.
+              </span>
+            </div>
+            <div className="projectLinks">
+              <a className="here">
+                You're Already Here <EyeIcon></EyeIcon>
+              </a>
+              <a href="https://github.com/JackyTea/Portfolio-Site" target="_blank" rel="noopener noreferrer">
+                View Source Code <GithubIcon></GithubIcon>
+              </a>
+            </div>
           </div>
         </div>
-        <div className="projectShowcase">
-          <div className="projectIcon">
-            <Proj7></Proj7>
-          </div>
-          <div className="projectDescription">
-            <h1>Data Processing Assembly Line</h1>
-            <br />
-            <p>
-              A server-client system that processes data read from 
-              configuration files and csv files. Data is serialized to
-              optimize transport before being processed in the backend to
-              complete an assembly line request.
-              <br />
-              <br />
-              <button className="unavailable">
-                  Source Code Unavailable [School Assignment] {" "}
-                <GithubIcon></GithubIcon>
-              </button>
-            </p>
-          </div>
-          <div className="projectTools">
-            <span>Languages and Technologies Used: </span>
-            <button>Java</button>
-          </div>
-        </div>
-        <h1 className="endMsg">And more in the works...</h1>
-        <FooterBar></FooterBar>
       </div>
     );
   }

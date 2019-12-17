@@ -15,12 +15,12 @@ class FooterBar extends Component {
         <div className="links">
           <ul className="linksList">
             <li className="listItem">
-              <a href="https://github.com/JackyTea">
+              <a href="https://github.com/JackyTea" target="_blank" rel="noopener noreferrer">
                 <GithubIcon></GithubIcon>
               </a>
             </li>
             <li className="listItem">
-              <a href="https://linkedin.com/in/jackytea">
+              <a href="https://linkedin.com/in/jackytea" target="_blank" rel="noopener noreferrer">
                 <LinkedinIcon fill="red"></LinkedinIcon>
               </a>
             </li>

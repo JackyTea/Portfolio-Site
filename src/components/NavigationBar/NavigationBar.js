@@ -27,6 +27,29 @@ window.onresize = () => {
   sideIcon.className = "fa fa-lg fa-bars";
 };
 
+//change transparency based on scrolling
+
+let prevScrollpos = window.pageYOffset;
+window.onscroll = () => {
+let currentScrollPos = window.pageYOffset;
+  if(currentScrollPos <= 100) {
+    document.getElementById("theNav").style.background = "none";
+    document.getElementById("theNav").style.boxShadow = "none"
+    document.getElementById("logoMain").style.color = "white";
+  } else {
+    document.getElementById("theNav").style.background = "white";
+    document.getElementById("theNav").style.boxShadow = "3px 3px 25px rgba(0, 0, 0, 0.288)"
+    document.getElementById("logoMain").style.color = "black";
+  }
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("theNav").style.top = "0";
+  } else {
+    document.getElementById("theNav").style.top = "-20vh";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+
 class NavigationBar extends Component {
   state = {};
 
@@ -73,20 +96,20 @@ class NavigationBar extends Component {
         <div className="navigationBar">
           <div className="mainLogo">
             <h1>
-              <Link to="/">
+              <Link id="logoMain" to="/">
                 Jacky Tea <span id="blinkingCursor">_</span>
               </Link>
             </h1>
           </div>
           <div className="navigationLinks">
             <nav>
-              <Link to="/">Home</Link>
-              <Link to="/skills">Skills</Link>
-              <Link to="/projects">Projects</Link>
-              <a className="sideLink" href="https://github.com/JackyTea">
+              <a href="#theHomePageLanding">Home</a>
+              <a href="#theSkillsPage">Skills</a>
+              <a href="#theProjectsPage">Projects</a>
+              <a className="sideLink" href="https://github.com/JackyTea" target="_blank" rel="noopener noreferrer">
                 GitHub
               </a>
-              <a className="sideLink" href="https://linkedin.com/in/jackytea">
+              <a className="sideLink" href="https://linkedin.com/in/jackytea" target="_blank" rel="noopener noreferrer">
                 LinkedIn
               </a>
               <button className="sideNavButton">
@@ -100,19 +123,19 @@ class NavigationBar extends Component {
           </div>
         </div>
         <div className="sideBar" id="sideNav">
-          <Link className="sideLink" to="/">
+          <a className="sideLink" href="#theHomePageLanding">
             Home
-          </Link>
-          <Link className="sideLink" to="/skills">
+          </a>
+          <a className="sideLink" href="#theSkillsPage">
             Skills
-          </Link>
-          <Link className="sideLink" to="/projects">
+          </a>
+          <a className="sideLink" href="#theProjectsPage">
             Projects
-          </Link>
-          <a className="sideLink" href="https://github.com/JackyTea">
+          </a>
+          <a className="sideLink" href="https://github.com/JackyTea" target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
-          <a className="sideLink" href="https://linkedin.com/in/jackytea">
+          <a className="sideLink" href="https://linkedin.com/in/jackytea" target="_blank" rel="noopener noreferrer">
             LinkedIn
           </a>
           <button onClick={this.closeSideNav} className="sideLink">

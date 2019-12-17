@@ -12,6 +12,7 @@ class App extends Component {
     return (
       <div className="App">
         <NavigationBar></NavigationBar>
+        {/*}
         <Switch>
           <Route exact path="/" render={() => <HomePage />} />
           <Route exact path="/" render={() => <Redirect to="/" />} />
@@ -19,6 +20,8 @@ class App extends Component {
           <Route exact path="/projects" render={() => <ProjectsPage />} />
           <Route render={() => <NotFoundPage />} />
         </Switch>
+            */}
+            <HomePage></HomePage>
       </div>
     );
   }

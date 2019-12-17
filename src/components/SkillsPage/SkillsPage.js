@@ -61,6 +61,8 @@ class SkillsPage extends Component {
   render() {
     return (
       <div className="SkillsPage">
+        <h1 className="title">Skills</h1>
+        {/*
         <div className="landingSection">
           <div className="mainTitle">
             <h1>Skills</h1>
@@ -69,6 +71,7 @@ class SkillsPage extends Component {
             </p>
           </div>
         </div>
+        */}
         <div className="skillsSection">
           <div className="skillContainer">
             <button
@@ -368,7 +371,7 @@ class SkillsPage extends Component {
             </div>
           </div>
         </div>
-        <FooterBar></FooterBar>
+        {/*<FooterBar></FooterBar>*/}
       </div>
     );
   }

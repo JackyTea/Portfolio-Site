@@ -1,10 +1,16 @@
 .NavigationBar {
+    z-index: 9001;
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 10vh;
-    min-height: 10vh;
-    position: absolute;
+    height: auto;
+    min-height: 10%;
+    position: fixed;
+    transition: 0.25s;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
 }
 
 .NavigationBar>.navigationBar {
@@ -95,7 +101,7 @@
 }
 
 .NavigationBar>.overlayShadow {
-    z-index: 9998;
+    z-index: 9000;
     top: 0;
     left: 0;
     width: 0;
@@ -107,7 +113,7 @@
 
 /* tablet */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
     .NavigationBar>.navigationBar {
         margin: 0;
         padding: 0;
@@ -136,7 +142,7 @@
 
 @media only screen and (max-width: 650px) {
     .NavigationBar>.navigationBar>.mainLogo>h1>a {
-        font-size: 5vw;
+        font-size: 6vw;
     }
     .NavigationBar>.sideBar>.sideLink {
         font-size: 4vw;
@@ -148,7 +154,7 @@
 
 @media only screen and (max-width: 450px) {
     .NavigationBar>.navigationBar>.mainLogo>h1>a {
-        font-size: 5vw;
+        font-size: 6vw;
     }
     .NavigationBar>.sideBar>.sideLink {
         font-size: 5vw;

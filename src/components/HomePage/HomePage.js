@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import SkillsPage from "../SkillsPage/SkillsPage";
 import FooterBar from "../FooterBar/FooterBar";
 import { ReactComponent as DevIcon } from "../../images/homePage/devIcon.svg";
 import "./HomePage.css";
+import ProjectsPage from "../ProjectsPage/ProjectsPage";
 
 //homepage class
 class HomePage extends Component {
@@ -16,19 +18,19 @@ class HomePage extends Component {
   //html for homepage
   render() {
     return (
-      <div className="HomePage">
-        <div className="landingSection">
-          <div className="topBar"></div>
+      <div className="HomePage" id="theHomePage" ref={this.props.divRef}>
+        <div className="landingSection" id="theHomePageLanding">
           <div className="mainTitle">
             <div className="introContainer">
               <h1>Hi, I'm Jacky.</h1>
-              <h3>A software development student.</h3>
+              <h3>I'm a software development student.</h3>
               <button>
-                <Link to="/projects">Check out my projects.</Link>
+                <a href="#theProjectsPage">Check out my projects.</a>
               </button>
             </div>
           </div>
         </div>
+        {/*
         <div className="aboutSection">
           <div className="aboutMe">
             <h1>About Me</h1>
@@ -43,11 +45,17 @@ class HomePage extends Component {
                 Download Resume ▼
               </a>
             </button>
-             */}
           </div>
           <div className="bracketsVector">
             <DevIcon></DevIcon>
           </div>
+        </div>
+        */}
+        <div id="theProjectsPage">
+          <ProjectsPage></ProjectsPage>
+        </div>
+        <div id="theSkillsPage">
+          <SkillsPage></SkillsPage>
         </div>
         <FooterBar></FooterBar>
       </div>

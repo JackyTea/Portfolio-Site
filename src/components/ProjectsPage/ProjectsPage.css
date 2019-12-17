@@ -125,6 +125,7 @@
     color: white;
 }
 
+
 .ProjectsPage>.projectContainer>.projectCard>.projectLinks>a>svg {
     float: right;
     fill: white;
@@ -190,6 +191,24 @@
     background: rgb(0, 95, 13);
 }
 
+
+.ProjectsPage>.projectContainer>.projectCard>.projectLinks>button {
+    padding: 20px;
+    width: 100%;
+    text-align: left;
+    font-family: robotoRegular, sans-serif;
+    font-size: 1.3vw;
+    color: white;
+}
+
+.ProjectsPage>.projectContainer>.projectCard>.projectLinks>button>svg {
+    float: right;
+    fill: white;
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+
 /* tablet */
 
 @media only screen and (max-width: 1000px) {
@@ -221,6 +240,13 @@
     .ProjectsPage>.projectContainer>.projectCard>.projectLinks>a>svg {
         float: right;
         fill: white;
+        width: 2.5vw;
+        height: 2.5vw;
+    }
+    .ProjectsPage>.projectContainer>.projectCard>.projectLinks>button {
+        font-size: 2vw;
+    }
+    .ProjectsPage>.projectContainer>.projectCard>.projectLinks>button>svg {
         width: 2.5vw;
         height: 2.5vw;
     }
@@ -260,6 +286,13 @@
         width: 4.5vw;
         height: 4.5vw;
     }
+    .ProjectsPage>.projectContainer>.projectCard>.projectLinks>button {
+        font-size: 3.5vw;
+    }
+    .ProjectsPage>.projectContainer>.projectCard>.projectLinks>button>svg {
+        width: 4.5vw;
+        height: 4.5vw;
+    }
 }
 
 
@@ -294,6 +327,13 @@
     .ProjectsPage>.projectContainer>.projectCard>.projectLinks>a>svg {
         float: right;
         fill: white;
+        width: 5.5vw;
+        height: 5.5vw;
+    }
+    .ProjectsPage>.projectContainer>.projectCard>.projectLinks>button {
+        font-size: 4.5vw;
+    }
+    .ProjectsPage>.projectContainer>.projectCard>.projectLinks>button>svg {
         width: 5.5vw;
         height: 5.5vw;
     }

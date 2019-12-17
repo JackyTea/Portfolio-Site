@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import FooterBar from "../FooterBar/FooterBar";
 import { ReactComponent as CPPIcon } from "../../images/icons/cppIcon.svg";
 import { ReactComponent as PythonIcon } from "../../images/icons/pythonIcon.svg";
 import { ReactComponent as JSIcon } from "../../images/icons/jsIcon.svg";

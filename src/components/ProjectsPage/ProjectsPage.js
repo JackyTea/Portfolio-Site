@@ -1,18 +1,8 @@
 import React, { Component } from "react";
-import FooterBar from "../FooterBar/FooterBar";
 import { ReactComponent as GithubIcon } from "../../images/projectsPage/githubIcon.svg";
 import { ReactComponent as VisitIcon } from "../../images/projectsPage/visitIcon.svg";
 import { ReactComponent as XIcon } from "../../images/projectsPage/xIcon.svg";
 import { ReactComponent as EyeIcon } from "../../images/projectsPage/eyeIcon.svg";
-import { ReactComponent as ProjectsIcon } from "../../images/projectsPage/projectsIcon.svg";
-import { ReactComponent as SkillsIcon } from "../../images/projectsPage/skillsIcon.svg";
-import { ReactComponent as Proj1 } from "../../images/projectsPage/proj1.svg";
-import { ReactComponent as Proj2 } from "../../images/projectsPage/proj2.svg";
-import { ReactComponent as Proj3 } from "../../images/projectsPage/proj3.svg";
-import { ReactComponent as Proj4 } from "../../images/projectsPage/proj4.svg";
-import { ReactComponent as Proj5 } from "../../images/projectsPage/proj5.svg";
-import { ReactComponent as Proj6 } from "../../images/projectsPage/proj6.svg";
-import { ReactComponent as Proj7 } from "../../images/projectsPage/proj7.svg";
 import RealTimePollingDemo from "../../screenshots/realTimePolling.png";
 import MakeItRainDemo from "../../screenshots/makeItRain.png";
 import PortfolioSiteDemo from "../../screenshots/portfolioSite.png";
@@ -22,7 +12,6 @@ import ArduinoSocket from "../../screenshots/arduinoSocket.png";
 import AssemblyLine from "../../screenshots/assemblyLine.png";
 import DiscordLogger from "../../screenshots/discordLogger.png"
 import "./ProjectsPage.css";
-import { Redirect } from "react-router-dom";
 
 class ProjectsPage extends Component {
   state = {};
@@ -31,13 +20,17 @@ class ProjectsPage extends Component {
     document.title = "Jacky Tea | Projects";
   }
 
+  falsifyLink() {
+    return false;
+  }
+
   render() {
     return (
       <div className="ProjectsPage">
         <h1 className="title">Projects</h1>
         <div className="projectContainer">
           <div className="projectCard">
-            <img src={RealTimePollingDemo}></img>
+            <img src={RealTimePollingDemo} alt="Real Time Polling Demo PNG"></img>
             <h1>Real Time Polling Application</h1>
             <br />
             <br />
@@ -61,7 +54,7 @@ class ProjectsPage extends Component {
             </div>
           </div>
           <div className="projectCard">
-            <img src={MakeItRainDemo}></img>
+            <img src={MakeItRainDemo} alt="Make It Rain App PNG"></img>
             <h1>Make It Rain (Browser Game)</h1>
             <br />
             <br />
@@ -85,7 +78,7 @@ class ProjectsPage extends Component {
         </div>
         <div className="projectContainer">
           <div className="projectCard">
-            <img src={StudentEnrolmentDemo}></img>
+            <img src={StudentEnrolmentDemo} alt="Student Enrolment App PNG"></img>
             <h1>Student Enrolment Application</h1>
             <br />
             <br />
@@ -109,7 +102,7 @@ class ProjectsPage extends Component {
             </div>
           </div>
           <div className="projectCard">
-            <img src={ArduinoSocket}></img>
+            <img src={ArduinoSocket} alt="Arduino Socket PNG"></img>
             <h1>Arduino Socket Remote Controller</h1>
             <br />
             <br />
@@ -123,9 +116,9 @@ class ProjectsPage extends Component {
               </span>
             </div>
             <div className="projectLinks">
-              <a className="unavailable">
+              <button className="unavailable">
                 No Live Demo Available <XIcon></XIcon>
-              </a>
+              </button>
               <a href="https://github.com/JackyTea/Arduino-Socket-Controller" target="_blank" rel="noopener noreferrer">
                 View Source Code <GithubIcon></GithubIcon>
               </a>
@@ -134,7 +127,7 @@ class ProjectsPage extends Component {
         </div>
         <div className="projectContainer">
           <div className="projectCard">
-            <img src={DaemonKeylog}></img>
+            <img src={DaemonKeylog} alt="Key log PNG"></img>
             <h1>Daemonized Keyboard Logger</h1>
             <br />
             <br />
@@ -147,16 +140,16 @@ class ProjectsPage extends Component {
               </span>
             </div>
             <div className="projectLinks">
-              <a className="unavailable">
+              <button className="unavailable">
                 No Live Demo Available <XIcon></XIcon>
-              </a>
-              <a className="unavailable">
+              </button>
+              <button className="unavailable">
                 Source Code Unavailable <XIcon></XIcon>
-              </a>
+              </button>
             </div>
           </div>
           <div className="projectCard">
-            <img src={AssemblyLine}></img>
+            <img src={AssemblyLine} alt="Assembly line png"></img>
             <h1>Data Processing Assembly Line</h1>
             <br />
             <br />
@@ -169,9 +162,9 @@ class ProjectsPage extends Component {
               </span>
             </div>
             <div className="projectLinks">
-              <a className="unavailable">
+              <button className="unavailable">
                 No Live Demo Available <XIcon></XIcon>
-              </a>
+              </button>
               <a href="https://github.com/JackyTea/Car-Assembly-Line" target="_blank" rel="noopener noreferrer">
                 View Source Code <GithubIcon></GithubIcon>
               </a>
@@ -180,7 +173,7 @@ class ProjectsPage extends Component {
         </div>
         <div className="projectContainer">
           <div className="projectCard">
-            <img src={DiscordLogger}></img>
+            <img src={DiscordLogger} alt="Discord logger bot PNG"></img>
             <h1>Discord Logger Bot</h1>
             <br />
             <br />
@@ -194,16 +187,16 @@ class ProjectsPage extends Component {
               </span>
             </div>
             <div className="projectLinks">
-              <a className="unavailable">
+              <button className="unavailable">
                 No Live Demo Available <XIcon></XIcon>
-              </a>
+              </button>
               <a href="https://github.com/JackyTea/Logger-Bot" target="_blank" rel="noopener noreferrer">
                 View Source Code <GithubIcon></GithubIcon>
               </a>
             </div>
           </div>
           <div className="projectCard">
-            <img src={PortfolioSiteDemo}></img>
+            <img src={PortfolioSiteDemo} alt="Portfolio site png"></img>
             <h1>Personal Portfolio Site</h1>
             <br />
             <br />
@@ -217,9 +210,9 @@ class ProjectsPage extends Component {
               </span>
             </div>
             <div className="projectLinks">
-              <a className="here">
+              <button className="here">
                 You're Already Here <EyeIcon></EyeIcon>
-              </a>
+              </button>
               <a href="https://github.com/JackyTea/Portfolio-Site" target="_blank" rel="noopener noreferrer">
                 View Source Code <GithubIcon></GithubIcon>
               </a>

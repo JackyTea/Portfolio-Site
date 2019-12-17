@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { ReactComponent as DevIcon } from "../../images/homePage/devIcon.svg";
 import "./AboutPage.css";
 
 class AboutPage extends Component {
@@ -14,15 +13,15 @@ class AboutPage extends Component {
               I am a software development student dedicated to solving problems{" "}
               and building applications to make the lives of others easier.
             </p>
-            <button>
-              <a
+            <a
                 href="https://docs.google.com/document/d/1fxIK0bZKRfrvqch1RhrzKIg8T-B5cEbkdk8ZV7A0Bws/edit?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
+            <button>
                 View Resume ⯈
-              </a>
             </button>
+            </a>
           </div>
         </div>
       </div>

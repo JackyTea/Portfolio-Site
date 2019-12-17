@@ -45,8 +45,8 @@
 
 .FooterBar>.links>.linksList>.listItem>a>svg{
     fill: grey;
-    width: 3vw;
-    height: 3vw;
+    width: 3.5vw;
+    height: 3.5vw;
 }
 
 .FooterBar>.links>.linksList>.listItem>a>svg:hover{
@@ -77,8 +77,8 @@
     }
     .FooterBar>.links>.linksList>.listItem>a>svg{
         fill: grey;
-        width: 4vw;
-        height: 4vw;
+        width: 4.5vw;
+        height: 4.5vw;
     }
 }
 
@@ -109,8 +109,8 @@
     }
     .FooterBar>.links>.linksList>.listItem>a>svg{
         fill: grey;
-        width: 5vw;
-        height: 5vw;
+        width: 5.5vw;
+        height: 5.5vw;
     }
 }
 
@@ -141,7 +141,7 @@
     }
     .FooterBar>.links>.linksList>.listItem>a>svg{
         fill: grey;
-        width: 7vw;
-        height: 7vw;
+        width: 7.5vw;
+        height: 7.5vw;
     }
 }

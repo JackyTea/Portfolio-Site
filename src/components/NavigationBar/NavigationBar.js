@@ -8,8 +8,7 @@ document.onclick = event => {
   let sideIcon = document.getElementById("sideBarIcon");
   let overLay = document.getElementById("overLay");
   if (
-    event.target.className !== "sideBar" &&
-    event.target.className !== "sideLink"
+    event.target.className !== "sideBar"
   ) {
     overLay.style.width = "";
     sideNav.style.width = "";
@@ -106,6 +105,7 @@ class NavigationBar extends Component {
               <a href="#theHomePageLanding">Home</a>
               <a href="#theSkillsPage">Skills</a>
               <a href="#theProjectsPage">Projects</a>
+              <a href="#theAboutPage">Resume</a>
               <a className="sideLink" href="https://github.com/JackyTea" target="_blank" rel="noopener noreferrer">
                 GitHub
               </a>
@@ -131,6 +131,9 @@ class NavigationBar extends Component {
           </a>
           <a className="sideLink" href="#theProjectsPage">
             Projects
+          </a>
+          <a className="sideLink" href="#theAboutPage">
+            Resume
           </a>
           <a className="sideLink" href="https://github.com/JackyTea" target="_blank" rel="noopener noreferrer">
             GitHub

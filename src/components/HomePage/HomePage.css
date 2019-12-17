@@ -21,7 +21,20 @@
     min-height: 100%;
 }
 
-.HomePage>#theProjectsPage {
+.HomePage>#projSkills {
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background: url("../../images/homePage/projSkills.svg");
+    background-size: contain;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+.HomePage>#projSkills>#theProjectsPage {
+    z-index: 2;
     margin: 0 0 5% 0;
     display: flex;
     flex-wrap: wrap;
@@ -30,8 +43,14 @@
     vertical-align: middle;
 }
 
-.HomePage>#theSkillsPage {
+.HomePage>#projSkills>#theSkillsPage {
+    z-index: 2;
     margin: 0 0 10% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    vertical-align: middle;
 }
 
 

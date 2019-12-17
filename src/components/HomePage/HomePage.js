@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import SkillsPage from "../SkillsPage/SkillsPage";
 import FooterBar from "../FooterBar/FooterBar";
-import { ReactComponent as DevIcon } from "../../images/homePage/devIcon.svg";
 import "./HomePage.css";
 import ProjectsPage from "../ProjectsPage/ProjectsPage";
+import AboutPage from "../AboutPage/AboutPage";
 
 //homepage class
 class HomePage extends Component {
@@ -51,12 +51,17 @@ class HomePage extends Component {
           </div>
         </div>
         */}
-        <div id="theProjectsPage">
-          <ProjectsPage></ProjectsPage>
+        <div id="projSkills">
+          <div id="theProjectsPage">
+            <ProjectsPage></ProjectsPage>
+          </div>
+          <div id="theSkillsPage">
+            <SkillsPage></SkillsPage>
+          </div>
         </div>
-        <div id="theSkillsPage">
-          <SkillsPage></SkillsPage>
-        </div>
+        <div id="theAboutPage">
+        <AboutPage></AboutPage>
+          </div>
         <FooterBar></FooterBar>
       </div>
     );

@@ -14,6 +14,10 @@ class HomePage extends Component {
     document.title = "Jacky Tea | Home";
   }
 
+  changeTitle(title) {
+    document.title = "Jacky Tea | " + title;
+  }
+
   //html for homepage
   render() {
     return (
@@ -24,7 +28,14 @@ class HomePage extends Component {
               <h1>Hi, I'm Jacky.</h1>
               <h3>I'm a software development student.</h3>
               <button>
-                <a href="#theProjectsPage">Check out my projects.</a>
+                <a
+                  onClick={() => {
+                    this.changeTitle("Projects");
+                  }}
+                  href="#theProjectsPage"
+                >
+                  Check out my projects.
+                </a>
               </button>
             </div>
           </div>
@@ -59,8 +70,8 @@ class HomePage extends Component {
           </div>
         </div>
         <div id="theAboutPage">
-        <AboutPage></AboutPage>
-          </div>
+          <AboutPage></AboutPage>
+        </div>
         <FooterBar></FooterBar>
       </div>
     );

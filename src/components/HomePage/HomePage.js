@@ -22,7 +22,7 @@ class HomePage extends Component {
   render() {
     return (
       <div className="HomePage" id="theHomePage" ref={this.props.divRef}>
-        <div className="landingSection" id="theHomePageLanding">
+        <div onMouseEnter={()=> {this.changeTitle("Home")}} className="landingSection" id="theHomePageLanding">
           <div className="mainTitle">
             <div className="introContainer">
               <h1>Hi, I'm Jacky.</h1>
@@ -62,14 +62,14 @@ class HomePage extends Component {
         </div>
         */}
         <div id="projSkills">
-          <div id="theProjectsPage">
+          <div id="theProjectsPage" onMouseEnter={()=> {this.changeTitle("Projects")}}>
             <ProjectsPage></ProjectsPage>
           </div>
-          <div id="theSkillsPage">
+          <div id="theSkillsPage" onMouseEnter={()=> {this.changeTitle("Skills")}}>
             <SkillsPage></SkillsPage>
           </div>
         </div>
-        <div id="theAboutPage">
+        <div id="theAboutPage" onMouseEnter={()=> {this.changeTitle("Resume")}}>
           <AboutPage></AboutPage>
         </div>
         <FooterBar></FooterBar>

@@ -10,17 +10,25 @@ class FooterBar extends Component {
     return (
       <div className="FooterBar">
         <div className="copyright">
-          <span>&copy; Jacky Tea, 2019</span>
+          <span>&copy; Jacky Tea, {new Date().getFullYear()}</span>
         </div>
         <div className="links">
           <ul className="linksList">
             <li className="listItem">
-              <a href="https://github.com/JackyTea" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/JackyTea"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <GithubIcon></GithubIcon>
               </a>
             </li>
             <li className="listItem">
-              <a href="https://linkedin.com/in/jackytea" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://linkedin.com/in/jackytea"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <LinkedinIcon fill="red"></LinkedinIcon>
               </a>
             </li>

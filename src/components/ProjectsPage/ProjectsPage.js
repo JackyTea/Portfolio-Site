@@ -11,6 +11,8 @@ import DaemonKeylog from "../../screenshots/daemonKeylog.png";
 import ArduinoSocket from "../../screenshots/arduinoSocket.png";
 import AssemblyLine from "../../screenshots/assemblyLine.png";
 import DiscordLogger from "../../screenshots/discordLogger.png"
+import QuestionMarks from "../../screenshots/questionMarks.png";
+import SudokuSolver from "../../screenshots/sudokuSolver.png";
 import "./ProjectsPage.css";
 
 class ProjectsPage extends Component {
@@ -166,6 +168,52 @@ class ProjectsPage extends Component {
                 No Live Demo Available <XIcon></XIcon>
               </button>
               <a href="https://github.com/JackyTea/Car-Assembly-Line" target="_blank" rel="noopener noreferrer">
+                View Source Code <GithubIcon></GithubIcon>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="projectContainer">
+          <div className="projectCard">
+            <img src={QuestionMarks} alt="Question PNG"></img>
+            <h1>Mobile Development Capstone Project</h1>
+            <br />
+            <br />
+            <br />
+            <div className="projectTools">
+              <button>Flutter</button> <button>Cloud Firestore</button>
+              <br />
+              <span style={{ color: "orangered" }}>
+                <b>Note:</b> No live demo available.
+              </span>
+            </div>
+            <div className="projectLinks">
+              <button className="unavailable">
+                No Live Demo Available <XIcon></XIcon>
+              </button>
+              <button className="unavailable">
+                Source Code Unavailable <XIcon></XIcon>
+              </button>
+            </div>
+          </div>
+          <div className="projectCard">
+            <img src={SudokuSolver} alt="Question png"></img>
+            <h1>Recursive Sudoku Solver</h1>
+            <br />
+            <br />
+            <br />
+            <div className="projectTools">
+            <button>Python 3</button> 
+              <br />
+              <span style={{ color: "orangered" }}>
+                <b>Note:</b> No live demo available.
+              </span>
+            </div>
+            <div className="projectLinks">
+            <button className="unavailable">
+                No Live Demo Available <XIcon></XIcon>
+              </button>
+              <a href="https://github.com/JackyTea/Recursive-Sudoku-Server" target="_blank" rel="noopener noreferrer">
                 View Source Code <GithubIcon></GithubIcon>
               </a>
             </div>

@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.32572572.chunk.css",
-    "main.js": "/static/js/main.f867add6.chunk.js",
-    "main.js.map": "/static/js/main.f867add6.chunk.js.map",
+    "main.js": "/static/js/main.1944fc8a.chunk.js",
+    "main.js.map": "/static/js/main.1944fc8a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.170f8412.js",
     "runtime-main.js.map": "/static/js/runtime-main.170f8412.js.map",
-    "static/js/2.b9eb078a.chunk.js": "/static/js/2.b9eb078a.chunk.js",
-    "static/js/2.b9eb078a.chunk.js.map": "/static/js/2.b9eb078a.chunk.js.map",
+    "static/js/2.64619dfe.chunk.js": "/static/js/2.64619dfe.chunk.js",
+    "static/js/2.64619dfe.chunk.js.map": "/static/js/2.64619dfe.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1ec15059d384f3bbe5efb3fe0c5e9f51.js": "/precache-manifest.1ec15059d384f3bbe5efb3fe0c5e9f51.js",
+    "precache-manifest.43d9b8cdef8a22d02cfc7779a0effa93.js": "/precache-manifest.43d9b8cdef8a22d02cfc7779a0effa93.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.32572572.chunk.css.map": "/static/css/main.32572572.chunk.css.map",
-    "static/js/2.b9eb078a.chunk.js.LICENSE": "/static/js/2.b9eb078a.chunk.js.LICENSE",
+    "static/js/2.64619dfe.chunk.js.LICENSE": "/static/js/2.64619dfe.chunk.js.LICENSE",
     "static/media/index.css": "/static/media/Roboto-Thin.321de678.ttf",
     "static/media/agileIcon.86aab3f0.svg": "/static/media/agileIcon.86aab3f0.svg",
     "static/media/androidIcon.14ed07e6.svg": "/static/media/androidIcon.14ed07e6.svg",
@@ -44,9 +44,11 @@
     "static/media/portfolioSite.png": "/static/media/portfolioSite.56e579d7.png",
     "static/media/HomePage.css": "/static/media/topBackgroundTablet.e4051137.svg",
     "static/media/pythonIcon.146716bd.svg": "/static/media/pythonIcon.146716bd.svg",
+    "static/media/questionMarks.png": "/static/media/questionMarks.0c2d9402.png",
     "static/media/reactIcon.4009eef3.svg": "/static/media/reactIcon.4009eef3.svg",
     "static/media/realTimePolling.png": "/static/media/realTimePolling.6ee6725b.png",
     "static/media/studentEnrolment.png": "/static/media/studentEnrolment.261c1d7c.png",
+    "static/media/sudokuSolver.png": "/static/media/sudokuSolver.cc5314fc.png",
     "static/media/SkillsPage.css": "/static/media/topBackgroundTablet.01fc6934.svg",
     "static/media/vexIcon.d14920e1.svg": "/static/media/vexIcon.d14920e1.svg",
     "static/media/visitIcon.ebae7934.svg": "/static/media/visitIcon.ebae7934.svg",
@@ -55,8 +57,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.170f8412.js",
-    "static/js/2.b9eb078a.chunk.js",
+    "static/js/2.64619dfe.chunk.js",
     "static/css/main.32572572.chunk.css",
-    "static/js/main.f867add6.chunk.js"
+    "static/js/main.1944fc8a.chunk.js"
   ]
 }

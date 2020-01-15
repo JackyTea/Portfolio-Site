@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "460db0ec135c7a5c4a1179b5c267d17a",
+    "revision": "285edb09fc3e69525a3cdaec0f1fb60b",
     "url": "/index.html"
   },
   {
-    "revision": "36215ad84b04e7298363",
+    "revision": "f33de30816f9501ac959",
     "url": "/static/css/main.32572572.chunk.css"
   },
   {
-    "revision": "b37d16dff324597f8efe",
-    "url": "/static/js/2.b9eb078a.chunk.js"
+    "revision": "ff7f24956302850b3784",
+    "url": "/static/js/2.64619dfe.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/static/js/2.b9eb078a.chunk.js.LICENSE"
+    "url": "/static/js/2.64619dfe.chunk.js.LICENSE"
   },
   {
-    "revision": "36215ad84b04e7298363",
-    "url": "/static/js/main.f867add6.chunk.js"
+    "revision": "f33de30816f9501ac959",
+    "url": "/static/js/main.1944fc8a.chunk.js"
   },
   {
     "revision": "c9913191e565de632244",
@@ -172,6 +172,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/pythonIcon.146716bd.svg"
   },
   {
+    "revision": "0c2d940264e3172ad481407a97a437cb",
+    "url": "/static/media/questionMarks.0c2d9402.png"
+  },
+  {
     "revision": "4009eef3b3e291f296e71962c70895c5",
     "url": "/static/media/reactIcon.4009eef3.svg"
   },
@@ -182,6 +186,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "261c1d7c436f3dd26f63c7f3656b8348",
     "url": "/static/media/studentEnrolment.261c1d7c.png"
+  },
+  {
+    "revision": "cc5314fcc15e0b95e8b5de627426207e",
+    "url": "/static/media/sudokuSolver.cc5314fc.png"
   },
   {
     "revision": "3f6b9a996c854b7662d99c282f76c195",

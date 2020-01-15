@@ -61,6 +61,7 @@
     font-size: 1.5vw;
     background: rgb(31, 102, 255);
     color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.288);
 }
 
 .AboutPage>.aboutSection>.aboutMe>a>button {

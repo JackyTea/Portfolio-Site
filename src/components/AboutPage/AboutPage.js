@@ -19,7 +19,7 @@ class AboutPage extends Component {
                 rel="noopener noreferrer"
               >
             <button>
-                View Resume ⯈
+                View Resume
             </button>
             </a>
           </div>

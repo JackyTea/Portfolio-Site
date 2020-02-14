@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bc1c86ddb1a19107d808ad8360993430",
+    "revision": "d5c85729b4ebca0a92922d7a65daaa47",
     "url": "/index.html"
   },
   {
-    "revision": "f483a30b654d9472ba45",
+    "revision": "fd35190b9930f8090c67",
     "url": "/static/css/main.21259d0b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.64619dfe.chunk.js.LICENSE"
   },
   {
-    "revision": "f483a30b654d9472ba45",
-    "url": "/static/js/main.cdac006f.chunk.js"
+    "revision": "fd35190b9930f8090c67",
+    "url": "/static/js/main.de54adfd.chunk.js"
   },
   {
     "revision": "c9913191e565de632244",
@@ -78,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "99e7180251b083daf063d60b40aaa29c",
     "url": "/static/media/daemonKeylog.99e71802.png"
+  },
+  {
+    "revision": "63a1fa89591745e789e439a1f2d1abf1",
+    "url": "/static/media/dartIcon.63a1fa89.svg"
   },
   {
     "revision": "4871b7a4fcc82b48b49dcda6a7f6d35e",
@@ -154,6 +158,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b337a2fb0b1289e6757e632dc766ff6b",
     "url": "/static/media/nodeJSIcon.b337a2fb.svg"
+  },
+  {
+    "revision": "e26c9f0dba28494bcae353cc7abb07da",
+    "url": "/static/media/oopIcon.e26c9f0d.svg"
   },
   {
     "revision": "446763959684b108ca164f3cdc9c96d0",

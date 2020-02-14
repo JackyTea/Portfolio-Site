@@ -3,10 +3,12 @@ import { ReactComponent as CPPIcon } from "../../images/icons/cppIcon.svg";
 import { ReactComponent as PythonIcon } from "../../images/icons/pythonIcon.svg";
 import { ReactComponent as JSIcon } from "../../images/icons/jsIcon.svg";
 import { ReactComponent as JavaIcon } from "../../images/icons/javaIcon.svg";
+import { ReactComponent as DartIcon } from "../../images/icons/dartIcon.svg";
 import { ReactComponent as DataStructIcon } from "../../images/icons/dataStructIcon.svg";
 import { ReactComponent as DatabaseIcon } from "../../images/icons/databaseIcon.svg";
 import { ReactComponent as LinuxIcon } from "../../images/icons/linuxIcon.svg";
 import { ReactComponent as AgileIcon } from "../../images/icons/agileIcon.svg";
+import { ReactComponent as OOPIcon } from "../../images/icons/oopIcon.svg";
 import { ReactComponent as NodeJSIcon } from "../../images/icons/nodeJSIcon.svg";
 import { ReactComponent as ReactIcon } from "../../images/icons/reactIcon.svg";
 import { ReactComponent as AngularIcon } from "../../images/icons/angularIcon.svg";
@@ -78,7 +80,7 @@ class SkillsPage extends Component {
               className="collapse"
               onClick={() => this.toggleContent("b1", "languages", "s1")}
             >
-              Languages<span id="s1">▼</span>
+              Programming Languages<span id="s1">▼</span>
             </button>
             <div className="content" id="languages">
               <div className="skillItem">
@@ -99,7 +101,7 @@ class SkillsPage extends Component {
                 <div className="desc">
                   <h1>Python</h1>
                   <p>
-                    My go to language for practicing coding interview questions
+                    My go-to language for practicing coding interview questions
                     due to its simplistic syntax and overall utility. Familiar
                     with the fundamentals of Python 3 and its use for scripting
                     and cybersecurity. Have also dabbled in some libraries such
@@ -132,6 +134,18 @@ class SkillsPage extends Component {
                   </p>
                 </div>
               </div>
+              <div className="skillItem">
+                <DartIcon></DartIcon>
+                <div className="desc">
+                  <h1>Dart</h1>
+                  <p>
+                    The language I use for Flutter mobile development. It is client-optimized, 
+                    object oriented and has also helped me strengthen my OOP fundamentals alongside
+                    using C++ and Python. Familiar with the Dart class system and how state is handled
+                    in this language. 
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
           <div className="skillContainer">
@@ -146,7 +160,7 @@ class SkillsPage extends Component {
               <div className="skillItem">
                 <DataStructIcon></DataStructIcon>
                 <div className="desc">
-                  <h1>Data Structures &amp; Algorithms</h1>
+                  <h1>Data Structures and Algorithms</h1>
                   <p>
                     Always working on strengthening my knowledge in this area.
                     Familiar with common data structures such as arrays, linked
@@ -156,9 +170,21 @@ class SkillsPage extends Component {
                 </div>
               </div>
               <div className="skillItem">
+                <OOPIcon></OOPIcon>
+                <div className="desc">
+                  <h1>Object Oriented Programming and Design Patterns</h1>
+                  <p>
+                    Highly proficient in the fundamentals of object-oriented principles,
+                    UML diagrams and modular design. Familiar with commonly used creational,
+                    structural and behavioural design patterns. Strong in object-oriented
+                    programming languages such as C++, JavaScript, Python, Dart and Java.
+                  </p>
+                </div>
+              </div>
+              <div className="skillItem">
                 <DatabaseIcon></DatabaseIcon>
                 <div className="desc">
-                  <h1>Database Design &amp; SQL</h1>
+                  <h1>Database Design and SQL</h1>
                   <p>
                     Worked with programs such as Oracle Database and Microsoft
                     SQL Server to design and develop databases for various
@@ -291,7 +317,7 @@ class SkillsPage extends Component {
               className="collapse"
               onClick={() => this.toggleContent("b5", "robotics", "s5")}
             >
-              Robotics<span id="s5">▼</span>
+              Embedded Systems<span id="s5">▼</span>
             </button>
             <div className="content" id="robotics">
               <div className="skillItem">
@@ -333,7 +359,7 @@ class SkillsPage extends Component {
               className="collapse"
               onClick={() => this.toggleContent("b6", "uidesign", "s6")}
             >
-              UI Design<span id="s6">▼</span>
+              User Interface Design<span id="s6">▼</span>
             </button>
             <div className="content" id="uidesign">
               <div className="skillItem">

@@ -1,62 +1,31 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 512.006 512.006" style="enable-background:new 0 0 512.006 512.006;" xml:space="preserve">
-<g>
-	<rect x="92.587" y="411.209" style="fill:#808080;" width="53.154" height="17.813"/>
-	<rect x="366.256" y="411.209" style="fill:#808080;" width="53.155" height="17.813"/>
-	<rect x="41.838" y="324.932" style="fill:#808080;" width="17.813" height="53.337"/>
-	<rect x="178.681" y="324.932" style="fill:#808080;" width="17.813" height="53.337"/>
-	<rect x="452.343" y="324.932" style="fill:#808080;" width="17.813" height="53.337"/>
-	<rect x="315.512" y="324.932" style="fill:#808080;" width="17.813" height="53.337"/>
-	<rect x="110.253" y="187.911" style="fill:#808080;" width="17.813" height="53.337"/>
-	<rect x="383.927" y="187.911" style="fill:#808080;" width="17.813" height="53.337"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg enable-background="new 0 0 512.006 512.006" version="1.1" viewBox="0 0 512.006 512.006" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+<g fill="#808080">
+	<rect x="92.587" y="411.21" width="53.154" height="17.813"/>
+	<rect x="366.26" y="411.21" width="53.155" height="17.813"/>
+	<rect x="41.838" y="324.93" width="17.813" height="53.337"/>
+	<rect x="178.68" y="324.93" width="17.813" height="53.337"/>
+	<rect x="452.34" y="324.93" width="17.813" height="53.337"/>
+	<rect x="315.51" y="324.93" width="17.813" height="53.337"/>
+	<rect x="110.25" y="187.91" width="17.813" height="53.337"/>
+	<rect x="383.93" y="187.91" width="17.813" height="53.337"/>
 </g>
-<rect y="369.359" style="fill:#F9C573;" width="101.489" height="101.501"/>
-<g>
-	<polyline style="fill:#F94B54;" points="136.835,394.578 136.835,470.859 238.328,470.859 238.328,369.364 136.835,369.364 	"/>
-	<rect x="410.505" y="369.359" style="fill:#F94B54;" width="101.501" height="101.501"/>
+<rect y="369.36" width="101.49" height="101.5" fill="#F9C573"/>
+<g fill="#F94B54">
+	<polyline points="136.84 394.58 136.84 470.86 238.33 470.86 238.33 369.36 136.84 369.36"/>
+	<rect x="410.5" y="369.36" width="101.5" height="101.5"/>
 </g>
-<g>
-	<rect x="273.674" y="369.359" style="fill:#9BD7F4;" width="101.501" height="101.501"/>
-	<rect y="232.338" style="fill:#9BD7F4;" width="238.332" height="101.501"/>
+<g fill="#9BD7F4">
+	<rect x="273.67" y="369.36" width="101.5" height="101.5"/>
+	<rect y="232.34" width="238.33" height="101.5"/>
 </g>
-<polyline style="fill:#F9C573;" points="512,232.345 273.669,232.345 273.669,333.84 512,333.84 512,260.984 "/>
-<rect y="41.144" style="fill:#F94B54;" width="511.994" height="155.678"/>
-<polygon style="fill:#F98791;" points="511.994,41.144 511.994,196.82 224.497,196.82 268.14,41.144 "/>
-<polygon style="fill:#FCD8A9;" points="101.489,369.361 101.489,470.862 41.85,470.862 70.304,369.361 "/>
-<polygon style="fill:#F98791;" points="238.328,369.361 238.328,470.862 178.689,470.862 207.143,369.361 "/>
-<polygon style="fill:#C8EDFC;" points="375.164,369.361 375.164,470.862 315.525,470.862 343.979,369.361 "/>
-<polygon style="fill:#F98791;" points="512,369.361 512,470.862 452.361,470.862 480.815,369.361 "/>
-<polygon style="fill:#C8EDFC;" points="238.332,232.341 238.332,333.842 103.615,333.842 132.081,232.341 "/>
-<polygon style="fill:#FCD8A9;" points="512,232.341 512,333.842 377.283,333.842 405.749,232.341 "/>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
+<polyline points="512 232.34 273.67 232.34 273.67 333.84 512 333.84 512 260.98" fill="#F9C573"/>
+<rect y="41.144" width="511.99" height="155.68" fill="#F94B54"/>
+<polygon points="511.99 41.144 511.99 196.82 224.5 196.82 268.14 41.144" fill="#F98791"/>
+<polygon points="101.49 369.36 101.49 470.86 41.85 470.86 70.304 369.36" fill="#FCD8A9"/>
+<polygon points="238.33 369.36 238.33 470.86 178.69 470.86 207.14 369.36" fill="#F98791"/>
+<polygon points="375.16 369.36 375.16 470.86 315.52 470.86 343.98 369.36" fill="#C8EDFC"/>
+<polygon points="512 369.36 512 470.86 452.36 470.86 480.82 369.36" fill="#F98791"/>
+<polygon points="238.33 232.34 238.33 333.84 103.62 333.84 132.08 232.34" fill="#C8EDFC"/>
+<polygon points="512 232.34 512 333.84 377.28 333.84 405.75 232.34" fill="#FCD8A9"/>
 </svg>

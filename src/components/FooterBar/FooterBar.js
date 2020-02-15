@@ -1,12 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
 import { ReactComponent as EmailIcon } from "../../images/icons/emailIcon.svg";
 import { ReactComponent as GithubIcon } from "../../images/icons/githubIcon.svg";
 import { ReactComponent as LinkedinIcon } from "../../images/icons/linkedinIcon.svg";
 import "./FooterBar.css";
 
-class FooterBar extends Component {
-  state = {};
-  render() {
+const FooterBar = () => {
     return (
       <div className="FooterBar">
         <div className="copyright">
@@ -41,7 +39,6 @@ class FooterBar extends Component {
         </div>
       </div>
     );
-  }
 }
 
 export default FooterBar;

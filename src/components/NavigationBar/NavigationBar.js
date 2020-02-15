@@ -50,17 +50,6 @@ window.onscroll = () => {
 class NavigationBar extends Component {
   state = {};
 
-  /*
-  componentDidMount() {
-    let navigationBar = document.getElementById("theNav");
-    if(window.location.pathname === "/" || window.location.pathname === "/skills" || window.location.pathname === "/projects") {
-      navigationBar.style.display = "block";
-    } else {
-      navigationBar.style.display = "none";
-    }
-  }
-  */
-
   changeTitle(title) {
     document.title = "Jacky Tea | " + title;
   }

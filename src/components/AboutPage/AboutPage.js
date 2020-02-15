@@ -1,9 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import "./AboutPage.css";
 
-class AboutPage extends Component {
-  state = {};
-  render() {
+const AboutPage = () => {
     return (
       <div className="AboutPage">
         <div className="aboutSection">
@@ -26,7 +24,6 @@ class AboutPage extends Component {
         </div>
       </div>
     );
-  }
 }
 
 export default AboutPage;

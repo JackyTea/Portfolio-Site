@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3670384526a9dba466903d2fd26d1968",
+    "revision": "ece2f3aa5d73c4b71f4117a2adb03c2d",
     "url": "/index.html"
   },
   {
-    "revision": "6d931215539cf1358d7a",
-    "url": "/static/css/main.27e04dbc.chunk.css"
+    "revision": "39afafe74ec7b56cddc5",
+    "url": "/static/css/main.23e7b9b2.chunk.css"
   },
   {
-    "revision": "ff7f24956302850b3784",
-    "url": "/static/js/2.64619dfe.chunk.js"
+    "revision": "4d4c6285d08d68ce6dd1",
+    "url": "/static/js/2.cecd1cf9.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/static/js/2.64619dfe.chunk.js.LICENSE"
+    "url": "/static/js/2.cecd1cf9.chunk.js.LICENSE"
   },
   {
-    "revision": "6d931215539cf1358d7a",
-    "url": "/static/js/main.76afe7fa.chunk.js"
+    "revision": "39afafe74ec7b56cddc5",
+    "url": "/static/js/main.e9ef2e20.chunk.js"
   },
   {
     "revision": "c9913191e565de632244",
@@ -52,20 +52,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/arduinoSocket.41ffa26b.png"
   },
   {
-    "revision": "6407b79352c845815bbb6faa0baa1d8c",
-    "url": "/static/media/assemblyLine.6407b793.png"
-  },
-  {
     "revision": "397088ece262f60d01e55a08ceb5791c",
     "url": "/static/media/chipIcon.397088ec.svg"
   },
   {
     "revision": "5be9bde46141498a7cfd4902b92133b1",
     "url": "/static/media/cppIcon.5be9bde4.svg"
-  },
-  {
-    "revision": "beed12311a76a2b4d9e02d91411a6341",
-    "url": "/static/media/daemonKeylog.beed1231.png"
   },
   {
     "revision": "63a1fa89591745e789e439a1f2d1abf1",
@@ -88,10 +80,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/emailIcon.774e7ba1.svg"
   },
   {
-    "revision": "97289b0a2b30f229050203ec7b4ac5dc",
-    "url": "/static/media/eyeIcon.97289b0a.svg"
-  },
-  {
     "revision": "3a4119e673ae50f25e35353322bea66c",
     "url": "/static/media/flutterIcon.3a4119e6.svg"
   },
@@ -106,6 +94,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "80a1f96caf2961a1b500c3f85244059f",
     "url": "/static/media/githubIcon.80a1f96c.svg"
+  },
+  {
+    "revision": "bac69b2c7beb76627c60418652c22604",
+    "url": "/static/media/gridlock.bac69b2c.png"
   },
   {
     "revision": "46501dcce7797a9f57c36463ce5c8ad1",
@@ -152,10 +144,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/photoshopIcon.44676395.svg"
   },
   {
-    "revision": "1673dbd7475a1d925863e3a6f59f0da8",
-    "url": "/static/media/portfolioSite.1673dbd7.png"
-  },
-  {
     "revision": "da443b4c1834442aa9be5cedcbb9cf23",
     "url": "/static/media/projSkills.da443b4c.svg"
   },
@@ -174,10 +162,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6a6ded3210b9fc0c31972b43192114d9",
     "url": "/static/media/studentEnrolment.6a6ded32.png"
-  },
-  {
-    "revision": "11398306e860aeeb3b4e4fedb253d6ed",
-    "url": "/static/media/sudokuSolver.11398306.png"
   },
   {
     "revision": "fd7f8fdc509003cd9156ae22e4110e74",

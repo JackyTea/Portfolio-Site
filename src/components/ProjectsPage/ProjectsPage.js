@@ -2,12 +2,12 @@ import React, { Component } from "react";
 import { ReactComponent as GithubIcon } from "../../images/projectsPage/githubIcon.svg";
 import { ReactComponent as VisitIcon } from "../../images/projectsPage/visitIcon.svg";
 import { ReactComponent as XIcon } from "../../images/projectsPage/xIcon.svg";
-import RealTimePollingDemo from "../../screenshots/realTimePolling.png";
-import MakeItRainDemo from "../../screenshots/makeItRain.png";
-import StudentEnrolmentDemo from "../../screenshots/studentEnrolment.png";
-import ArduinoSocket from "../../screenshots/arduinoSocket.png";
-import DiscordLogger from "../../screenshots/discordLogger.png"
-import GridLock from "../../screenshots/gridlock.png";
+import RealTimePollingDemo from "../../screenshots/realTimePolling.jpg";
+import MakeItRainDemo from "../../screenshots/makeItRain.jpg";
+import StudentEnrolmentDemo from "../../screenshots/studentEnrolment.jpg";
+import ArduinoSocket from "../../screenshots/arduinoSocket.jpg";
+import DiscordLogger from "../../screenshots/discordLogger.jpg"
+import GridLock from "../../screenshots/gridlock.jpg";
 import "./ProjectsPage.css";
 
 class ProjectsPage extends Component {

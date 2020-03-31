@@ -24,7 +24,7 @@
 
 .FooterBar>.copyright>span{
     color: grey;
-    font-family: robotoRegular;
+    font-family: robotoRegular, sans-serif;
     font-size: 1.1vw;
 }
 
@@ -68,7 +68,7 @@
     
     .FooterBar>.copyright>span{
         color: grey;
-        font-family: robotoRegular;
+        font-family: robotoRegular, sans-serif;
         font-size: 1.3vw;
     }
     .FooterBar>.links>.linksList{
@@ -100,7 +100,7 @@
     
     .FooterBar>.copyright>span{
         color: grey;
-        font-family: robotoRegular;
+        font-family: robotoRegular, sans-serif;
         font-size: 2vw;
     }
     .FooterBar>.links>.linksList{
@@ -132,7 +132,7 @@
     
     .FooterBar>.copyright>span{
         color: grey;
-        font-family: robotoRegular;
+        font-family: robotoRegular, sans-serif;
         font-size: 4vw;
     }
     .FooterBar>.links>.linksList{

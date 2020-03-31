@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "89bbf29530c2a322f7b5dbeddb6f1cd6",
+    "revision": "8b2aed212cb54a7501a159e091e94907",
     "url": "/index.html"
   },
   {
-    "revision": "a1eb05844ce36e7913bb",
+    "revision": "bb7822c697e63ae9f0c7",
     "url": "/static/css/main.4a82ab65.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.cecd1cf9.chunk.js.LICENSE"
   },
   {
-    "revision": "a1eb05844ce36e7913bb",
-    "url": "/static/js/main.b554ebc6.chunk.js"
+    "revision": "bb7822c697e63ae9f0c7",
+    "url": "/static/js/main.73b10e26.chunk.js"
   },
   {
     "revision": "c9913191e565de632244",
@@ -40,6 +40,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/arduinoIcon.4e1aad3a.svg"
   },
   {
+    "revision": "c00104234f4014bd53c6b1011116d23c",
+    "url": "/static/media/arduinoSocket.c0010423.jpg"
+  },
+  {
     "revision": "397088ece262f60d01e55a08ceb5791c",
     "url": "/static/media/chipIcon.397088ec.svg"
   },
@@ -58,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cf768273c16185d6fa9b1faf4e51a2cd",
     "url": "/static/media/databaseIcon.cf768273.svg"
+  },
+  {
+    "revision": "413f53fb815c9446dfd7169879ba915e",
+    "url": "/static/media/discordLogger.413f53fb.jpg"
   },
   {
     "revision": "774e7ba1b1f837d18ec47a9f81b84a5e",
@@ -80,6 +88,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/githubIcon.80a1f96c.svg"
   },
   {
+    "revision": "75312364808d91e3153651366e8ab18c",
+    "url": "/static/media/gridlock.75312364.jpg"
+  },
+  {
     "revision": "46501dcce7797a9f57c36463ce5c8ad1",
     "url": "/static/media/illustratorIcon.46501dcc.svg"
   },
@@ -98,6 +110,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "52727a94e9223ac2369af7688e1b5c04",
     "url": "/static/media/linuxIcon.52727a94.svg"
+  },
+  {
+    "revision": "b16a8e9d8e3dda5a6eea0a85242cf2ef",
+    "url": "/static/media/makeItRain.b16a8e9d.jpg"
   },
   {
     "revision": "f959cb8cfe812e58e58c2ea877a189a5",
@@ -130,6 +146,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4009eef3b3e291f296e71962c70895c5",
     "url": "/static/media/reactIcon.4009eef3.svg"
+  },
+  {
+    "revision": "92596da258716734115bbec250a89e25",
+    "url": "/static/media/realTimePolling.92596da2.jpg"
+  },
+  {
+    "revision": "a59d07a6a9aae9a609310f7f271d8ac7",
+    "url": "/static/media/studentEnrolment.a59d07a6.jpg"
   },
   {
     "revision": "fd7f8fdc509003cd9156ae22e4110e74",

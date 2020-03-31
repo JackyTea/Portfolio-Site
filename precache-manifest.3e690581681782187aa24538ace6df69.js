@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b719a6722689a63f64e3ecb957fe8488",
+    "revision": "f140a755bb3dc7f9da2fd04a1c603bf5",
     "url": "/index.html"
   },
   {
-    "revision": "04c2d23fc20b53938e25",
+    "revision": "a9fa270d7769fe61938a",
     "url": "/static/css/main.4a82ab65.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.cecd1cf9.chunk.js.LICENSE"
   },
   {
-    "revision": "04c2d23fc20b53938e25",
-    "url": "/static/js/main.b9a5c8f8.chunk.js"
+    "revision": "a9fa270d7769fe61938a",
+    "url": "/static/js/main.aa7f1f17.chunk.js"
   },
   {
     "revision": "c9913191e565de632244",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/arduinoIcon.4e1aad3a.svg"
   },
   {
-    "revision": "c00104234f4014bd53c6b1011116d23c",
-    "url": "/static/media/arduinoSocket.c0010423.jpg"
+    "revision": "9024ba798a4951b2fdcfeaf6f22ebc66",
+    "url": "/static/media/arduinoSocket.9024ba79.jpg"
   },
   {
     "revision": "397088ece262f60d01e55a08ceb5791c",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/databaseIcon.cf768273.svg"
   },
   {
-    "revision": "413f53fb815c9446dfd7169879ba915e",
-    "url": "/static/media/discordLogger.413f53fb.jpg"
+    "revision": "8dc9edac0af7f8deacea6f1e3bb9bc6d",
+    "url": "/static/media/discordLogger.8dc9edac.jpg"
   },
   {
     "revision": "774e7ba1b1f837d18ec47a9f81b84a5e",
@@ -88,8 +88,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/githubIcon.80a1f96c.svg"
   },
   {
-    "revision": "44f410b182af2f43455c461ca1885be6",
-    "url": "/static/media/gridlock.44f410b1.jpg"
+    "revision": "40647054ba21775bd2fa158cbac30697",
+    "url": "/static/media/gridlock.40647054.jpg"
   },
   {
     "revision": "46501dcce7797a9f57c36463ce5c8ad1",
@@ -110,10 +110,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "52727a94e9223ac2369af7688e1b5c04",
     "url": "/static/media/linuxIcon.52727a94.svg"
-  },
-  {
-    "revision": "b16a8e9d8e3dda5a6eea0a85242cf2ef",
-    "url": "/static/media/makeItRain.b16a8e9d.jpg"
   },
   {
     "revision": "f959cb8cfe812e58e58c2ea877a189a5",
@@ -148,12 +144,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/reactIcon.4009eef3.svg"
   },
   {
-    "revision": "92596da258716734115bbec250a89e25",
-    "url": "/static/media/realTimePolling.92596da2.jpg"
-  },
-  {
-    "revision": "a59d07a6a9aae9a609310f7f271d8ac7",
-    "url": "/static/media/studentEnrolment.a59d07a6.jpg"
+    "revision": "bf347250381900ac416a0cf98929e8ca",
+    "url": "/static/media/studentEnrolment.bf347250.jpg"
   },
   {
     "revision": "fd7f8fdc509003cd9156ae22e4110e74",

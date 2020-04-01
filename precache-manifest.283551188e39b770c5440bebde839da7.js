@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dd37602c96f4bfb7b523d1e37d804af8",
+    "revision": "89bcf097ef93112cd7711a515e77796b",
     "url": "/index.html"
   },
   {
-    "revision": "7f71ffee8601a131878e",
-    "url": "/static/css/main.b6d961e7.chunk.css"
+    "revision": "967bf9c546711be117a8",
+    "url": "/static/css/main.0139d15e.chunk.css"
   },
   {
     "revision": "46236672ddc662d53c18",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.27db6b02.chunk.js.LICENSE"
   },
   {
-    "revision": "7f71ffee8601a131878e",
-    "url": "/static/js/main.ea4bd09c.chunk.js"
+    "revision": "967bf9c546711be117a8",
+    "url": "/static/js/main.181c2b51.chunk.js"
   },
   {
     "revision": "c9913191e565de632244",
@@ -64,12 +64,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/flutterIcon.3a4119e6.svg"
   },
   {
-    "revision": "dd75bf3e8985dec42d1d240c6b54458b",
-    "url": "/static/media/footerBackground.dd75bf3e.svg"
+    "revision": "76d4e41afa8decbbf3a7ddcbb6789634",
+    "url": "/static/media/footerBackground.76d4e41a.svg"
   },
   {
-    "revision": "821551d58366ceedae52ba993cc78e0f",
-    "url": "/static/media/footerBackgroundPhone.821551d5.svg"
+    "revision": "00496187943724a133e60cdd9ae981e5",
+    "url": "/static/media/footerBackgroundPhone.00496187.svg"
   },
   {
     "revision": "80a1f96caf2961a1b500c3f85244059f",
@@ -100,10 +100,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/menuIcon.590db13f.svg"
   },
   {
-    "revision": "f959cb8cfe812e58e58c2ea877a189a5",
-    "url": "/static/media/middleBackground.f959cb8c.svg"
-  },
-  {
     "revision": "554c7d4bfd63a3da33773978fd291c06",
     "url": "/static/media/mongoIcon.554c7d4b.svg"
   },
@@ -120,8 +116,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/photoshopIcon.44676395.svg"
   },
   {
-    "revision": "da443b4c1834442aa9be5cedcbb9cf23",
-    "url": "/static/media/projSkills.da443b4c.svg"
+    "revision": "5edc820d3a4ca5563f931c45ae846c53",
+    "url": "/static/media/projSkills.5edc820d.svg"
   },
   {
     "revision": "01766e9cdd6e12e020a2c9ca505fd961",
@@ -136,16 +132,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/studentEnrolment.bf347250.jpg"
   },
   {
-    "revision": "fd7f8fdc509003cd9156ae22e4110e74",
-    "url": "/static/media/topBackground.fd7f8fdc.svg"
+    "revision": "4e6856a3168cd043e6b036d0285814d5",
+    "url": "/static/media/topBackground.4e6856a3.svg"
   },
   {
-    "revision": "8bc112d1d5dff264252746f71e809bb5",
-    "url": "/static/media/topBackgroundPhone.8bc112d1.svg"
+    "revision": "7687ec87d8e98df720204cd1711e32a6",
+    "url": "/static/media/topBackgroundPhone.7687ec87.svg"
   },
   {
-    "revision": "2695509faff80cfc15fa3121fcb352fc",
-    "url": "/static/media/topBackgroundTablet.2695509f.svg"
+    "revision": "1eafe90d9d89b033d7eb15058c33b9e0",
+    "url": "/static/media/topBackgroundTablet.1eafe90d.svg"
   },
   {
     "revision": "494b6531265751d5a13203f8cb61ef3c",
@@ -156,8 +152,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/visitIcon.ebae7934.svg"
   },
   {
-    "revision": "177e8e939ee30f88bc06528eb41a5593",
-    "url": "/static/media/xIcon.177e8e93.svg"
+    "revision": "0890af6bd7ca679bce551497d5278875",
+    "url": "/static/media/xIcon.0890af6b.svg"
   },
   {
     "revision": "75994bc651afb9f6d6b9e71dbdc144e5",

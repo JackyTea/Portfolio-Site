@@ -4,18 +4,14 @@ import { ReactComponent as PythonIcon } from "../../images/icons/pythonIcon.svg"
 import { ReactComponent as JSIcon } from "../../images/icons/jsIcon.svg";
 import { ReactComponent as JavaIcon } from "../../images/icons/javaIcon.svg";
 import { ReactComponent as DartIcon } from "../../images/icons/dartIcon.svg";
-import { ReactComponent as DataStructIcon } from "../../images/icons/dataStructIcon.svg";
-import { ReactComponent as DatabaseIcon } from "../../images/icons/databaseIcon.svg";
-import { ReactComponent as LinuxIcon } from "../../images/icons/linuxIcon.svg";
-import { ReactComponent as AgileIcon } from "../../images/icons/agileIcon.svg";
-import { ReactComponent as OOPIcon } from "../../images/icons/oopIcon.svg";
 import { ReactComponent as NodeJSIcon } from "../../images/icons/nodeJSIcon.svg";
 import { ReactComponent as ReactIcon } from "../../images/icons/reactIcon.svg";
 import { ReactComponent as AngularIcon } from "../../images/icons/angularIcon.svg";
 import { ReactComponent as MongoIcon } from "../../images/icons/mongoIcon.svg";
+import { ReactComponent as FirebaseIcon } from "../../images/icons/firebaseIcon.svg";
+import { ReactComponent as MySQLIcon } from "../../images/icons/mysqlIcon.svg";
 import { ReactComponent as FlutterIcon } from "../../images/icons/flutterIcon.svg";
 import { ReactComponent as AndroidIcon } from "../../images/icons/androidIcon.svg";
-import { ReactComponent as MicrochipIcon } from "../../images/icons/chipIcon.svg";
 import { ReactComponent as ArduinoIcon } from "../../images/icons/arduinoIcon.svg";
 import { ReactComponent as VexIcon } from "../../images/icons/vexIcon.svg";
 import { ReactComponent as IllustratorIcon } from "../../images/icons/illustratorIcon.svg";
@@ -63,16 +59,6 @@ class SkillsPage extends Component {
     return (
       <div className="SkillsPage">
         <h1 className="title">Skills</h1>
-        {/*
-        <div className="landingSection">
-          <div className="mainTitle">
-            <h1>Skills</h1>
-            <p>
-              Some stuff I happen to know. <br /> Always trying to improve.
-            </p>
-          </div>
-        </div>
-        */}
         <div className="skillsSection">
           <div className="skillContainer">
             <button
@@ -139,10 +125,10 @@ class SkillsPage extends Component {
                 <div className="desc">
                   <h1>Dart</h1>
                   <p>
-                    The language I use for Flutter mobile development. It is client-optimized, 
+                    The language I use for Flutter mobile development. It is client-optimized,
                     object oriented and has also helped me strengthen my OOP fundamentals alongside
                     using C++ and Python. Familiar with the Dart class system and how state is handled
-                    in this language. 
+                    in this language.
                   </p>
                 </div>
               </div>
@@ -152,67 +138,42 @@ class SkillsPage extends Component {
             <button
               id="b2"
               className="collapse"
-              onClick={() => this.toggleContent("b2", "fundamentals", "s2")}
+              onClick={() => this.toggleContent("b2", "databases", "s2")}
             >
-              Fundamentals<span id="s2">▼</span>
+              Database Design<span id="s2">▼</span>
             </button>
-            <div className="content" id="fundamentals">
+            <div className="content" id="databases">
               <div className="skillItem">
-                <DataStructIcon></DataStructIcon>
+                <MongoIcon></MongoIcon>
                 <div className="desc">
-                  <h1>Data Structures and Algorithms</h1>
+                  <h1>MongoDB</h1>
                   <p>
-                    Always working on strengthening my knowledge in this area.
-                    Familiar with common data structures such as arrays, linked
-                    lists, binary search trees, AVL trees, hash tables, graphs,
-                    stacks, queues, sorting algorithms, etc...
+                    Used in back-end development for persistent data storage,
+                    retrieval, modification and removal. Familiar with the
+                    schema system, the Mongo shell and utlizing Node.JS's HTTP
+                    module to perform operations on a connected MongoDB
+                    database.
                   </p>
                 </div>
               </div>
               <div className="skillItem">
-                <OOPIcon></OOPIcon>
+                <FirebaseIcon></FirebaseIcon>
                 <div className="desc">
-                  <h1>Object Oriented Programming and Design Patterns</h1>
+                  <h1>Firebase</h1>
                   <p>
-                    Highly proficient in the fundamentals of object-oriented principles,
-                    UML diagrams and modular design. Familiar with commonly used creational,
-                    structural and behavioural design patterns. Strong in object-oriented
-                    programming languages such as C++, JavaScript, Python, Dart and Java.
+                    Google's document-based No-SQL database. Utilized in my
+                    capstone project for real time updates of user information
+                    and account authorization.
                   </p>
                 </div>
               </div>
               <div className="skillItem">
-                <DatabaseIcon></DatabaseIcon>
+                <MySQLIcon></MySQLIcon>
                 <div className="desc">
-                  <h1>Database Design and SQL</h1>
+                  <h1>MySQL</h1>
                   <p>
-                    Worked with programs such as Oracle Database and Microsoft
-                    SQL Server to design and develop databases for various
-                    projects. Familiar with SQL queries, cursors, keys and
-                    PL/SQL.
-                  </p>
-                </div>
-              </div>
-              <div className="skillItem">
-                <LinuxIcon></LinuxIcon>
-                <div className="desc">
-                  <h1>Linux</h1>
-                  <p>
-                    Experienced with Linux distros such as Ubuntu, Mint and
-                    Kali. Familiar with the Linux command line and file system.
-                    Basic experience in BASH scripting.
-                  </p>
-                </div>
-              </div>
-              <div className="skillItem">
-                <AgileIcon></AgileIcon>
-                <div className="desc">
-                  <h1>Agile Development Methodology</h1>
-                  <p>
-                    Familiar with iterative development and the process of
-                    SCRUM. Experienced through school capstone project where
-                    weekly development goals were to be met and constant testing
-                    was done on a large code base.
+                    Familiar with the phpMyAdmin dashboard and creating relational
+                    databases to link to back-end php scripts for handling persistent data.
                   </p>
                 </div>
               </div>
@@ -263,19 +224,6 @@ class SkillsPage extends Component {
                   </p>
                 </div>
               </div>
-              <div className="skillItem">
-                <MongoIcon></MongoIcon>
-                <div className="desc">
-                  <h1>MongoDB</h1>
-                  <p>
-                    Used in back-end development for persistent data storage,
-                    retrieval, modification and removal. Familiar with the
-                    schema system, the Mongo shell and utlizing Node.JS's HTTP
-                    module to perform operations on a connected MongoDB
-                    database.
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
           <div className="skillContainer">
@@ -303,9 +251,19 @@ class SkillsPage extends Component {
                 <div className="desc">
                   <h1>Flutter</h1>
                   <p>
+                    Cross platform mobile development framework I used for
+                    my Capstone project. Allows for one codebase to provide for
+                    web, Android and iOS ecosystems. Familiar with the fundamentals of Flutter.
+                  </p>
+                </div>
+              </div>
+              <div className="skillItem">
+                <ReactIcon></ReactIcon>
+                <div className="desc">
+                  <h1>React Native</h1>
+                  <p>
                     A new platform I have started learning to implement
-                    cross-platform mobile applications. Still learning more
-                    about Dart and the Flutter system.
+                    cross-platform mobile applications.
                   </p>
                 </div>
               </div>
@@ -321,32 +279,21 @@ class SkillsPage extends Component {
             </button>
             <div className="content" id="robotics">
               <div className="skillItem">
-                <MicrochipIcon></MicrochipIcon>
-                <div className="desc">
-                  <h1>Circuit Design</h1>
-                  <p>
-                    Familiar with prototyping simple series and parallel
-                    circuits with the use of Arduino components on a breadboard.
-                  </p>
-                </div>
-              </div>
-              <div className="skillItem">
                 <ArduinoIcon></ArduinoIcon>
                 <div className="desc">
                   <h1>Arduino</h1>
                   <p>
-                    Familiar with the Arduino IDE and working with common
-                    Arduino components to build simple projects.
+                    Familiar with the Arduino IDE and circuit design utilized to build hardware projects.
                   </p>
                 </div>
               </div>
               <div className="skillItem">
                 <VexIcon></VexIcon>
                 <div className="desc">
-                  <h1>VEX</h1>
+                  <h1>VEX Robotics</h1>
                   <p>
                     Designed and built VEX robots for various competitions.
-                    Limited proficiency in Robot C and programming autonomous
+                    Proficiency in Robot C and programming autonomous
                     functionality on VEX cores.
                   </p>
                 </div>
@@ -396,7 +343,6 @@ class SkillsPage extends Component {
             </div>
           </div>
         </div>
-        {/*<FooterBar></FooterBar>*/}
       </div>
     );
   }

@@ -135,7 +135,6 @@
     height: auto;
     min-height: 100%;
     display: flex;
-    background: url("../../images/homePage/middleBackground.svg");
     background-size: contain;
     background-position: bottom right;
     background-repeat: no-repeat;

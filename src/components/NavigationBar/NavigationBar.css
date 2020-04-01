@@ -139,6 +139,10 @@
         cursor: pointer;
         background: none;
     }
+    .NavigationBar>.navigationBar>.navigationLinks>nav>.sideNavButton>i>svg {
+        width: 3.5vw;
+        height: 3.5vw;
+    }
     .NavigationBar>.sideBar>.sideLink {
         font-size: 2.5vw;
     }
@@ -153,6 +157,10 @@
     .NavigationBar>.sideBar>.sideLink {
         font-size: 4vw;
     }
+    .NavigationBar>.navigationBar>.navigationLinks>nav>.sideNavButton>i>svg {
+        width: 4.5vw;
+        height: 4.5vw;
+    }
 }
 
 /* mobile - small */
@@ -163,5 +171,9 @@
     }
     .NavigationBar>.sideBar>.sideLink {
         font-size: 5vw;
+    }
+    .NavigationBar>.navigationBar>.navigationLinks>nav>.sideNavButton>i>svg {
+        width: 5.5vw;
+        height: 5.5vw;
     }
 }

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { ReactComponent as MenuIcon } from "../../images/icons/menuIcon.svg";
 import "./NavigationBar.css";
 
 //close sidebar if user clicks outside of it
@@ -147,7 +148,7 @@ class NavigationBar extends Component {
                   className="fa fa-lg fa-bars"
                   id="sideBarIcon"
                   onClick={this.toggleSideNav}
-                ></i>
+                ><MenuIcon></MenuIcon></i>
               </button>
             </nav>
           </div>

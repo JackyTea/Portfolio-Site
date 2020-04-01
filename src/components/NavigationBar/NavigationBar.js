@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import "./NavigationBar.css";
 
 //close sidebar if user clicks outside of it
@@ -86,9 +85,11 @@ class NavigationBar extends Component {
         <div className="navigationBar">
           <div className="mainLogo">
             <h1>
-              <Link id="logoMain" to="/">
-                Jacky Tea {/*<span id="blinkingCursor">_</span>*/}
-              </Link>
+              <a id="logoMain" href="#theHomePageLanding" onClick={() => {
+                this.changeTitle("Home");
+              }}>
+                Jacky Tea
+              </a>
             </h1>
           </div>
           <div className="navigationLinks">

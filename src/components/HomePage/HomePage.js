@@ -40,27 +40,6 @@ class HomePage extends Component {
             </div>
           </div>
         </div>
-        {/*
-        <div className="aboutSection">
-          <div className="aboutMe">
-            <h1>About Me</h1>
-            <p>
-              Hey there, I am a software development student dedicated to
-              solving problems and building applications to make the lives of
-              others easier.
-            </p>
-            {/*
-            <button>
-              <a href="/" download>
-                Download Resume ▼
-              </a>
-            </button>
-          </div>
-          <div className="bracketsVector">
-            <DevIcon></DevIcon>
-          </div>
-        </div>
-        */}
         <div id="projSkills">
           <div id="theProjectsPage" onMouseEnter={()=> {this.changeTitle("Projects")}}>
             <ProjectsPage></ProjectsPage>

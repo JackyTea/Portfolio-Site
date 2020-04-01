@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9427bfb3a8cb5d6cf535a65058d9ecfe",
+    "revision": "dd37602c96f4bfb7b523d1e37d804af8",
     "url": "/index.html"
   },
   {
-    "revision": "f5aab1e0a8a023ced45a",
+    "revision": "7f71ffee8601a131878e",
     "url": "/static/css/main.b6d961e7.chunk.css"
   },
   {
@@ -16,16 +16,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.27db6b02.chunk.js.LICENSE"
   },
   {
-    "revision": "f5aab1e0a8a023ced45a",
-    "url": "/static/js/main.989d2b1e.chunk.js"
+    "revision": "7f71ffee8601a131878e",
+    "url": "/static/js/main.ea4bd09c.chunk.js"
   },
   {
     "revision": "c9913191e565de632244",
     "url": "/static/js/runtime-main.170f8412.js"
-  },
-  {
-    "revision": "5c3e9df1c57c8f8e6fb5a2c75745bc7f",
-    "url": "/static/media/agileIcon.5c3e9df1.svg"
   },
   {
     "revision": "14ed07e698c69df6da8744861c0ef7cd",
@@ -44,10 +40,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/arduinoSocket.9024ba79.jpg"
   },
   {
-    "revision": "397088ece262f60d01e55a08ceb5791c",
-    "url": "/static/media/chipIcon.397088ec.svg"
-  },
-  {
     "revision": "5be9bde46141498a7cfd4902b92133b1",
     "url": "/static/media/cppIcon.5be9bde4.svg"
   },
@@ -56,20 +48,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/dartIcon.63a1fa89.svg"
   },
   {
-    "revision": "4871b7a4fcc82b48b49dcda6a7f6d35e",
-    "url": "/static/media/dataStructIcon.4871b7a4.svg"
-  },
-  {
-    "revision": "cf768273c16185d6fa9b1faf4e51a2cd",
-    "url": "/static/media/databaseIcon.cf768273.svg"
-  },
-  {
     "revision": "8dc9edac0af7f8deacea6f1e3bb9bc6d",
     "url": "/static/media/discordLogger.8dc9edac.jpg"
   },
   {
     "revision": "774e7ba1b1f837d18ec47a9f81b84a5e",
     "url": "/static/media/emailIcon.774e7ba1.svg"
+  },
+  {
+    "revision": "7f8d489c1887554fcf61932505d46393",
+    "url": "/static/media/firebaseIcon.7f8d489c.svg"
   },
   {
     "revision": "3a4119e673ae50f25e35353322bea66c",
@@ -108,10 +96,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/linkedinIcon.b488766c.svg"
   },
   {
-    "revision": "52727a94e9223ac2369af7688e1b5c04",
-    "url": "/static/media/linuxIcon.52727a94.svg"
-  },
-  {
     "revision": "590db13f697bb025026642f559b8415b",
     "url": "/static/media/menuIcon.590db13f.svg"
   },
@@ -124,12 +108,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/mongoIcon.554c7d4b.svg"
   },
   {
-    "revision": "b337a2fb0b1289e6757e632dc766ff6b",
-    "url": "/static/media/nodeJSIcon.b337a2fb.svg"
+    "revision": "f80a91ba03fbf0e99ea6949aa3a6399e",
+    "url": "/static/media/mysqlIcon.f80a91ba.svg"
   },
   {
-    "revision": "f0e370816a66f4124a92664c30e74236",
-    "url": "/static/media/oopIcon.f0e37081.svg"
+    "revision": "b337a2fb0b1289e6757e632dc766ff6b",
+    "url": "/static/media/nodeJSIcon.b337a2fb.svg"
   },
   {
     "revision": "446763959684b108ca164f3cdc9c96d0",
@@ -140,8 +124,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/projSkills.da443b4c.svg"
   },
   {
-    "revision": "146716bdf1a351db5705ec1e6a25ed08",
-    "url": "/static/media/pythonIcon.146716bd.svg"
+    "revision": "01766e9cdd6e12e020a2c9ca505fd961",
+    "url": "/static/media/pythonIcon.01766e9c.svg"
   },
   {
     "revision": "4009eef3b3e291f296e71962c70895c5",

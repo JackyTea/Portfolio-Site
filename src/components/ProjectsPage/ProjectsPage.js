@@ -29,9 +29,6 @@ class ProjectsPage extends Component {
           <div className="projectCard">
             <img src={RealTimePollingDemo} alt="Real Time Polling Demo PNG"></img>
             <h1>Real Time Polling Application</h1>
-            <br />
-            <br />
-            <br/>
             <div className="projectTools">
               <button>JavaScript</button> <button>Node.JS</button>
               <button>MongoDB</button>
@@ -53,9 +50,6 @@ class ProjectsPage extends Component {
           <div className="projectCard">
             <img src={GridLock} alt="Gridlock App PNG"></img>
             <h1>Gridlock Pathfinder</h1>
-            <br />
-            <br />
-            <br />
             <div className="projectTools">
               <button>JavaScript</button> <button>HTML5</button><button>CSS3</button><button>Node.JS</button>
               <br />
@@ -77,9 +71,6 @@ class ProjectsPage extends Component {
           <div className="projectCard">
             <img src={StudentEnrolmentDemo} alt="Student Enrolment App PNG"></img>
             <h1>Student Enrolment Application</h1>
-            <br />
-            <br />
-            <br/>
             <div className="projectTools">
               <button>JavaScript</button> <button>Angular</button>
               <button>Node.JS</button>
@@ -101,9 +92,6 @@ class ProjectsPage extends Component {
           <div className="projectCard">
             <img src={MakeItRainDemo} alt="Make It Rain App PNG"></img>
             <h1>Make It Rain (Browser Game)</h1>
-            <br />
-            <br />
-            <br />
             <div className="projectTools">
               <button>JavaScript</button> <button>HTML5</button><button>CSS3</button><button>Node.JS</button>
               <br />
@@ -125,9 +113,6 @@ class ProjectsPage extends Component {
           <div className="projectCard">
             <img src={DiscordLogger} alt="Discord logger bot PNG"></img>
             <h1>Discord Logger Bot</h1>
-            <br />
-            <br />
-            <br />
             <div className="projectTools">
               <button>JavaScript</button> <button>Node.JS</button>
               <button>Discord.JS</button> <button>MongoDB</button>
@@ -148,9 +133,6 @@ class ProjectsPage extends Component {
           <div className="projectCard">
             <img src={ArduinoSocket} alt="Arduino Socket PNG"></img>
             <h1>Arduino Socket Remote Controller</h1>
-            <br />
-            <br />
-            <br />
             <div className="projectTools">
               <button>C++</button> <button>WinSock</button>{" "}
               <button>Arduino</button>

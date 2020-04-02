@@ -142,6 +142,7 @@
     .NavigationBar>.navigationBar>.navigationLinks>nav>.sideNavButton>i>svg {
         width: 3.5vw;
         height: 3.5vw;
+        margin-top: -7vh;
     }
     .NavigationBar>.sideBar>.sideLink {
         font-size: 2.5vw;
@@ -158,8 +159,9 @@
         font-size: 4vw;
     }
     .NavigationBar>.navigationBar>.navigationLinks>nav>.sideNavButton>i>svg {
-        width: 4.5vw;
-        height: 4.5vw;
+        width: 5.5vw;
+        height: 5.5vw;
+        margin-top: -10vh;
     }
 }
 
@@ -173,7 +175,8 @@
         font-size: 5vw;
     }
     .NavigationBar>.navigationBar>.navigationLinks>nav>.sideNavButton>i>svg {
-        width: 5.5vw;
-        height: 5.5vw;
+        width: 6.5vw;
+        height: 6.5vw;
+        margin-top: -10vh;
     }
 }

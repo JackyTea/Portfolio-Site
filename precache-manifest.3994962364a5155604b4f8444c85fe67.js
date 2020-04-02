@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e2d91b9f40156ac735186aaf7feca092",
+    "revision": "3bd782c5097785649e0793e418c12649",
     "url": "/index.html"
   },
   {
-    "revision": "c68d187aed2049a33154",
+    "revision": "ad9c32a1c6e5d478fd0f",
     "url": "/static/css/main.8e8a7fd5.chunk.css"
   },
   {
@@ -16,12 +16,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.27db6b02.chunk.js.LICENSE"
   },
   {
-    "revision": "c68d187aed2049a33154",
-    "url": "/static/js/main.87ff68ff.chunk.js"
+    "revision": "ad9c32a1c6e5d478fd0f",
+    "url": "/static/js/main.deedfba8.chunk.js"
   },
   {
     "revision": "c9913191e565de632244",
     "url": "/static/js/runtime-main.170f8412.js"
+  },
+  {
+    "revision": "915d88e19011aae324a8c9d3ca57ce2b",
+    "url": "/static/media/Arduino_Socket.915d88e1.svg"
+  },
+  {
+    "revision": "7f90f9da036c0b1240852b2ecb3dd7ed",
+    "url": "/static/media/Discord_Logger.7f90f9da.svg"
+  },
+  {
+    "revision": "5ae49c176133246af7061a0e1647b194",
+    "url": "/static/media/Gridlock_Pathfinder.5ae49c17.svg"
+  },
+  {
+    "revision": "5a8dc57f94de27b8b5e3e283bb1d9399",
+    "url": "/static/media/Make_It_Rain.5a8dc57f.svg"
+  },
+  {
+    "revision": "b2d82be16c9d41cb11bbb347b79df389",
+    "url": "/static/media/Real_Time_Polling.b2d82be1.svg"
+  },
+  {
+    "revision": "984db47290526245e1ffb1198fa31a57",
+    "url": "/static/media/Student_Enrolment.984db472.svg"
   },
   {
     "revision": "14ed07e698c69df6da8744861c0ef7cd",
@@ -36,20 +60,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/arduinoIcon.4e1aad3a.svg"
   },
   {
-    "revision": "9024ba798a4951b2fdcfeaf6f22ebc66",
-    "url": "/static/media/arduinoSocket.9024ba79.jpg"
-  },
-  {
     "revision": "5be9bde46141498a7cfd4902b92133b1",
     "url": "/static/media/cppIcon.5be9bde4.svg"
   },
   {
     "revision": "63a1fa89591745e789e439a1f2d1abf1",
     "url": "/static/media/dartIcon.63a1fa89.svg"
-  },
-  {
-    "revision": "8dc9edac0af7f8deacea6f1e3bb9bc6d",
-    "url": "/static/media/discordLogger.8dc9edac.jpg"
   },
   {
     "revision": "774e7ba1b1f837d18ec47a9f81b84a5e",
@@ -74,10 +90,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "80a1f96caf2961a1b500c3f85244059f",
     "url": "/static/media/githubIcon.80a1f96c.svg"
-  },
-  {
-    "revision": "40647054ba21775bd2fa158cbac30697",
-    "url": "/static/media/gridlock.40647054.jpg"
   },
   {
     "revision": "46501dcce7797a9f57c36463ce5c8ad1",
@@ -126,10 +138,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4009eef3b3e291f296e71962c70895c5",
     "url": "/static/media/reactIcon.4009eef3.svg"
-  },
-  {
-    "revision": "bf347250381900ac416a0cf98929e8ca",
-    "url": "/static/media/studentEnrolment.bf347250.jpg"
   },
   {
     "revision": "4e6856a3168cd043e6b036d0285814d5",

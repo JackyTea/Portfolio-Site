@@ -16,7 +16,7 @@ const AboutPage = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button>
+            <button aria-label="view resume">
               View Resume
             </button>
           </a>

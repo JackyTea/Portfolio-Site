@@ -25,7 +25,7 @@ class HomePage extends Component {
             <div className="introContainer">
               <h1>Hi, I'm Jacky.</h1>
               <h3>I'm a software development student.</h3>
-              <button>
+              <button aria-label="view projects">
                 <a
                   onClick={() => {
                     this.changeTitle("Projects");

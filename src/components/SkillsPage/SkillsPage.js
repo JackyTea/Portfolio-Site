@@ -61,7 +61,7 @@ class SkillsPage extends Component {
         <h1 className="title">Skills</h1>
         <div className="skillsSection">
           <div className="skillContainer">
-            <button
+            <button aria-label="lang-sect"
               id="b1"
               className="collapse"
               onClick={() => this.toggleContent("b1", "languages", "s1")}
@@ -117,7 +117,7 @@ class SkillsPage extends Component {
             </div>
           </div>
           <div className="skillContainer">
-            <button
+            <button aria-label="db-sect"
               id="b2"
               className="collapse"
               onClick={() => this.toggleContent("b2", "databases", "s2")}
@@ -158,7 +158,7 @@ class SkillsPage extends Component {
             </div>
           </div>
           <div className="skillContainer">
-            <button
+            <button aria-label="web-sect"
               id="b3"
               className="collapse"
               onClick={() => this.toggleContent("b3", "webdev", "s3")}
@@ -196,7 +196,7 @@ class SkillsPage extends Component {
             </div>
           </div>
           <div className="skillContainer">
-            <button
+            <button aria-label="mob-sect"
               id="b4"
               className="collapse"
               onClick={() => this.toggleContent("b4", "mobiledev", "s4")}
@@ -235,7 +235,7 @@ class SkillsPage extends Component {
             </div>
           </div>
           <div className="skillContainer">
-            <button
+            <button aria-label="robot-sect"
               id="b5"
               className="collapse"
               onClick={() => this.toggleContent("b5", "robotics", "s5")}
@@ -264,7 +264,7 @@ class SkillsPage extends Component {
             </div>
           </div>
           <div className="skillContainer">
-            <button
+            <button aria-label="ui-sect"
               id="b6"
               className="collapse"
               onClick={() => this.toggleContent("b6", "uidesign", "s6")}

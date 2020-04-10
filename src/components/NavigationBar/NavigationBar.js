@@ -143,7 +143,7 @@ class NavigationBar extends Component {
               >
                 LinkedIn
               </a>
-              <button className="sideNavButton">
+              <button aria-label="open menu" className="sideNavButton">
                 <i
                   className="fa fa-lg fa-bars"
                   id="sideBarIcon"
@@ -206,7 +206,7 @@ class NavigationBar extends Component {
           >
             LinkedIn
           </a>
-          <button onClick={this.closeSideNav} className="sideLink">
+          <button aria-label="close menu" onClick={this.closeSideNav} className="sideLink">
             Close
           </button>
         </div>

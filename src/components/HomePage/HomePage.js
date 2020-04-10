@@ -7,8 +7,6 @@ import AboutPage from "../AboutPage/AboutPage";
 
 //homepage class
 class HomePage extends Component {
-  //state
-  state = {};
 
   componentDidMount() {
     document.title = "Jacky Tea | Home";

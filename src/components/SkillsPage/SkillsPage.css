@@ -23,38 +23,8 @@
     margin: 50px;
     padding: 20px;
     width: 77%;
-    font-family: robotoBold, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 3vw;
-}
-
-.SkillsPage>.landingSection {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: auto;
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    vertical-align: middle;
-    background-size: cover;
-    background-position: top left;
-    background-repeat: no-repeat;
-}
-
-.SkillsPage>.landingSection>.mainTitle {
-    margin: auto;
-}
-
-.SkillsPage>.landingSection>.mainTitle>h1 {
-    font-family: robotoBold, sans-serif;
-    font-size: 4.5vw;
-}
-
-.SkillsPage>.landingSection>.mainTitle>p {
-    font-family: robotoRegular, sans-serif;
-    font-size: 1.6vw;
 }
 
 .SkillsPage>.skillsSection {
@@ -76,7 +46,7 @@
     width: 80%;
     cursor: pointer;
     text-align: left;
-    font-family: robotoRegular, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.8vw;
     border: 1px solid rgba(0, 0, 0, 0.158);
     background: white;
@@ -135,13 +105,13 @@
 
 .SkillsPage>.skillsSection>.skillContainer>.content>.skillItem>.desc>h1 {
     margin-bottom: 1%;
-    font-family: robotoRegular, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3vw;
 }
 
 .SkillsPage>.skillsSection>.skillContainer>.content>.skillItem>.desc>p {
     width: 90%;
-    font-family: robotoRegular, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1vw;
 }
 
@@ -150,19 +120,6 @@
 @media only screen and (max-width: 1200px) {
     .SkillsPage>.title {
         font-size: 4.5vw;
-    }
-    .SkillsPage>.landingSection {
-        height: auto;
-        min-height: 100%;
-        background-size: contain;
-        background-position: top left;
-        background-repeat: no-repeat;
-    }
-    .SkillsPage>.landingSection>.mainTitle>h1 {
-        font-size: 7vw;
-    }
-    .SkillsPage>.landingSection>.mainTitle>p {
-        font-size: 3vw;
     }
     .SkillsPage>.skillsSection>.skillContainer {
         flex: 100%;
@@ -188,16 +145,6 @@
     .SkillsPage>.title {
         font-size: 6.5vw;
     }
-    .SkillsPage>.landingSection {
-        height: auto;
-        min-height: 100%;
-    }
-    .SkillsPage>.landingSection>.mainTitle>h1 {
-        font-size: 8vw;
-    }
-    .SkillsPage>.landingSection>.mainTitle>p {
-        font-size: 4vw;
-    }
     .SkillsPage>.skillsSection>.skillContainer>.collapse {
         font-size: 3vw;
     }
@@ -218,16 +165,6 @@
 @media only screen and (max-width: 450px) {
     .SkillsPage>.title {
         font-size: 7.5vw;
-    }
-    .SkillsPage>.landingSection {
-        height: auto;
-        min-height: 100%;
-    }
-    .SkillsPage>.landingSection>.mainTitle>h1 {
-        font-size: 10vw;
-    }
-    .SkillsPage>.landingSection>.mainTitle>p {
-        font-size: 4vw;
     }
     .SkillsPage>.skillsSection>.skillContainer>.collapse {
         font-size: 5vw;

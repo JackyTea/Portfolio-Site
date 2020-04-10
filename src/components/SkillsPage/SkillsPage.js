@@ -74,11 +74,7 @@ class SkillsPage extends Component {
                 <div className="desc">
                   <h1>C++</h1>
                   <p>
-                    A versatile, general-purpose programming language that I
-                    have used for many school assignments and personal projects
-                    alike. Proficient in the memory management and object
-                    oriented aspects of this language. Familiar with the STL and
-                    WinSock libraries for various applications.
+                    Proficient in C++ fundamentals, the STL library and the Winsock Socket API.
                   </p>
                 </div>
               </div>
@@ -87,11 +83,7 @@ class SkillsPage extends Component {
                 <div className="desc">
                   <h1>Python</h1>
                   <p>
-                    My go-to language for practicing coding interview questions
-                    due to its simplistic syntax and overall utility. Familiar
-                    with the fundamentals of Python 3 and its use for scripting
-                    and cybersecurity. Have also dabbled in some libraries such
-                    as MatPlotLib and PySerial.
+                    Proficient in Python fundamentals, familiar with NumPy and Matplotlib.
                   </p>
                 </div>
               </div>
@@ -100,10 +92,7 @@ class SkillsPage extends Component {
                 <div className="desc">
                   <h1>JavaScript</h1>
                   <p>
-                    The main language for front-end web development and one of
-                    the first programming languages I learned. Familiar with
-                    concepts such as closure and using JavaScript to manipulate
-                    the Document Object Model (DOM) on a webpage.
+                    Proficient in JavaScript fundamentals, DOM manipulation and ES6.
                   </p>
                 </div>
               </div>
@@ -112,11 +101,7 @@ class SkillsPage extends Component {
                 <div className="desc">
                   <h1>Java</h1>
                   <p>
-                    A powerful language that helped me strengthen my grasp on
-                    object oriented programming and learn more about application
-                    development for mobile and desktop environments. Familiar
-                    with the use of sockets in Java, object serialization and
-                    using the JavaFX platform.
+                    Proficient in Java fundamentals and JavaFX.
                   </p>
                 </div>
               </div>
@@ -125,10 +110,7 @@ class SkillsPage extends Component {
                 <div className="desc">
                   <h1>Dart</h1>
                   <p>
-                    The language I use for Flutter mobile development. It is client-optimized,
-                    object oriented and has also helped me strengthen my OOP fundamentals alongside
-                    using C++ and Python. Familiar with the Dart class system and how state is handled
-                    in this language.
+                    Proficient in Dart fundamentals and the Material Design API.
                   </p>
                 </div>
               </div>
@@ -148,11 +130,8 @@ class SkillsPage extends Component {
                 <div className="desc">
                   <h1>MongoDB</h1>
                   <p>
-                    Used in back-end development for persistent data storage,
-                    retrieval, modification and removal. Familiar with the
-                    schema system, the Mongo shell and utlizing Node.JS's HTTP
-                    module to perform operations on a connected MongoDB
-                    database.
+                    Proficient in building RESTful API managers with Mongoose.JS, designing schemas and
+                    using the Mongo shell.
                   </p>
                 </div>
               </div>
@@ -161,9 +140,8 @@ class SkillsPage extends Component {
                 <div className="desc">
                   <h1>Firebase</h1>
                   <p>
-                    Google's document-based No-SQL database. Utilized in my
-                    capstone project for real time updates of user information
-                    and account authorization.
+                    Proficient in designing document-oriented databases with Firebase and setting up
+                    authentication with Firebase Authentication.
                   </p>
                 </div>
               </div>
@@ -173,7 +151,7 @@ class SkillsPage extends Component {
                   <h1>MySQL</h1>
                   <p>
                     Familiar with the phpMyAdmin dashboard and creating relational
-                    databases to link to back-end php scripts for handling persistent data.
+                    databases.
                   </p>
                 </div>
               </div>
@@ -193,10 +171,7 @@ class SkillsPage extends Component {
                 <div className="desc">
                   <h1>React</h1>
                   <p>
-                    Familiar with the the virtual DOM, JSX, props, component
-                    state and modular design principles of this front-end
-                    library. This website happens to be built using the React
-                    library.
+                    Proficient in React fundamentals, JSX and the Context API.
                   </p>
                 </div>
               </div>
@@ -205,10 +180,7 @@ class SkillsPage extends Component {
                 <div className="desc">
                   <h1>Angular</h1>
                   <p>
-                    Used this framework for a dynamic web application that
-                    communicated via a web service. Proficient with two-way
-                    binding, interpolation, Angular services and the basic
-                    fundamentals of TypeScript.
+                    Proficient in Angular fundamentals and Angular services.
                   </p>
                 </div>
               </div>
@@ -217,10 +189,7 @@ class SkillsPage extends Component {
                 <div className="desc">
                   <h1>Node.JS</h1>
                   <p>
-                    A JavaScript run-time environment I use for building RESTful
-                    APIs to perform CRUD operations on web applications.
-                    Familiar with modularized design, exports and the HTTP
-                    module.
+                    Proficient in the Express library and HTTP module.
                   </p>
                 </div>
               </div>
@@ -240,9 +209,7 @@ class SkillsPage extends Component {
                 <div className="desc">
                   <h1>Android Studio</h1>
                   <p>
-                    Familiar with the layout system, using Java to implement
-                    application logic and manipulating the user interface via
-                    XML.
+                    Familiar with XML layouts and manipulation via Java classes.
                   </p>
                 </div>
               </div>
@@ -251,9 +218,7 @@ class SkillsPage extends Component {
                 <div className="desc">
                   <h1>Flutter</h1>
                   <p>
-                    Cross platform mobile development framework I used for
-                    my Capstone project. Allows for one codebase to provide for
-                    web, Android and iOS ecosystems. Familiar with the fundamentals of Flutter.
+                    Proficient in Flutter fundamentals and the layout system.
                   </p>
                 </div>
               </div>
@@ -283,7 +248,7 @@ class SkillsPage extends Component {
                 <div className="desc">
                   <h1>Arduino</h1>
                   <p>
-                    Familiar with the Arduino IDE and circuit design utilized to build hardware projects.
+                    Proficient in circuit design and programming in tandem with C++/Python.
                   </p>
                 </div>
               </div>
@@ -292,9 +257,7 @@ class SkillsPage extends Component {
                 <div className="desc">
                   <h1>VEX Robotics</h1>
                   <p>
-                    Designed and built VEX robots for various competitions.
-                    Proficiency in Robot C and programming autonomous
-                    functionality on VEX cores.
+                    Proficient in building and mechanical design of VEX robots.
                   </p>
                 </div>
               </div>
@@ -325,8 +288,7 @@ class SkillsPage extends Component {
                   <h1>Adobe Illustrator</h1>
                   <p>
                     Familiar working with SVG images for web development and
-                    icon design. Still learning more about more advanced
-                    features in Adobe Illustrator.
+                    icon design. 
                   </p>
                 </div>
               </div>

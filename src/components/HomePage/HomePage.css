@@ -53,8 +53,6 @@
     vertical-align: middle;
 }
 
-
-
 .HomePage>.landingSection {
     margin: 0;
     padding: 0;
@@ -66,16 +64,6 @@
     background-position: top left;
     background-repeat: no-repeat;
 }
-
-/*
-.HomePage>.landingSection>.topBar {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: auto;
-    min-height: 70vh;
-}
-*/
 
 .HomePage>.landingSection>.mainTitle {
     margin: 0;
@@ -93,7 +81,7 @@
 .HomePage>.landingSection>.mainTitle>.introContainer>h1 {
     margin: 0 0 10px 0;
     padding: 15% 0 0 50%;
-    font-family: robotoBold, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 3.5vw;
     color: rgb(0, 0, 0);
 }
@@ -101,7 +89,7 @@
 .HomePage>.landingSection>.mainTitle>.introContainer>h3 {
     margin: 0 0 15px 0;
     padding: 0 0 0 50%;
-    font-family: robotoRegular, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.8vw;
     color: rgb(0, 0, 0);
 }
@@ -111,7 +99,7 @@
     padding: 10px 15px 10px 15px;
     border: none;
     border-radius: 1000px;
-    font-family: robotoRegular, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5vw;
     background: rgb(31, 102, 255);
     color: rgb(255, 255, 255);
@@ -126,93 +114,6 @@
     cursor: pointer;
     transition: 0.25s;
     background: rgb(0, 58, 182);
-}
-
-.HomePage>.aboutSection {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: auto;
-    min-height: 100%;
-    display: flex;
-    background-size: contain;
-    background-position: bottom right;
-    background-repeat: no-repeat;
-}
-
-.HomePage>.aboutSection>.aboutMe {
-    margin: auto;
-    padding: 0 0 0 5%;
-    text-align: left;
-    flex: 2;
-    order: 1;
-}
-
-.HomePage>.aboutSection>.aboutMe>h1 {
-    margin: 0 0 2vh 0;
-    padding: 0;
-    font-family: robotoBold, sans-serif;
-    font-size: 3.5vw;
-    color: rgb(0, 0, 0);
-}
-
-.HomePage>.aboutSection>.aboutMe>p {
-    margin: 0 0 2vh 0;
-    padding: 0;
-    font-family: robotoRegular, sans-serif;
-    font-size: 1.5vw;
-    line-height: 1.8;
-    color: rgb(0, 0, 0);
-}
-
-.HomePage>.aboutSection>.aboutMe>button {
-    margin: 0;
-    padding: 10px 15px 10px 15px;
-    border: none;
-    border-radius: 1000px;
-    font-family: robotoRegular, sans-serif;
-    font-size: 1.5vw;
-    background: rgb(31, 102, 255);
-    color: rgb(255, 255, 255);
-}
-
-.HomePage>.aboutSection>.aboutMe>button>a {
-    color: rgb(255, 255, 255);
-}
-
-.HomePage>.aboutSection>.aboutMe>button:hover {
-    transition: 0.25s;
-    background: rgb(0, 58, 182);
-}
-
-.HomePage>.aboutSection>.bracketsVector {
-    margin: auto;
-    flex: 2;
-    order: 2;
-}
-
-.HomePage>.aboutSection>.bracketsVector>svg {
-    width: 30vw;
-    height: 30vw;
-}
-
-.HomePage>.aboutSection>.bracketsVector>svg:hover {
-    transform: scale(1.05);
-}
-
-.HomePage>.aboutSection>.bracketsVector>svg:hover #front {
-    transition: 0.25s;
-    fill: rgb(31, 102, 255);
-}
-
-.HomePage>.aboutSection>.bracketsVector>svg:hover #top {
-    transition: 0.25s;
-    fill: rgb(106, 153, 255);
-}
-
-.HomePage>.aboutSection>.bracketsVector>svg:hover #side {
-    transition: 0.25s;
-    fill: rgb(0, 60, 189);
 }
 
 /* tablet */
@@ -253,41 +154,12 @@
         font-size: 5vw;
     }
     .HomePage>.landingSection>.mainTitle>.introContainer>h3 {
-
         padding: 0;
         font-size: 2.5vw;
     }
     .HomePage>.landingSection>.mainTitle>.introContainer>button {
         margin: 0;
         font-size: 2vw;
-    }
-    .HomePage>.aboutSection {
-        height: 300px;
-        min-height: 300px;
-        flex-direction: column;
-        background: white;
-        background-size: cover;
-        background-position: bottom right;
-        background-repeat: no-repeat;
-    }
-    .HomePage>.aboutSection>.aboutMe {
-        margin: 5% 0 0 0;
-        padding: 0 0 0 5%;
-    }
-    .HomePage>.aboutSection>.aboutMe>h1 {
-        font-size: 4vw;
-    }
-    .HomePage>.aboutSection>.aboutMe>p {
-        font-size: 1.8vw;
-    }
-    .HomePage>.aboutSection>.aboutMe>button {
-        font-size: 1.9vw;
-    }
-    .HomePage>.aboutSection>.aboutMe>button>a {
-        color: rgb(255, 255, 255);
-    }
-    .HomePage>.aboutSection>.bracketsVector {
-        display: none;
     }
 }
 
@@ -319,19 +191,6 @@
     .HomePage>.landingSection>.mainTitle>.introContainer>button {
         font-size: 3.5vw;
     }
-    .HomePage>.aboutSection {
-        height: 150px;
-        min-height: 150px;
-    }
-    .HomePage>.aboutSection>.aboutMe>h1 {
-        font-size: 5.7vw;
-    }
-    .HomePage>.aboutSection>.aboutMe>p {
-        font-size: 2.5vw;
-    }
-    .HomePage>.aboutSection>.aboutMe>button {
-        font-size: 2.9vw;
-    }
 }
 
 /*mobile - small*/
@@ -359,20 +218,7 @@
     .HomePage>.landingSection>.mainTitle>.introContainer>h3 {
         font-size: 5vw;
     }
-    .HomePage>.landingSection>.mainTitle>.introContainer>buwtton {
+    .HomePage>.landingSection>.mainTitle>.introContainer>button {
         font-size: 4vw;
-    }
-    .HomePage>.aboutSection {
-        height: 250px;
-        min-height: 250px;
-    }
-    .HomePage>.aboutSection>.aboutMe>h1 {
-        font-size: 7.7vw;
-    }
-    .HomePage>.aboutSection>.aboutMe>p {
-        font-size: 3vw;
-    }
-    .HomePage>.aboutSection>.aboutMe>button {
-        font-size: 2.9vw;
     }
 }

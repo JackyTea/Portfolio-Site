@@ -24,7 +24,7 @@
     margin: 50px;
     padding: 20px;
     width: 100%;
-    font-family: robotoBold, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 3vw;
 }
 
@@ -67,14 +67,14 @@
 
 .ProjectsPage>.projectContainer>.projectCard>h1 {
     margin: 15px 0 0 0;
-    font-family: robotoRegular, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.7vw;
 }
 
 .ProjectsPage>.projectContainer>.projectCard>p {
     padding: 15px;
     text-align: left;
-    font-family: robotoRegular, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2vw;
     line-height: 200%;
 }
@@ -86,7 +86,7 @@
 }
 
 .ProjectsPage>.projectContainer>.projectCard>.projectTools {
-    font-family: robotoRegular, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3vw;
     line-height: 200%;
 }
@@ -96,7 +96,7 @@
     border: none;
     padding: 10px 15px 10px 15px;
     border-radius: 0;
-    font-family: robotoRegular, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2vw;
     background: rgb(31, 102, 255);
     color: rgb(255, 255, 255);
@@ -115,7 +115,7 @@
 
 .ProjectsPage>.projectContainer>.projectCard>.projectLinks>a {
     text-align: left;
-    font-family: robotoRegular, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3vw;
     color: white;
 }
@@ -191,7 +191,7 @@
     padding: 20px;
     width: 100%;
     text-align: left;
-    font-family: robotoRegular, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3vw;
     color: white;
 }

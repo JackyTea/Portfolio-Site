@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3bd782c5097785649e0793e418c12649",
+    "revision": "9e7f4bc9c8ef010387b0c37b4db42e07",
     "url": "/index.html"
   },
   {
-    "revision": "ad9c32a1c6e5d478fd0f",
-    "url": "/static/css/main.8e8a7fd5.chunk.css"
+    "revision": "0ed555185d8a4b19a425",
+    "url": "/static/css/main.a1df8a20.chunk.css"
   },
   {
     "revision": "46236672ddc662d53c18",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.27db6b02.chunk.js.LICENSE"
   },
   {
-    "revision": "ad9c32a1c6e5d478fd0f",
-    "url": "/static/js/main.deedfba8.chunk.js"
+    "revision": "0ed555185d8a4b19a425",
+    "url": "/static/js/main.821fa4be.chunk.js"
   },
   {
     "revision": "c9913191e565de632244",
@@ -28,24 +28,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Arduino_Socket.915d88e1.svg"
   },
   {
-    "revision": "7f90f9da036c0b1240852b2ecb3dd7ed",
-    "url": "/static/media/Discord_Logger.7f90f9da.svg"
+    "revision": "1d9fd86679a69105c1b224ff6ec5742b",
+    "url": "/static/media/Discord_Logger.1d9fd866.svg"
   },
   {
-    "revision": "5ae49c176133246af7061a0e1647b194",
-    "url": "/static/media/Gridlock_Pathfinder.5ae49c17.svg"
+    "revision": "8cc3b1032cd408ea27ab76fad4ba68de",
+    "url": "/static/media/Gridlock_Pathfinder.8cc3b103.svg"
   },
   {
-    "revision": "5a8dc57f94de27b8b5e3e283bb1d9399",
-    "url": "/static/media/Make_It_Rain.5a8dc57f.svg"
+    "revision": "cf61307c0fb8c9e23043339a74dfce4a",
+    "url": "/static/media/Make_It_Rain.cf61307c.svg"
   },
   {
-    "revision": "b2d82be16c9d41cb11bbb347b79df389",
-    "url": "/static/media/Real_Time_Polling.b2d82be1.svg"
+    "revision": "7ce3f999aba9b867a60c3e4fc8204327",
+    "url": "/static/media/Real_Time_Polling.7ce3f999.svg"
   },
   {
-    "revision": "984db47290526245e1ffb1198fa31a57",
-    "url": "/static/media/Student_Enrolment.984db472.svg"
+    "revision": "c04eb99c5ea22144e6eaa898be83307c",
+    "url": "/static/media/Student_Enrolment.c04eb99c.svg"
   },
   {
     "revision": "14ed07e698c69df6da8744861c0ef7cd",

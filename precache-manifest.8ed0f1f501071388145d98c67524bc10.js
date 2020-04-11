@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dbf11405161e436947bba57a72f0dec0",
+    "revision": "841b3ed471f101fa4e61fc770b7d5d3b",
     "url": "/index.html"
   },
   {
-    "revision": "b9a0b3121e582782879a",
+    "revision": "1f9ded733b9482f7ed7d",
     "url": "/static/css/main.b1718608.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.27db6b02.chunk.js.LICENSE"
   },
   {
-    "revision": "b9a0b3121e582782879a",
-    "url": "/static/js/main.25af83c4.chunk.js"
+    "revision": "1f9ded733b9482f7ed7d",
+    "url": "/static/js/main.0b5203a7.chunk.js"
   },
   {
     "revision": "c9913191e565de632244",
@@ -132,8 +132,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/projSkills.5edc820d.svg"
   },
   {
-    "revision": "146716bdf1a351db5705ec1e6a25ed08",
-    "url": "/static/media/pythonIcon.146716bd.svg"
+    "revision": "01766e9cdd6e12e020a2c9ca505fd961",
+    "url": "/static/media/pythonIcon.01766e9c.svg"
   },
   {
     "revision": "5178d9baf2bdb307096c1f906e2856cd",

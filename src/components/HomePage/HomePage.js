@@ -3,7 +3,6 @@ import SkillsPage from "../SkillsPage/SkillsPage";
 import FooterBar from "../FooterBar/FooterBar";
 import "./HomePage.css";
 import ProjectsPage from "../ProjectsPage/ProjectsPage";
-import AboutPage from "../AboutPage/AboutPage";
 
 //homepage class
 class HomePage extends Component {
@@ -20,34 +19,31 @@ class HomePage extends Component {
   render() {
     return (
       <div className="HomePage" id="theHomePage" ref={this.props.divRef}>
-        <div onMouseEnter={()=> {this.changeTitle("Home")}} className="landingSection" id="theHomePageLanding">
+        <div onMouseEnter={() => { this.changeTitle("Home") }} className="landingSection" id="theHomePageLanding">
           <div className="mainTitle">
             <div className="introContainer">
               <h1>Hi, I'm Jacky.</h1>
-              <h3>I'm a software development student.</h3>
+              <h3>I'm a software developer.</h3>
               <button aria-label="view projects">
                 <a
-                  onClick={() => {
-                    this.changeTitle("Projects");
-                  }}
-                  href="#theProjectsPage"
+                  className="sideLink"
+                  href="https://github.com/JackyTea"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  Check out my projects.
-                </a>
+                 Check out my GitHub.
+          </a>
               </button>
             </div>
           </div>
         </div>
         <div id="projSkills">
-          <div id="theProjectsPage" onMouseEnter={()=> {this.changeTitle("Projects")}}>
+          <div id="theProjectsPage" onMouseEnter={() => { this.changeTitle("Projects") }}>
             <ProjectsPage></ProjectsPage>
           </div>
-          <div id="theSkillsPage" onMouseEnter={()=> {this.changeTitle("Skills")}}>
+          <div id="theSkillsPage" onMouseEnter={() => { this.changeTitle("Skills") }}>
             <SkillsPage></SkillsPage>
           </div>
-        </div>
-        <div id="theAboutPage" onMouseEnter={()=> {this.changeTitle("Resume")}}>
-          <AboutPage></AboutPage>
         </div>
         <FooterBar></FooterBar>
       </div>

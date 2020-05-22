@@ -119,30 +119,6 @@ class NavigationBar extends Component {
               >
                 Skills
               </a>
-              <a
-                onClick={() => {
-                  this.changeTitle("Resume");
-                }}
-                href="#theAboutPage"
-              >
-                Resume
-              </a>
-              <a
-                className="sideLink"
-                href="https://github.com/JackyTea"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub
-              </a>
-              <a
-                className="sideLink"
-                href="https://linkedin.com/in/jackytea"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                LinkedIn
-              </a>
               <button aria-label="open menu" className="sideNavButton">
                 <i
                   className="fa fa-lg fa-bars"
@@ -180,15 +156,6 @@ class NavigationBar extends Component {
             href="#theSkillsPage"
           >
             Skills
-          </a>
-          <a
-            className="sideLink"
-            onClick={() => {
-              this.changeTitle("Resume");
-            }}
-            href="#theAboutPage"
-          >
-            Resume
           </a>
           <a
             className="sideLink"

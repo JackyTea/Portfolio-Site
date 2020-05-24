@@ -5,13 +5,13 @@
     "main.js.map": "/static/js/main.d75d335f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.170f8412.js",
     "runtime-main.js.map": "/static/js/runtime-main.170f8412.js.map",
-    "static/js/2.27db6b02.chunk.js": "/static/js/2.27db6b02.chunk.js",
-    "static/js/2.27db6b02.chunk.js.map": "/static/js/2.27db6b02.chunk.js.map",
+    "static/js/2.28da7a0c.chunk.js": "/static/js/2.28da7a0c.chunk.js",
+    "static/js/2.28da7a0c.chunk.js.map": "/static/js/2.28da7a0c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7e58782014b98abcc8218fd424401288.js": "/precache-manifest.7e58782014b98abcc8218fd424401288.js",
+    "precache-manifest.681277551cd3adde1ab9cf2442c4ada4.js": "/precache-manifest.681277551cd3adde1ab9cf2442c4ada4.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.50cd20cf.chunk.css.map": "/static/css/main.50cd20cf.chunk.css.map",
-    "static/js/2.27db6b02.chunk.js.LICENSE": "/static/js/2.27db6b02.chunk.js.LICENSE",
+    "static/js/2.28da7a0c.chunk.js.LICENSE": "/static/js/2.28da7a0c.chunk.js.LICENSE",
     "static/media/Arduino_Socket.svg": "/static/media/Arduino_Socket.f7d26f3d.svg",
     "static/media/Discord_Logger.svg": "/static/media/Discord_Logger.1d9fd866.svg",
     "static/media/Gridlock_Pathfinder.svg": "/static/media/Gridlock_Pathfinder.4cd71634.svg",
@@ -47,7 +47,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.170f8412.js",
-    "static/js/2.27db6b02.chunk.js",
+    "static/js/2.28da7a0c.chunk.js",
     "static/css/main.50cd20cf.chunk.css",
     "static/js/main.d75d335f.chunk.js"
   ]

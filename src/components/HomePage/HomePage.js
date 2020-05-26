@@ -1,9 +1,11 @@
 import React, { Component } from "react";
+import { ReactComponent as GithubIcon } from "../../images/icons/githubIcon.svg";
+import { ReactComponent as LinkedinIcon } from "../../images/icons/linkedinIcon.svg";
 import SkillsPage from "../SkillsPage/SkillsPage";
 import FooterBar from "../FooterBar/FooterBar";
-import "./HomePage.css";
 import ProjectsPage from "../ProjectsPage/ProjectsPage";
 import ExperiencePage from "../ExperiencePage/ExperiencePage";
+import "./HomePage.css";
 
 //homepage class
 class HomePage extends Component {
@@ -32,7 +34,7 @@ class HomePage extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Check out my Resume.
+                  Check out my resume.
           </a>
               </button>
               <div className="external-links">
@@ -43,17 +45,19 @@ class HomePage extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Github.
+                  <GithubIcon></GithubIcon> &nbsp;
+                  Github
           </a>
               </button>
               <button aria-label="view projects">
                 <a
                   className="sideLink"
-                  href="https://github.com/JackyTea"
+                  href="https://linkedin.com/in/jackytea"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  LinkedIn.
+                  <LinkedinIcon></LinkedinIcon> &nbsp;
+                  LinkedIn
           </a>
               </button>
               </div>

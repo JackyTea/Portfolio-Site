@@ -19,7 +19,6 @@ class ExperiencePage extends Component {
                     <h1>Experience</h1>
                 </div>
                 <div className="ExperienceContainer">
-                    {/*
                     <div className="ExperienceCard">
                         <div className="CompanyLogo">
                             <IBMIcon></IBMIcon>
@@ -34,7 +33,6 @@ class ExperiencePage extends Component {
                                 rel="noopener noreferrer">
                                 <button>Company Site</button></a></div>
                     </div>
-                    */}
                     <div className="ExperienceCard">
                         <div className="CompanyLogo">
                             <SnakebyteIcon></SnakebyteIcon>

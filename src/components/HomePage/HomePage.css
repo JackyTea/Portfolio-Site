@@ -131,6 +131,30 @@
     padding: 10px 15px 10px 15px;
 }
 
+.HomePage>.landingSection>.mainTitle>.introContainer>.external-links>button {
+    margin: 1%;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    color: rgb(255, 255, 255);
+}
+
+.HomePage>.landingSection>.mainTitle>.introContainer>.external-links>button>a>svg {
+    width: 1vw;
+    height: 1vw;
+}
+
+.HomePage>.landingSection>.mainTitle>.introContainer>.external-links>button>a {
+    color: rgb(31, 31, 31);
+}
+
+.HomePage>.landingSection>.mainTitle>.introContainer>.external-links>button:hover {
+    cursor: pointer;
+    transition: 0.2s;
+    background: rgb(209, 209, 209);
+}
 
 /* tablet */
 

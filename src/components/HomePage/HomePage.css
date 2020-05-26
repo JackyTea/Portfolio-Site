@@ -204,6 +204,13 @@
     .HomePage>.landingSection>.mainTitle>.introContainer>.external-links {
         margin: 0;
     }
+    .HomePage>.landingSection>.mainTitle>.introContainer>.external-links>button {
+        font-size: 1.5vw;
+    }
+    .HomePage>.landingSection>.mainTitle>.introContainer>.external-links>button>a>svg {
+        width: 2vw;
+        height: 2vw;
+    }
 }
 
 /* mobile */
@@ -234,6 +241,13 @@
     .HomePage>.landingSection>.mainTitle>.introContainer>button {
         font-size: 3.5vw;
     }
+    .HomePage>.landingSection>.mainTitle>.introContainer>.external-links>button {
+        font-size: 3vw;
+    }
+    .HomePage>.landingSection>.mainTitle>.introContainer>.external-links>button>a>svg {
+        width: 3vw;
+        height: 3vw;
+    }
 }
 
 /*mobile - small*/
@@ -263,5 +277,12 @@
     }
     .HomePage>.landingSection>.mainTitle>.introContainer>button {
         font-size: 4vw;
+    }
+    .HomePage>.landingSection>.mainTitle>.introContainer>.external-links>button {
+        font-size: 3.5vw;
+    }
+    .HomePage>.landingSection>.mainTitle>.introContainer>.external-links>button>a>svg {
+        width: 3.5vw;
+        height: 3.5vw;
     }
 }

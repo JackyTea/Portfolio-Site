@@ -1,0 +1,214 @@
+/* desktop */
+
+.ExperiencePage {
+    z-index: 2;
+    margin: 0;
+    padding: 0 0 3% 0;
+    width: 95%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    vertical-align: middle;
+    background: white;
+    box-shadow: 0 1.5vh 1.5vh rgba(0, 0, 0, 0.12), 0 1vh 1vh rgba(0, 0, 0, 0.24);
+    transition: all 0.25s cubic-bezier(.25, .8, .25, 1);
+    border-top: 0.1vw solid rgba(0, 0, 0, 0.158);
+    border-left: 0.1vw solid rgba(0, 0, 0, 0.158);
+    border-right: 0.1vw solid rgba(0, 0, 0, 0.158);
+}
+
+.ExperiencePage>.ExperiencePageTitle {
+    font-size: 2vw;
+    padding: 1% 0 1% 0;
+}
+
+.ExperiencePage>.ExperienceContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.ExperiencePage>.ExperienceContainer>.ExperienceCard {
+    margin: 1%;
+    padding: 1.5% 0 1.5% 0;
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 1vh 1vh rgba(0, 0, 0, 0.12), 0 0.5vh 0.5vh rgba(0, 0, 0, 0.24);
+    transition: all 0.25s cubic-bezier(.25, .8, .25, 1);
+    border-top: 0.1vw solid rgba(0, 0, 0, 0.158);
+    border-left: 0.1vw solid rgba(0, 0, 0, 0.158);
+    border-right: 0.1vw solid rgba(0, 0, 0, 0.158);
+}
+
+.ExperiencePage>.ExperienceContainer>.ExperienceCard>.CompanyLogo {
+    width: 20%;
+}
+
+.ExperiencePage>.ExperienceContainer>.ExperienceCard>.CompanyLogo>svg {
+    padding: 3%;
+    border-radius: 10px;
+    box-shadow: 0 1vh 1vh rgba(0, 0, 0, 0.12), 0 0.5vh 0.5vh rgba(0, 0, 0, 0.24);
+    transition: all 0.25s cubic-bezier(.25, .8, .25, 1);
+    border-top: 0.1vw solid rgba(0, 0, 0, 0.158);
+    border-left: 0.1vw solid rgba(0, 0, 0, 0.158);
+    border-right: 0.1vw solid rgba(0, 0, 0, 0.158);
+    width: 5vw;
+    height: 5vw;
+    background: black;
+}
+
+.ExperiencePage>.ExperienceContainer>.ExperienceCard>.JobDescription {
+    text-align: left;
+    width: 55%;
+}
+
+.ExperiencePage>.ExperienceContainer>.ExperienceCard>.JobDescription>h1 {
+    font-size: 1.5vw;
+    margin: 0 0 1% 0;
+}
+
+.ExperiencePage>.ExperienceContainer>.ExperienceCard>.JobDescription>h2 {
+    font-size: 1.1vw;
+    margin: 0 0 1% 0;
+}
+
+.ExperiencePage>.ExperienceContainer>.ExperienceCard>.JobDescription>p {
+    font-size: 1vw;
+}
+
+.ExperiencePage>.ExperienceContainer>.ExperienceCard>.DateCard {
+    color: rgb(37, 37, 37);
+    font-size: 1.2vw;
+    width: 25%;
+}
+
+.ExperiencePage>.ExperienceContainer>.ExperienceCard>.DateCard>a {
+    cursor: pointer;
+}
+
+.ExperiencePage>.ExperienceContainer>.ExperienceCard>.DateCard>a>button {
+    margin-top: 5%;
+    padding: 2.5% 5% 2.5% 5%;
+    border-radius: 10px;
+    cursor: pointer;
+    background: rgb(31, 102, 255);
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.288);
+}
+
+.ExperiencePage>.ExperienceContainer>.ExperienceCard>.DateCard>a>button:hover {
+    cursor: pointer;
+    transition: 0.25s;
+    background: rgb(0, 58, 182);
+}
+
+/* tablet */
+
+@media only screen and (max-width: 1200px) {
+    .ExperiencePage>.ExperiencePageTitle {
+        font-size: 3vw;
+        padding: 2% 0 2% 0;
+    }
+    .ExperiencePage>.ExperienceContainer>.ExperienceCard {
+        width: 85%;
+    }
+    
+    .ExperiencePage>.ExperienceContainer>.ExperienceCard>.JobDescription>h1 {
+        font-size: 2vw;
+        margin: 0 0 1% 0;
+    }
+    .ExperiencePage>.ExperienceContainer>.ExperienceCard>.JobDescription>h2 {
+        font-size: 1.5vw;
+        margin: 0 0 1% 0;
+    }
+    .ExperiencePage>.ExperienceContainer>.ExperienceCard>.JobDescription>p {
+        font-size: 1.3vw;
+    }
+    .ExperiencePage>.ExperienceContainer>.ExperienceCard>.CompanyLogo>svg {
+        width: 6vw;
+        height: 6vw;
+    }
+    .ExperiencePage>.ExperienceContainer>.ExperienceCard>.DateCard {
+        color: rgb(37, 37, 37);
+        font-size: 1.5vw;
+        width: 25%;
+    }
+}
+
+/*mobile*/
+
+@media only screen and (max-width: 650px) {
+    .ExperiencePage>.ExperienceContainer>.ExperienceCard {
+        flex-direction: column;
+    }
+    .ExperiencePage>.ExperienceContainer>.ExperienceCard>.JobDescription {
+        text-align: center;
+        width: 100%;
+    }
+    .ExperiencePage>.ExperiencePageTitle {
+        font-size: 5vw;
+        padding: 3% 0 3% 0;
+    }
+    .ExperiencePage>.ExperienceContainer>.ExperienceCard>.JobDescription>h1 {
+        font-size: 4vw;
+        margin: 0 0 1% 0;
+    }
+    .ExperiencePage>.ExperienceContainer>.ExperienceCard>.JobDescription>h2 {
+        font-size: 3vw;
+        margin: 0 0 1% 0;
+    }
+    .ExperiencePage>.ExperienceContainer>.ExperienceCard>.JobDescription>p {
+        font-size: 3vw;
+    }
+    .ExperiencePage>.ExperienceContainer>.ExperienceCard>.CompanyLogo>svg {
+        margin-top: 10%;
+        width: 10vw;
+        height: 10vw;
+    }
+    .ExperiencePage>.ExperienceContainer>.ExperienceCard>.DateCard {
+        width: 100%;
+        color: rgb(37, 37, 37);
+        font-size: 3vw;
+    }
+    .ExperiencePage>.ExperienceContainer>.ExperienceCard>.DateCard>a>button {
+        margin-top: 1%;
+    }
+}
+
+/*mobile - small*/
+
+@media only screen and (max-width: 450px) {
+    .ExperiencePage>.ExperiencePageTitle {
+        font-size: 6vw;
+        padding: 4% 0 4% 0;
+    }
+    .ExperiencePage>.ExperienceContainer>.ExperienceCard>.JobDescription>h1 {
+        font-size: 5vw;
+        margin: 0 0 1% 0;
+    }
+    .ExperiencePage>.ExperienceContainer>.ExperienceCard>.JobDescription>h2 {
+        font-size: 4vw;
+        margin: 0 0 1% 0;
+    }
+    .ExperiencePage>.ExperienceContainer>.ExperienceCard>.JobDescription>p {
+        font-size: 4vw;
+    }
+    .ExperiencePage>.ExperienceContainer>.ExperienceCard>.CompanyLogo>svg {
+        width: 11vw;
+        height: 11vw;
+    }
+    .ExperiencePage>.ExperienceContainer>.ExperienceCard>.DateCard {
+        width: 100%;
+        color: rgb(37, 37, 37);
+        font-size: 4vw;
+    }
+}

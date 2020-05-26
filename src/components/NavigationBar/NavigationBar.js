@@ -105,19 +105,27 @@ class NavigationBar extends Component {
               </a>
               <a
                 onClick={() => {
-                  this.changeTitle("Projects");
-                }}
-                href="#theProjectsPage"
-              >
-                Projects
-              </a>
-              <a
-                onClick={() => {
                   this.changeTitle("Skills");
                 }}
                 href="#theSkillsPage"
               >
                 Skills
+              </a>
+              <a
+                onClick={() => {
+                  this.changeTitle("Experience");
+                }}
+                href="#theExperiencePage"
+              >
+                Experience
+              </a>
+              <a
+                onClick={() => {
+                  this.changeTitle("Projects");
+                }}
+                href="#theProjectsPage"
+              >
+                Projects
               </a>
               <button aria-label="open menu" className="sideNavButton">
                 <i
@@ -142,20 +150,29 @@ class NavigationBar extends Component {
           <a
             className="sideLink"
             onClick={() => {
-              this.changeTitle("Projects");
-            }}
-            href="#theProjectsPage"
-          >
-            Projects
-          </a>
-          <a
-            className="sideLink"
-            onClick={() => {
               this.changeTitle("Skills");
             }}
             href="#theSkillsPage"
           >
             Skills
+          </a>
+          <a
+            className="sideLink"
+            onClick={() => {
+              this.changeTitle("Experience");
+            }}
+            href="#theExperiencePage"
+          >
+            Experience
+          </a>
+          <a
+            className="sideLink"
+            onClick={() => {
+              this.changeTitle("Projects");
+            }}
+            href="#theProjectsPage"
+          >
+            Projects
           </a>
           <a
             className="sideLink"

@@ -44,7 +44,7 @@ class ExperiencePage extends Component {
                             <h2>Snakebyte Studios Inc. - Toronto, Ontario</h2>
                             {/*<p>Description here.</p>*/}
                         </div>
-                        <div className="DateCard">May 2020 - September 2020<br />
+                        <div className="DateCard">May 2020 - Present<br />
                             <a href="https://www.snakebyte.ca/" target="_blank"
                                 rel="noopener noreferrer">
                                 <button>Company Site</button></a></div>

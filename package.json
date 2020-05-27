@@ -83,7 +83,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.1.1",
+    "gh-pages": "^2.2.0",
     "webpack": "^4.41.2"
   },
   "jest": {

@@ -122,7 +122,7 @@
 
 .HomePage>.landingSection>.mainTitle>.introContainer>button:hover {
     cursor: pointer;
-    transition: 0.25s;
+    transition: 0.2s;
     background: rgb(0, 58, 182);
 }
 

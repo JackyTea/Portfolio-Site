@@ -50,7 +50,7 @@
 }
 
 .FooterBar>.links>.linksList>.listItem>a>svg:hover{
-    transition: 0.25s;
+    transition: 0.2s;
     fill: black;
 }
 

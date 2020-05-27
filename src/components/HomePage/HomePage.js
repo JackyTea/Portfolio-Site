@@ -34,32 +34,21 @@ class HomePage extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Check out my resume.
+                  Check out my GitHub.
           </a>
               </button>
               <div className="external-links">
-              <button aria-label="view projects">
-                <a
-                  className="sideLink"
-                  href="https://github.com/JackyTea"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <GithubIcon></GithubIcon> &nbsp;
-                  Github
-          </a>
-              </button>
-              <button aria-label="view projects">
-                <a
-                  className="sideLink"
-                  href="https://linkedin.com/in/jackytea"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <LinkedinIcon></LinkedinIcon> &nbsp;
+                <button aria-label="view projects">
+                  <a
+                    className="sideLink"
+                    href="https://linkedin.com/in/jackytea"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <LinkedinIcon></LinkedinIcon> &nbsp;
                   LinkedIn
           </a>
-              </button>
+                </button>
               </div>
             </div>
           </div>
@@ -69,7 +58,7 @@ class HomePage extends Component {
             <SkillsPage></SkillsPage>
           </div>
           <div id="theExperiencePage" onMouseEnter={() => { this.changeTitle("Experience") }}>
-          <ExperiencePage></ExperiencePage>
+            <ExperiencePage></ExperiencePage>
           </div>
           <div id="theProjectsPage" onMouseEnter={() => { this.changeTitle("Projects") }}>
             <ProjectsPage></ProjectsPage>

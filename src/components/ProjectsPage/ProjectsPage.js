@@ -53,7 +53,8 @@ class ProjectsPage extends Component {
               <a href="https://github.com/JackyTea/Real-Time-Polling-Application" target="_blank"
                 rel="noopener noreferrer" className="gitLink">
                 <button aria-label="view source">Source Code &nbsp;<GithubIcon></GithubIcon></button></a>
-              <p className="warning"><b>Notice: </b>Heroku site might take time to connect. Find out why <a href="https://blog.heroku.com/app_sleeping_on_heroku">here.</a></p>
+              <p className="warning"><b>Notice: </b>Heroku site might take time to connect. Find out why <a href="https://blog.heroku.com/app_sleeping_on_heroku" target="_blank"
+                rel="noopener noreferrer">here.</a></p>
             </div>
           </div>
           <div className="ProjectCard">
@@ -76,7 +77,8 @@ class ProjectsPage extends Component {
               <a href="https://github.com/JackyTea/Gridlock-Pathfinder" target="_blank"
                 rel="noopener noreferrer" className="gitLink">
                 <button aria-label="view source">Source Code &nbsp;<GithubIcon></GithubIcon></button></a>
-              <p className="warning"><b>Notice: </b>Heroku site might take time to connect. Find out why <a href="https://blog.heroku.com/app_sleeping_on_heroku">here.</a></p>
+              <p className="warning"><b>Notice: </b>Heroku site might take time to connect. Find out why <a href="https://blog.heroku.com/app_sleeping_on_heroku" target="_blank"
+                rel="noopener noreferrer">here.</a></p>
             </div>
           </div>
           <div className="ProjectCard">
@@ -99,7 +101,8 @@ class ProjectsPage extends Component {
               <a href="https://github.com/JackyTea/Student-Enrolment-App" target="_blank"
                 rel="noopener noreferrer" className="gitLink">
                 <button aria-label="view source">Source Code &nbsp;<GithubIcon></GithubIcon></button></a>
-              <p className="warning"><b>Notice: </b>Heroku site might take time to connect. Find out why <a href="https://blog.heroku.com/app_sleeping_on_heroku">here.</a></p>
+              <p className="warning"><b>Notice: </b>Heroku site might take time to connect. Find out why <a href="https://blog.heroku.com/app_sleeping_on_heroku" target="_blank"
+                rel="noopener noreferrer">here.</a></p>
             </div>
           </div>
           <div className="ProjectCard">
@@ -122,7 +125,8 @@ class ProjectsPage extends Component {
               <a href="https://github.com/JackyTea/Make-It-Rain" target="_blank"
                 rel="noopener noreferrer" className="gitLink">
                 <button aria-label="view source">Source Code &nbsp;<GithubIcon></GithubIcon></button></a>
-              <p className="warning"><b>Notice: </b>Heroku site might take time to connect. Find out why <a href="https://blog.heroku.com/app_sleeping_on_heroku">here.</a></p>
+              <p className="warning"><b>Notice: </b>Heroku site might take time to connect. Find out why <a href="https://blog.heroku.com/app_sleeping_on_heroku" target="_blank"
+                rel="noopener noreferrer">here.</a></p>
             </div>
           </div>
           <div className="ProjectCard">

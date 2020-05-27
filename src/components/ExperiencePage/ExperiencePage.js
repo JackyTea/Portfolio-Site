@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { ReactComponent as IBMIcon } from "../../images/icons/ibmIcon.svg";
 import { ReactComponent as SnakebyteIcon } from "../../images/icons/snakebyteIcon.svg";
 import { ReactComponent as FreeGeekIcon } from "../../images/icons/freegeekIcon.svg";
 import "./ExperiencePage.css";

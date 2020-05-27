@@ -140,7 +140,7 @@ class ProjectsPage extends Component {
                 <li><MongoIcon></MongoIcon> &nbsp;MongoDB</li>
                 <li><DiscordIcon></DiscordIcon> &nbsp;Discord.JS</li>
               </ul>
-              <p>A Discord bot that logs how many times a user has message a certain channel to a MongoDB cluster.</p>
+              <p>A Discord bot that logs how many times a user has messaged a certain channel to a MongoDB cluster.</p>
             </div>
             <div className="LinkCard">
               <a href="https://github.com/JackyTea/Logger-Bot" target="_blank"
@@ -159,7 +159,7 @@ class ProjectsPage extends Component {
                 <li><ArduinoIcon></ArduinoIcon> &nbsp;Arduino</li>
                 <li><WinsockIcon></WinsockIcon> &nbsp;Windows Socket API</li>
               </ul>
-              <p>A TCP/IP server that sends commands to an Arduino board that parses the command using the serial port.</p>
+              <p>A TCP/IP server that sends commands to an Arduino board that parses the command using a serial port connection.</p>
             </div>
             <div className="LinkCard">
               <a href="https://github.com/JackyTea/Arduino-Socket-Controller" target="_blank"

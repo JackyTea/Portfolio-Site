@@ -180,7 +180,8 @@
         font-size: 3vw;
     }
     .ExperiencePage>.ExperienceContainer>.ExperienceCard>.DateCard>a>button {
-        margin-top: 1%;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 }
 

@@ -1,6 +1,16 @@
 import React, { Component } from "react";
 import { ReactComponent as GithubIcon } from "../../images/projectsPage/githubIcon.svg";
 import { ReactComponent as VisitIcon } from "../../images/projectsPage/visitIcon.svg";
+import { ReactComponent as AngularIcon } from "../../images/icons/angularIcon.svg";
+import { ReactComponent as MongoIcon } from "../../images/icons/mongoIcon.svg";
+import { ReactComponent as NodeJSIcon } from "../../images/icons/nodeJSIcon.svg";
+import { ReactComponent as PusherIcon } from "../../images/icons/pusherIcon.svg";
+import { ReactComponent as ArduinoIcon } from "../../images/icons/arduinoIcon.svg";
+import { ReactComponent as CPPIcon } from "../../images/icons/cppIcon.svg";
+import { ReactComponent as HTMLIcon } from "../../images/icons/htmlIcon.svg";
+import { ReactComponent as CSSIcon } from "../../images/icons/cssIcon.svg";
+import { ReactComponent as DiscordIcon } from "../../images/icons/discordIcon.svg";
+import { ReactComponent as WinsockIcon } from "../../images/icons/winsockIcon.svg";
 import RealTimePolling from "../../screenshots/RealTimePolling_Square.svg";
 import GridLock from "../../screenshots/GridLock_Square.svg";
 import StudentEnroll from "../../screenshots/StudentEnroll_Square.svg";
@@ -30,9 +40,9 @@ class ProjectsPage extends Component {
             <div className="ProjectDescription">
               <h1>Real Time Polling Application</h1>
               <ul>
-                <li>Node.JS</li>
-                <li>MongoDB</li>
-                <li>Pusher API</li>
+                <li><NodeJSIcon></NodeJSIcon> &nbsp;Node.JS</li>
+                <li><MongoIcon></MongoIcon> &nbsp;MongoDB</li>
+                <li><PusherIcon></PusherIcon> &nbsp;Pusher API</li>
               </ul>
               <p>An asynchronous web application that updates changes to polling results without having to refresh the page.</p>
             </div>
@@ -53,9 +63,9 @@ class ProjectsPage extends Component {
             <div className="ProjectDescription">
               <h1>Pathfinding Algorithm Visualizer</h1>
               <ul>
-                <li>Node.JS</li>
-                <li>HTML5</li>
-                <li>CSS3</li>
+                <li><NodeJSIcon></NodeJSIcon> &nbsp;Node.JS</li>
+                <li><HTMLIcon></HTMLIcon> &nbsp;HTML5</li>
+                <li><CSSIcon></CSSIcon> &nbsp;CSS3</li>
               </ul>
               <p>A breadth-first search visualizer that finds the shortest path between two user-determined points on a grid.</p>
             </div>
@@ -76,9 +86,9 @@ class ProjectsPage extends Component {
             <div className="ProjectDescription">
               <h1>Student Enrolment Application</h1>
               <ul>
-                <li>Angular</li>
-                <li>Node.JS</li>
-                <li>MongoDB</li>
+                <li><AngularIcon></AngularIcon> &nbsp;Angular</li>
+                <li><NodeJSIcon></NodeJSIcon> &nbsp;Node.JS</li>
+                <li><MongoIcon></MongoIcon> &nbsp;MongoDB</li>
               </ul>
               <p>A full-stack web application that allows students to manage their accounts and build their timetables for school.</p>
             </div>
@@ -99,9 +109,9 @@ class ProjectsPage extends Component {
             <div className="ProjectDescription">
               <h1>DOM Manipulation Browser Game</h1>
               <ul>
-                <li>Node.JS</li>
-                <li>HTML5</li>
-                <li>CSS3</li>
+                <li><NodeJSIcon></NodeJSIcon> &nbsp;Node.JS</li>
+                <li><HTMLIcon></HTMLIcon> &nbsp;HTML5</li>
+                <li><CSSIcon></CSSIcon> &nbsp;CSS3</li>
               </ul>
               <p>A JavaScript browser game that takes advantage of mouse events to drop falling objects from where the user clicks.</p>
             </div>
@@ -122,9 +132,9 @@ class ProjectsPage extends Component {
             <div className="ProjectDescription">
               <h1>Discord Channel Logger Bot</h1>
               <ul>
-                <li>Node.JS</li>
-                <li>MongoDB</li>
-                <li>Discord.JS</li>
+                <li><NodeJSIcon></NodeJSIcon> &nbsp;Node.JS</li>
+                <li><MongoIcon></MongoIcon> &nbsp;MongoDB</li>
+                <li><DiscordIcon></DiscordIcon> &nbsp;Discord.JS</li>
               </ul>
               <p>A Discord bot that logs how many times a user has message a certain channel to a MongoDB cluster.</p>
             </div>
@@ -141,9 +151,9 @@ class ProjectsPage extends Component {
             <div className="ProjectDescription">
               <h1>Arduino Socket Remote Controller</h1>
               <ul>
-                <li>C++</li>
-                <li>Arduino</li>
-                <li>Winsock API</li>
+                <li><CPPIcon></CPPIcon> &nbsp;C++</li>
+                <li><ArduinoIcon></ArduinoIcon> &nbsp;Arduino</li>
+                <li><WinsockIcon></WinsockIcon> &nbsp;Windows Socket API</li>
               </ul>
               <p>A TCP/IP server that sends commands to an Arduino board that parses the command using the serial port.</p>
             </div>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <clipPath id="clip-Placeholder_Image">
+      <rect width="1000" height="1000"/>
+    </clipPath>
+  </defs>
+  <g id="Placeholder_Image" data-name="Placeholder Image" clip-path="url(#clip-Placeholder_Image)">
+    <rect width="1000" height="1000" fill="#fff"/>
+    <g id="chart" transform="translate(395.934 233.527)">
+      <path id="Path_1" data-name="Path 1" d="M299.1,158.948l227.11,116.8L345.923,457.683C266.381,377.246,247.975,260.227,299.1,158.948Z" transform="translate(-270.475 8.656)" fill="#f7df1e"/>
+      <path id="Path_2" data-name="Path 2" d="M452.16,4.548l39.825,254.011-227.11-116.8C303.3,65.88,368.743,17.9,452.16,4.548Z" transform="translate(-230.221 -4.548)" fill="#00d8ff"/>
+      <path id="Path_3" data-name="Path 3" d="M180.181,286.834,140.356,32.822C223.774,19.47,300.733,44.763,360.47,105.009c99.563,100.411,99.563,263.347,0,363.757a253.333,253.333,0,0,1-360.47,0Z" transform="translate(111.721 -2.428)" fill="#e23237"/>
+    </g>
+    <text id="_15_" data-name="15%" transform="translate(447 256)" fill="#00d8ff" font-size="30" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">15%</tspan></text>
+    <text id="_20_" data-name="20%" transform="translate(314 564)" fill="#f7df1e" font-size="30" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">20%</tspan></text>
+    <text id="_65_" data-name="65%" transform="translate(898 736)" fill="#e23237" font-size="30" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">65%</tspan></text>
+    <g id="Group_1" data-name="Group 1">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="178" height="178" transform="translate(74 122)" fill="#e23237"/>
+      <rect id="Rectangle_1-2" data-name="Rectangle 1" width="178" height="178" transform="translate(74 411)" fill="#00d8ff"/>
+      <path id="Path_4" data-name="Path 4" d="M0,0H178V178H0Z" transform="translate(74 704)" fill="#f7df1e"/>
+    </g>
+    <text id="A" transform="translate(105 267)" fill="#fff" font-size="160" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">A</tspan></text>
+    <text id="B" transform="translate(105 556)" fill="#fff" font-size="160" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">B</tspan></text>
+    <text id="C" transform="translate(105 849)" fill="#fff" font-size="160" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">C</tspan></text>
+  </g>
+</svg>

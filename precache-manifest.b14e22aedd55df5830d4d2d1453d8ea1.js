@@ -1,51 +1,51 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eb105680b9b03e7af58b98377193fb59",
+    "revision": "8bb95c4da0ac144e50eb87595f413f1d",
     "url": "/index.html"
   },
   {
-    "revision": "c4b8e146890610e1a6e1",
-    "url": "/static/css/main.50cd20cf.chunk.css"
+    "revision": "782bd48879a016812eca",
+    "url": "/static/css/main.9d91ffb0.chunk.css"
   },
   {
-    "revision": "0478e310a24e99251658",
-    "url": "/static/js/2.28da7a0c.chunk.js"
+    "revision": "46236672ddc662d53c18",
+    "url": "/static/js/2.27db6b02.chunk.js"
   },
   {
-    "revision": "85b12af60ddf57ea6860c3b16407fd52",
-    "url": "/static/js/2.28da7a0c.chunk.js.LICENSE"
+    "revision": "d705cb622423d72c5defbf368ca70dcc",
+    "url": "/static/js/2.27db6b02.chunk.js.LICENSE"
   },
   {
-    "revision": "c4b8e146890610e1a6e1",
-    "url": "/static/js/main.d75d335f.chunk.js"
+    "revision": "782bd48879a016812eca",
+    "url": "/static/js/main.bc945246.chunk.js"
   },
   {
     "revision": "c9913191e565de632244",
     "url": "/static/js/runtime-main.170f8412.js"
   },
   {
-    "revision": "f7d26f3df4969cd405d820c95c4d9c82",
-    "url": "/static/media/Arduino_Socket.f7d26f3d.svg"
+    "revision": "b1557207bc3b6b847be3922a2ba61c59",
+    "url": "/static/media/Arduino_Square.b1557207.svg"
   },
   {
-    "revision": "1d9fd86679a69105c1b224ff6ec5742b",
-    "url": "/static/media/Discord_Logger.1d9fd866.svg"
+    "revision": "1547a82d14d5b9e85671d59b5e5d7ab7",
+    "url": "/static/media/DiscordBot_Square.1547a82d.svg"
   },
   {
-    "revision": "4cd71634dd40920f7a8f7ece7cc36f4e",
-    "url": "/static/media/Gridlock_Pathfinder.4cd71634.svg"
+    "revision": "b86f256f726e9defd97ee014ab842292",
+    "url": "/static/media/GridLock_Square.b86f256f.svg"
   },
   {
-    "revision": "efd4a1be337aaa336ef6f4fa0e3b94ee",
-    "url": "/static/media/Make_It_Rain.efd4a1be.svg"
+    "revision": "1ccff7682a2d1f2888f2974922a83923",
+    "url": "/static/media/MakeItRain_Square.1ccff768.svg"
   },
   {
-    "revision": "cb9c1a293fcf511c27357fc0b4ee5c9b",
-    "url": "/static/media/Real_Time_Polling.cb9c1a29.svg"
+    "revision": "ff1a5568e0013b47c87e9ab62b9816cc",
+    "url": "/static/media/RealTimePolling_Square.ff1a5568.svg"
   },
   {
-    "revision": "be305843c1b4e55533425906d856aba5",
-    "url": "/static/media/Student_Enrolment.be305843.svg"
+    "revision": "00c85935bbe78992db23660d134d2e44",
+    "url": "/static/media/StudentEnroll_Square.00c85935.svg"
   },
   {
     "revision": "e2f582dd92f79285f5058c4a784447f3",
@@ -64,8 +64,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/cppIcon.858862dc.svg"
   },
   {
+    "revision": "afa245f5f9bea9b5b8cd2237f3d71978",
+    "url": "/static/media/csIcon.afa245f5.svg"
+  },
+  {
+    "revision": "6971ddc761cc35ba918be0a69dfbcf50",
+    "url": "/static/media/cssIcon.6971ddc7.svg"
+  },
+  {
     "revision": "f02160604d42f622610f1424a838c40f",
     "url": "/static/media/dartIcon.f0216060.svg"
+  },
+  {
+    "revision": "3088d1c9dfdd13148a73e332cac20d91",
+    "url": "/static/media/discordIcon.3088d1c9.svg"
   },
   {
     "revision": "ccafd0f2b9040141c08974266d86d691",
@@ -88,8 +100,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/footerBackgroundPhone.6edc368c.svg"
   },
   {
+    "revision": "098aca5d56724a92bc0073cf701626a6",
+    "url": "/static/media/freegeekIcon.098aca5d.svg"
+  },
+  {
     "revision": "a36a1b31b1c6dad9949ff11c9a08a8bb",
     "url": "/static/media/githubIcon.a36a1b31.svg"
+  },
+  {
+    "revision": "676e8188f003ed5d4882a0d0f378dad3",
+    "url": "/static/media/htmlIcon.676e8188.svg"
   },
   {
     "revision": "97fdc642051621b437b561fbfee9060a",
@@ -124,20 +144,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/nodeJSIcon.d61c523d.svg"
   },
   {
-    "revision": "727f87f580db44cf85c9b4adcbc9da45",
-    "url": "/static/media/photoshopIcon.727f87f5.svg"
+    "revision": "663c9e0dd5f48c79e1fcb4baffa7c9ac",
+    "url": "/static/media/photoshopIcon.663c9e0d.svg"
   },
   {
     "revision": "5edc820d3a4ca5563f931c45ae846c53",
     "url": "/static/media/projSkills.5edc820d.svg"
   },
   {
+    "revision": "fe09938f0d9bf87ca24d04767f0bf9e0",
+    "url": "/static/media/pusherIcon.fe09938f.svg"
+  },
+  {
     "revision": "01766e9cdd6e12e020a2c9ca505fd961",
     "url": "/static/media/pythonIcon.01766e9c.svg"
   },
   {
+    "revision": "3da67b7657fedcdded70bdf08bc9d08a",
+    "url": "/static/media/raspberryPiIcon.3da67b76.svg"
+  },
+  {
     "revision": "5178d9baf2bdb307096c1f906e2856cd",
     "url": "/static/media/reactIcon.5178d9ba.svg"
+  },
+  {
+    "revision": "42ef0404d13da4c2c716346d4f40e733",
+    "url": "/static/media/snakebyteIcon.42ef0404.svg"
   },
   {
     "revision": "3133b1f632ec83f211f446c6a05f831f",
@@ -160,8 +192,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/visitIcon.ff048ca7.svg"
   },
   {
-    "revision": "0890af6bd7ca679bce551497d5278875",
-    "url": "/static/media/xIcon.0890af6b.svg"
+    "revision": "0b0e2afb14f1d664baf95bbc441556fd",
+    "url": "/static/media/winsockIcon.0b0e2afb.svg"
   },
   {
     "revision": "34cd2f486052497844b033fd5da5a8eb",

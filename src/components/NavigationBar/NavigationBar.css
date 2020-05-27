@@ -6,7 +6,7 @@
     height: auto;
     min-height: 10%;
     position: fixed;
-    transition: 0.25s;
+    transition: 0.2s;
     display: flex;
     align-items: center;
     vertical-align: middle;
@@ -63,7 +63,7 @@
 
 .NavigationBar>.navigationBar>.navigationLinks>nav>a:hover {
     text-decoration: underline;
-    transition: 0.25s;
+    transition: 0.2s;
     color: rgb(31, 102, 255);
 }
 
@@ -79,7 +79,7 @@
     text-align: left;
     background-color: white;
     box-shadow: 2vh 2vh 3vh rgba(0, 0, 0, 0.349);
-    transition: 0.25s;
+    transition: 0.2s;
 }
 
 .NavigationBar>.sideBar>.sideLink {
@@ -102,7 +102,7 @@
 }
 
 .NavigationBar>.sideBar>.sideLink:hover {
-    transition: 0.25s;
+    transition: 0.2s;
     background: rgb(189, 189, 189);
 }
 

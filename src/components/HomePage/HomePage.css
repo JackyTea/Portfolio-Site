@@ -45,7 +45,17 @@
 
 .HomePage>#projSkills>#theSkillsPage {
     z-index: 2;
-    margin: 0 0 10% 0;
+    margin: 0 0 3% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    vertical-align: middle;
+}
+
+.HomePage>#projSkills>#theExperiencePage {
+    z-index: 2;
+    margin: 0 0 3% 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -98,7 +108,7 @@
     margin: 0 0 0 50%;
     padding: 10px 15px 10px 15px;
     border: none;
-    border-radius: 1000px;
+    border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5vw;
     background: rgb(31, 102, 255);
@@ -112,8 +122,38 @@
 
 .HomePage>.landingSection>.mainTitle>.introContainer>button:hover {
     cursor: pointer;
-    transition: 0.25s;
+    transition: 0.2s;
     background: rgb(0, 58, 182);
+}
+
+.HomePage>.landingSection>.mainTitle>.introContainer>.external-links {
+    margin: 0 0 0 50%;
+    padding: 10px 15px 10px 15px;
+}
+
+.HomePage>.landingSection>.mainTitle>.introContainer>.external-links>button {
+    margin: 1%;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    color: rgb(255, 255, 255);
+}
+
+.HomePage>.landingSection>.mainTitle>.introContainer>.external-links>button>a>svg {
+    width: 1vw;
+    height: 1vw;
+}
+
+.HomePage>.landingSection>.mainTitle>.introContainer>.external-links>button>a {
+    color: rgb(31, 31, 31);
+}
+
+.HomePage>.landingSection>.mainTitle>.introContainer>.external-links>button:hover {
+    cursor: pointer;
+    transition: 0.2s;
+    background: rgb(209, 209, 209);
 }
 
 /* tablet */
@@ -161,6 +201,16 @@
         margin: 0;
         font-size: 2vw;
     }
+    .HomePage>.landingSection>.mainTitle>.introContainer>.external-links {
+        margin: 0;
+    }
+    .HomePage>.landingSection>.mainTitle>.introContainer>.external-links>button {
+        font-size: 1.5vw;
+    }
+    .HomePage>.landingSection>.mainTitle>.introContainer>.external-links>button>a>svg {
+        width: 2vw;
+        height: 2vw;
+    }
 }
 
 /* mobile */
@@ -191,6 +241,13 @@
     .HomePage>.landingSection>.mainTitle>.introContainer>button {
         font-size: 3.5vw;
     }
+    .HomePage>.landingSection>.mainTitle>.introContainer>.external-links>button {
+        font-size: 3vw;
+    }
+    .HomePage>.landingSection>.mainTitle>.introContainer>.external-links>button>a>svg {
+        width: 3vw;
+        height: 3vw;
+    }
 }
 
 /*mobile - small*/
@@ -220,5 +277,12 @@
     }
     .HomePage>.landingSection>.mainTitle>.introContainer>button {
         font-size: 4vw;
+    }
+    .HomePage>.landingSection>.mainTitle>.introContainer>.external-links>button {
+        font-size: 3.5vw;
+    }
+    .HomePage>.landingSection>.mainTitle>.introContainer>.external-links>button>a>svg {
+        width: 3.5vw;
+        height: 3.5vw;
     }
 }

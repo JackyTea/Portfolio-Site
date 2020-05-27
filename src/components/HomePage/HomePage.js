@@ -1,8 +1,11 @@
 import React, { Component } from "react";
+import { ReactComponent as GithubIcon } from "../../images/icons/githubIcon.svg";
+import { ReactComponent as LinkedinIcon } from "../../images/icons/linkedinIcon.svg";
 import SkillsPage from "../SkillsPage/SkillsPage";
 import FooterBar from "../FooterBar/FooterBar";
-import "./HomePage.css";
 import ProjectsPage from "../ProjectsPage/ProjectsPage";
+import ExperiencePage from "../ExperiencePage/ExperiencePage";
+import "./HomePage.css";
 
 //homepage class
 class HomePage extends Component {
@@ -24,25 +27,41 @@ class HomePage extends Component {
             <div className="introContainer">
               <h1>Hi, I'm Jacky.</h1>
               <h3>I'm a software developer.</h3>
-              <button aria-label="view projects">
+              <button aria-label="view resume">
                 <a
                   className="sideLink"
                   href="https://github.com/JackyTea"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                 Check out my GitHub.
+                  Check out my GitHub.
           </a>
               </button>
+              <div className="external-links">
+                <button aria-label="view projects">
+                  <a
+                    className="sideLink"
+                    href="https://linkedin.com/in/jackytea"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <LinkedinIcon></LinkedinIcon> &nbsp;
+                  LinkedIn
+          </a>
+                </button>
+              </div>
             </div>
           </div>
         </div>
         <div id="projSkills">
-          <div id="theProjectsPage" onMouseEnter={() => { this.changeTitle("Projects") }}>
-            <ProjectsPage></ProjectsPage>
-          </div>
           <div id="theSkillsPage" onMouseEnter={() => { this.changeTitle("Skills") }}>
             <SkillsPage></SkillsPage>
+          </div>
+          <div id="theExperiencePage" onMouseEnter={() => { this.changeTitle("Experience") }}>
+            <ExperiencePage></ExperiencePage>
+          </div>
+          <div id="theProjectsPage" onMouseEnter={() => { this.changeTitle("Projects") }}>
+            <ProjectsPage></ProjectsPage>
           </div>
         </div>
         <FooterBar></FooterBar>

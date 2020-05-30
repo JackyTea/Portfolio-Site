@@ -9,14 +9,14 @@ import { ReactComponent as ArduinoIcon } from "../../images/icons/arduinoIcon.sv
 import { ReactComponent as CPPIcon } from "../../images/icons/cppIcon.svg";
 import { ReactComponent as HTMLIcon } from "../../images/icons/htmlIcon.svg";
 import { ReactComponent as CSSIcon } from "../../images/icons/cssIcon.svg";
-import { ReactComponent as DiscordIcon } from "../../images/icons/discordIcon.svg";
 import { ReactComponent as WinsockIcon } from "../../images/icons/winsockIcon.svg";
+import { ReactComponent as OpenCVIcon } from "../../images/icons/opencvIcon.svg";
 import RealTimePolling from "../../screenshots/RealTimePolling_Square.svg";
 import GridLock from "../../screenshots/GridLock_Square.svg";
 import StudentEnroll from "../../screenshots/StudentEnroll_Square.svg";
 import MakeItRain from "../../screenshots/MakeItRain_Square.svg";
-import DiscordLogger from "../../screenshots/DiscordBot_Square.svg";
 import ArduinoController from "../../screenshots/Arduino_Square.svg";
+import ComputerVision from "../../screenshots/ComputerVision_Square.svg";
 import "./ProjectsPage.css";
 
 class ProjectsPage extends Component {
@@ -131,19 +131,21 @@ class ProjectsPage extends Component {
           </div>
           <div className="ProjectCard">
             <div className="ProjectLogo">
-              <img src={DiscordLogger} alt="Discord Logger Bot Demo"></img>
+              <img src={ComputerVision} alt="Discord Logger Bot Demo"></img>
             </div>
             <div className="ProjectDescription">
-              <h1>Discord Channel Logger Bot</h1>
+              <h1>Computer Vision Algorithm Evaluator</h1>
               <ul>
-                <li><NodeJSIcon></NodeJSIcon> &nbsp;Node.JS</li>
-                <li><MongoIcon></MongoIcon> &nbsp;MongoDB</li>
-                <li><DiscordIcon></DiscordIcon> &nbsp;Discord.JS</li>
+                <li><CPPIcon></CPPIcon> &nbsp;C++</li>
+                <li><OpenCVIcon></OpenCVIcon> &nbsp;OpenCV</li>
               </ul>
-              <p>A Discord bot that logs how many times a user has messaged a certain channel to a MongoDB cluster.</p>
+              <p>An OpenCV program designed to let a user determine the ground truth of a set of images. This ground truth is then compared to pre-processed algorithm data to determine how well the algorithm has performed.</p>
             </div>
             <div className="LinkCard">
-              <a href="https://github.com/JackyTea/Logger-Bot" target="_blank"
+              <a href="https://raw.githubusercontent.com/JackyTea/Computer-Vision-Algorithm-Evaluator/master/demos/perfEval.gif" target="_blank"
+                rel="noopener noreferrer">
+                <button aria-label="live demo">Demo Gif &nbsp;<VisitIcon></VisitIcon></button></a>
+              <a href="https://github.com/JackyTea/Computer-Vision-Algorithm-Evaluator" target="_blank"
                 rel="noopener noreferrer" className="gitLink">
                 <button aria-label="view source">Source Code &nbsp;<GithubIcon></GithubIcon></button></a>
             </div>
@@ -162,6 +164,9 @@ class ProjectsPage extends Component {
               <p>A TCP/IP server that sends commands to an Arduino board that parses the command using a serial port connection.</p>
             </div>
             <div className="LinkCard">
+              <a href="https://raw.githubusercontent.com/JackyTea/Arduino-Socket-Controller/master/Schematic/circuit.png" target="_blank"
+                rel="noopener noreferrer">
+                <button aria-label="live demo">Schematic &nbsp;<VisitIcon></VisitIcon></button></a>
               <a href="https://github.com/JackyTea/Arduino-Socket-Controller" target="_blank"
                 rel="noopener noreferrer" className="gitLink">
                 <button aria-label="view source">Source Code &nbsp;<GithubIcon></GithubIcon></button></a>

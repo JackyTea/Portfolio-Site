@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <clipPath id="clip-Placeholder_Image">
+      <rect width="1000" height="1000"/>
+    </clipPath>
+  </defs>
+  <g id="Placeholder_Image" data-name="Placeholder Image" clip-path="url(#clip-Placeholder_Image)">
+    <rect width="1000" height="1000" fill="#fff"/>
+    <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(156 162)" fill="#292929" stroke="#707070" stroke-linecap="square" stroke-linejoin="round" stroke-width="1">
+      <rect width="688" height="676" rx="205" stroke="none"/>
+      <rect x="0.5" y="0.5" width="687" height="675" rx="204.5" fill="none"/>
+    </g>
+    <g id="cognative-services-computer-vision" transform="translate(67 80)">
+      <g id="Group_1" data-name="Group 1" transform="translate(-12 -19)">
+        <path id="Path_2" data-name="Path 2" d="M441.576,49.815C388.75,25.632,332.982,15.144,274.8,28.037,160.744,53.033,82.766,126,12.327,211.88c52.827,68.128,113.62,124.165,191.2,161.253,75.476,35.884,152.62,39.5,230.181,5.656,80.5-35.072,142.974-90.3,195.8-156.832,2.524-3.218,4.507-6.848,7.122-10.488C583.39,143.752,521.751,86.5,441.689,49.815Z" transform="translate(121.232 226.333)" fill="#fff" fill-rule="evenodd"/>
+        <path id="Path_3" data-name="Path 3" d="M159.051,28.242c-71.357-.4-130.233,56.839-131.024,127.8-.813,72.571,56.839,131.836,128.608,132.237,72.159.4,131.425-57.662,131.425-129.409S230.4,28.632,159.051,28.242ZM141.716,221.749H94.553V174.586h47.174v47.163Zm0-79.83H94.553V94.767h47.174v47.174Zm79.808,79.83H174.35V174.586h47.174Zm0-79.83H174.35V94.355h47.174Z" transform="translate(287.585 282.999)" fill="#2b4390" fill-rule="evenodd"/>
+        <circle id="Ellipse_1" data-name="Ellipse 1" cx="106" cy="106" r="106" transform="translate(339 333)" fill="#2b4390"/>
+      </g>
+    </g>
+    <g id="cv-icon-new" transform="translate(-13.1 -2.3)" opacity="0.52">
+      <path id="Path_4" data-name="Path 4" d="M761.9,708.166,538.419,484.689A240.213,240.213,0,0,0,589.99,335.3c0-133.431-108.055-241.9-241.9-241.9A241.582,241.582,0,0,0,106.2,335.3c0,133.431,108.055,241.9,241.9,241.9A240.138,240.138,0,0,0,480.3,537.9L706.231,763.83ZM348.5,499.014A163.719,163.719,0,1,1,512.224,335.3,163.674,163.674,0,0,1,348.5,499.014Z" transform="translate(166.384 166.384)" fill="#1268fb"/>
+    </g>
+  </g>
+</svg>

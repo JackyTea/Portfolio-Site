@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.9d91ffb0.chunk.css",
-    "main.js": "/static/js/main.ce53519f.chunk.js",
-    "main.js.map": "/static/js/main.ce53519f.chunk.js.map",
+    "main.js": "/static/js/main.fbbb3770.chunk.js",
+    "main.js.map": "/static/js/main.fbbb3770.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.170f8412.js",
     "runtime-main.js.map": "/static/js/runtime-main.170f8412.js.map",
     "static/js/2.27db6b02.chunk.js": "/static/js/2.27db6b02.chunk.js",
     "static/js/2.27db6b02.chunk.js.map": "/static/js/2.27db6b02.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.513666345088acc927a8dc5791f3bac0.js": "/precache-manifest.513666345088acc927a8dc5791f3bac0.js",
+    "precache-manifest.d437fe27d24aa1fba998ab1a48b9024c.js": "/precache-manifest.d437fe27d24aa1fba998ab1a48b9024c.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.9d91ffb0.chunk.css.map": "/static/css/main.9d91ffb0.chunk.css.map",
     "static/js/2.27db6b02.chunk.js.LICENSE": "/static/js/2.27db6b02.chunk.js.LICENSE",
     "static/media/Arduino_Square.svg": "/static/media/Arduino_Square.b1557207.svg",
-    "static/media/DiscordBot_Square.svg": "/static/media/DiscordBot_Square.1547a82d.svg",
+    "static/media/ComputerVision_Square.svg": "/static/media/ComputerVision_Square.6136fc57.svg",
     "static/media/GridLock_Square.svg": "/static/media/GridLock_Square.b86f256f.svg",
     "static/media/MakeItRain_Square.svg": "/static/media/MakeItRain_Square.1ccff768.svg",
     "static/media/RealTimePolling_Square.svg": "/static/media/RealTimePolling_Square.ff1a5568.svg",
@@ -25,7 +25,6 @@
     "static/media/csIcon.afa245f5.svg": "/static/media/csIcon.afa245f5.svg",
     "static/media/cssIcon.6971ddc7.svg": "/static/media/cssIcon.6971ddc7.svg",
     "static/media/dartIcon.f0216060.svg": "/static/media/dartIcon.f0216060.svg",
-    "static/media/discordIcon.3088d1c9.svg": "/static/media/discordIcon.3088d1c9.svg",
     "static/media/emailIcon.ccafd0f2.svg": "/static/media/emailIcon.ccafd0f2.svg",
     "static/media/firebaseIcon.b04f0729.svg": "/static/media/firebaseIcon.b04f0729.svg",
     "static/media/flutterIcon.5de19d5c.svg": "/static/media/flutterIcon.5de19d5c.svg",
@@ -41,6 +40,7 @@
     "static/media/mongoIcon.8e08e1ba.svg": "/static/media/mongoIcon.8e08e1ba.svg",
     "static/media/mysqlIcon.710d0952.svg": "/static/media/mysqlIcon.710d0952.svg",
     "static/media/nodeJSIcon.d61c523d.svg": "/static/media/nodeJSIcon.d61c523d.svg",
+    "static/media/opencvIcon.8ed821c4.svg": "/static/media/opencvIcon.8ed821c4.svg",
     "static/media/photoshopIcon.663c9e0d.svg": "/static/media/photoshopIcon.663c9e0d.svg",
     "static/media/HomePage.css": "/static/media/topBackgroundTablet.195b1e22.svg",
     "static/media/pusherIcon.fe09938f.svg": "/static/media/pusherIcon.fe09938f.svg",
@@ -57,6 +57,6 @@
     "static/js/runtime-main.170f8412.js",
     "static/js/2.27db6b02.chunk.js",
     "static/css/main.9d91ffb0.chunk.css",
-    "static/js/main.ce53519f.chunk.js"
+    "static/js/main.fbbb3770.chunk.js"
   ]
 }

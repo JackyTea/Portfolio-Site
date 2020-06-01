@@ -18,22 +18,6 @@ class ExperiencePage extends Component {
                     <h1>Experience</h1>
                 </div>
                 <div className="ExperienceContainer">
-                    {/*
-                    <div className="ExperienceCard">
-                        <div className="CompanyLogo">
-                            <IBMIcon></IBMIcon>
-                        </div>
-                        <div className="JobDescription">
-                            <h1>Software Developer</h1>
-                            <h2>IBM Canada - Markham, Ontario</h2>
-                            <p>Description here.</p>
-                        </div>
-                        <div className="DateCard">September 2020 - Present<br />
-                            <a href="https://www.ibm.com/ca-en" target="_blank"
-                                rel="noopener noreferrer">
-                                <button>Company Site</button></a></div>
-                    </div>
-                    */}
                     <div className="ExperienceCard">
                         <div className="CompanyLogo">
                             <SnakebyteIcon></SnakebyteIcon>
@@ -41,7 +25,6 @@ class ExperiencePage extends Component {
                         <div className="JobDescription">
                             <h1>Software Developer</h1>
                             <h2>Snakebyte Studios Inc. - Toronto, Ontario</h2>
-                            {/*<p>Description here.</p>*/}
                         </div>
                         <div className="DateCard">May 2020 - Present<br />
                             <a href="https://www.snakebyte.ca/" target="_blank"
@@ -55,7 +38,6 @@ class ExperiencePage extends Component {
                         <div className="JobDescription">
                             <h1>Computer Technician</h1>
                             <h2>Free Geek - Toronto, Ontario</h2>
-                            {/*<p>Description here.</p>*/}
                         </div>
                         <div className="DateCard">June 2018 - May 2020<br />
                             <a href="https://www.freegeektoronto.org/" target="_blank"

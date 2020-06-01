@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { ReactComponent as LinkedinIcon } from "../../images/icons/linkedinIcon.svg";
 import SkillsPage from "../SkillsPage/SkillsPage";
 import FooterBar from "../FooterBar/FooterBar";
 import ProjectsPage from "../ProjectsPage/ProjectsPage";
@@ -36,19 +35,6 @@ class HomePage extends Component {
                   Check out my GitHub.
           </a>
               </button>
-              <div className="external-links">
-                <button aria-label="view projects">
-                  <a
-                    className="sideLink"
-                    href="https://linkedin.com/in/jackytea"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <LinkedinIcon></LinkedinIcon> &nbsp;
-                  LinkedIn
-          </a>
-                </button>
-              </div>
             </div>
           </div>
         </div>

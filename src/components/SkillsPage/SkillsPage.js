@@ -5,9 +5,12 @@ import { ReactComponent as PythonIcon } from "../../images/icons/pythonIcon.svg"
 import { ReactComponent as JSIcon } from "../../images/icons/jsIcon.svg";
 import { ReactComponent as JavaIcon } from "../../images/icons/javaIcon.svg";
 import { ReactComponent as DartIcon } from "../../images/icons/dartIcon.svg";
+import { ReactComponent as HTMLIcon } from "../../images/icons/htmlIcon.svg";
+import { ReactComponent as CSSIcon } from "../../images/icons/cssIcon.svg";
 import { ReactComponent as NodeJSIcon } from "../../images/icons/nodeJSIcon.svg";
 import { ReactComponent as ReactIcon } from "../../images/icons/reactIcon.svg";
 import { ReactComponent as AngularIcon } from "../../images/icons/angularIcon.svg";
+import { ReactComponent as NextJSIcon } from "../../images/icons/nextjsIcon.svg";
 import { ReactComponent as MongoIcon } from "../../images/icons/mongoIcon.svg";
 import { ReactComponent as FirebaseIcon } from "../../images/icons/firebaseIcon.svg";
 import { ReactComponent as MySQLIcon } from "../../images/icons/mysqlIcon.svg";
@@ -27,7 +30,7 @@ class SkillsPage extends Component {
   componentDidMount() {
     document.title = "Jacky Tea | Skills";
   }
-  
+
   render() {
     return (
       <div className="SkillsPage">
@@ -46,7 +49,7 @@ class SkillsPage extends Component {
                 <li><JSIcon></JSIcon> &nbsp;JavaScript &nbsp;</li>
               </ul>
               <ul>
-              <li><CSIcon></CSIcon> &nbsp;C# &nbsp;</li>
+                <li><CSIcon></CSIcon> &nbsp;C# &nbsp;</li>
                 <li><DartIcon></DartIcon> &nbsp;Dart &nbsp;</li>
                 <li><JavaIcon></JavaIcon> &nbsp;Java &nbsp;</li>
               </ul>
@@ -58,9 +61,14 @@ class SkillsPage extends Component {
             </div>
             <div className="SkillsList">
               <ul>
+                <li><HTMLIcon></HTMLIcon> &nbsp;HTML5 &nbsp;</li>
+                <li><CSSIcon></CSSIcon> &nbsp;CSS3 &nbsp;</li>
+                <li><NodeJSIcon></NodeJSIcon> &nbsp;Node.JS &nbsp;</li>
+              </ul>
+              <ul>
                 <li><ReactIcon></ReactIcon> &nbsp;React &nbsp;</li>
                 <li><AngularIcon></AngularIcon> &nbsp;Angular &nbsp;</li>
-                <li><NodeJSIcon></NodeJSIcon> &nbsp;Node.JS &nbsp;</li>
+                <li><NextJSIcon></NextJSIcon> &nbsp;Next.JS &nbsp;</li>
               </ul>
             </div>
           </div>

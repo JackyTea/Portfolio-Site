@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fda9cac7c8361b25aa548fced6fb4bc7",
+    "revision": "b5164c3e30ba598009213c0168c362af",
     "url": "/index.html"
   },
   {
-    "revision": "b471c3388826e41884fe",
+    "revision": "5c2d4b4a7003d9059138",
     "url": "/static/css/main.6668b1b0.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.27db6b02.chunk.js.LICENSE"
   },
   {
-    "revision": "b471c3388826e41884fe",
-    "url": "/static/js/main.ee6ff097.chunk.js"
+    "revision": "5c2d4b4a7003d9059138",
+    "url": "/static/js/main.1079e2ad.chunk.js"
   },
   {
     "revision": "c9913191e565de632244",
@@ -134,6 +134,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "710d09528252807f7b463e1aa4f16ba4",
     "url": "/static/media/mysqlIcon.710d0952.svg"
+  },
+  {
+    "revision": "b5d25ca3c0decaea251b75c69a934e8b",
+    "url": "/static/media/nextjsIcon.b5d25ca3.svg"
   },
   {
     "revision": "d61c523d827dc479bf351dba5499fb0f",

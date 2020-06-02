@@ -78,7 +78,7 @@ class SkillsPage extends Component {
           </div>
           <div className="SkillsCategory">
             <div className="SkillsCategoryTitle">
-              <h1>Database Design</h1>
+              <h1>Database Management</h1>
             </div>
             <div className="SkillsList">
               <ul>

@@ -56,14 +56,17 @@
 .ExperiencePage>.ExperienceContainer>.ExperienceCard>.CompanyLogo>svg {
     padding: 3%;
     border-radius: 10px;
-    box-shadow: 0 1vh 1vh rgba(0, 0, 0, 0.12), 0 0.5vh 0.5vh rgba(0, 0, 0, 0.24);
-    transition: all 0.2s cubic-bezier(.25, .8, .25, 1);
-    border-top: 0.1vw solid rgba(0, 0, 0, 0.158);
-    border-left: 0.1vw solid rgba(0, 0, 0, 0.158);
-    border-right: 0.1vw solid rgba(0, 0, 0, 0.158);
     width: 5vw;
     height: 5vw;
     background: black;
+}
+
+.ExperiencePage>.ExperienceContainer>.ExperienceCard>#snakebyte-studios>svg {
+    padding: 3%;
+    border-radius: 10px;
+    width: 5vw;
+    height: 5vw;
+    background: none;
 }
 
 .ExperiencePage>.ExperienceContainer>.ExperienceCard>.JobDescription {

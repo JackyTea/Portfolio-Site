@@ -19,7 +19,7 @@ class ExperiencePage extends Component {
                 </div>
                 <div className="ExperienceContainer">
                     <div className="ExperienceCard">
-                        <div className="CompanyLogo">
+                        <div className="CompanyLogo" id="snakebyte-studios">
                             <SnakebyteIcon></SnakebyteIcon>
                         </div>
                         <div className="JobDescription">
@@ -32,7 +32,7 @@ class ExperiencePage extends Component {
                                 <button>Company Site</button></a></div>
                     </div>
                     <div className="ExperienceCard">
-                        <div className="CompanyLogo" id="free-geek">
+                        <div className="CompanyLogo">
                             <FreeGeekIcon></FreeGeekIcon>
                         </div>
                         <div className="JobDescription">

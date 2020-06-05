@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bfa8394d30b0b4da03cef9e501f75499",
+    "revision": "86db736dfd0f8d23b20d556e981d9cfe",
     "url": "/index.html"
   },
   {
-    "revision": "9b89a7056d43d954d995",
-    "url": "/static/css/main.6c5dee8b.chunk.css"
+    "revision": "a19cc4dd463c0cdafdaf",
+    "url": "/static/css/main.6ccd0992.chunk.css"
   },
   {
     "revision": "46236672ddc662d53c18",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.27db6b02.chunk.js.LICENSE"
   },
   {
-    "revision": "9b89a7056d43d954d995",
+    "revision": "a19cc4dd463c0cdafdaf",
     "url": "/static/js/main.1bc016a3.chunk.js"
   },
   {
@@ -88,12 +88,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/flutterIcon.5de19d5c.svg"
   },
   {
-    "revision": "76d4e41afa8decbbf3a7ddcbb6789634",
-    "url": "/static/media/footerBackground.76d4e41a.svg"
+    "revision": "f17d68774cb90fda1b57188533c609de",
+    "url": "/static/media/footerBackground.f17d6877.svg"
   },
   {
-    "revision": "6edc368cfdf2a184bd28b95e8ce4a7f0",
-    "url": "/static/media/footerBackgroundPhone.6edc368c.svg"
+    "revision": "4e1b1bdc8a7c6111df87685eb36c11eb",
+    "url": "/static/media/footerBackgroundPhone.4e1b1bdc.svg"
   },
   {
     "revision": "098aca5d56724a92bc0073cf701626a6",
@@ -152,8 +152,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/photoshopIcon.663c9e0d.svg"
   },
   {
-    "revision": "5edc820d3a4ca5563f931c45ae846c53",
-    "url": "/static/media/projSkills.5edc820d.svg"
+    "revision": "8870783734ab4398805b8f5b689cebfe",
+    "url": "/static/media/projSkills.88707837.svg"
   },
   {
     "revision": "fe09938f0d9bf87ca24d04767f0bf9e0",
@@ -176,16 +176,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/snakebyteIcon.42ef0404.svg"
   },
   {
-    "revision": "3133b1f632ec83f211f446c6a05f831f",
-    "url": "/static/media/topBackground.3133b1f6.svg"
+    "revision": "4125c088777a9a5988f76b9a7b04c54b",
+    "url": "/static/media/topBackground.4125c088.svg"
   },
   {
-    "revision": "395b94b7dfd3ee4dd3e835099d00321d",
-    "url": "/static/media/topBackgroundPhone.395b94b7.svg"
+    "revision": "5d36956a3766912acb2a7e4c43d3f8c2",
+    "url": "/static/media/topBackgroundPhone.5d36956a.svg"
   },
   {
-    "revision": "444cdb7696a4d240b6693c50fd53de97",
-    "url": "/static/media/topBackgroundTablet.444cdb76.svg"
+    "revision": "afc6f329d3020cba83ff8bd3570a7ecd",
+    "url": "/static/media/topBackgroundTablet.afc6f329.svg"
   },
   {
     "revision": "d041f4b2bd260e32504e98d312d46ba6",

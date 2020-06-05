@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.6c5dee8b.chunk.css",
+    "main.css": "/static/css/main.6ccd0992.chunk.css",
     "main.js": "/static/js/main.1bc016a3.chunk.js",
     "main.js.map": "/static/js/main.1bc016a3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.170f8412.js",
@@ -8,9 +8,9 @@
     "static/js/2.27db6b02.chunk.js": "/static/js/2.27db6b02.chunk.js",
     "static/js/2.27db6b02.chunk.js.map": "/static/js/2.27db6b02.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.906729c288c1a596a26635633744592a.js": "/precache-manifest.906729c288c1a596a26635633744592a.js",
+    "precache-manifest.658d37458b280cf324f4b1f49d39608d.js": "/precache-manifest.658d37458b280cf324f4b1f49d39608d.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.6c5dee8b.chunk.css.map": "/static/css/main.6c5dee8b.chunk.css.map",
+    "static/css/main.6ccd0992.chunk.css.map": "/static/css/main.6ccd0992.chunk.css.map",
     "static/js/2.27db6b02.chunk.js.LICENSE": "/static/js/2.27db6b02.chunk.js.LICENSE",
     "static/media/Arduino_Square.svg": "/static/media/Arduino_Square.8b32dfba.svg",
     "static/media/ComputerVision_Square.svg": "/static/media/ComputerVision_Square.0d060891.svg",
@@ -28,7 +28,7 @@
     "static/media/emailIcon.ccafd0f2.svg": "/static/media/emailIcon.ccafd0f2.svg",
     "static/media/firebaseIcon.b04f0729.svg": "/static/media/firebaseIcon.b04f0729.svg",
     "static/media/flutterIcon.5de19d5c.svg": "/static/media/flutterIcon.5de19d5c.svg",
-    "static/media/FooterBar.css": "/static/media/footerBackgroundPhone.6edc368c.svg",
+    "static/media/FooterBar.css": "/static/media/footerBackgroundPhone.4e1b1bdc.svg",
     "static/media/freegeekIcon.098aca5d.svg": "/static/media/freegeekIcon.098aca5d.svg",
     "static/media/githubIcon.a36a1b31.svg": "/static/media/githubIcon.a36a1b31.svg",
     "static/media/htmlIcon.676e8188.svg": "/static/media/htmlIcon.676e8188.svg",
@@ -43,7 +43,7 @@
     "static/media/nodeJSIcon.d61c523d.svg": "/static/media/nodeJSIcon.d61c523d.svg",
     "static/media/opencvIcon.8ed821c4.svg": "/static/media/opencvIcon.8ed821c4.svg",
     "static/media/photoshopIcon.663c9e0d.svg": "/static/media/photoshopIcon.663c9e0d.svg",
-    "static/media/HomePage.css": "/static/media/topBackgroundTablet.444cdb76.svg",
+    "static/media/HomePage.css": "/static/media/topBackgroundTablet.afc6f329.svg",
     "static/media/pusherIcon.fe09938f.svg": "/static/media/pusherIcon.fe09938f.svg",
     "static/media/pythonIcon.01766e9c.svg": "/static/media/pythonIcon.01766e9c.svg",
     "static/media/raspberryPiIcon.3da67b76.svg": "/static/media/raspberryPiIcon.3da67b76.svg",
@@ -57,7 +57,7 @@
   "entrypoints": [
     "static/js/runtime-main.170f8412.js",
     "static/js/2.27db6b02.chunk.js",
-    "static/css/main.6c5dee8b.chunk.css",
+    "static/css/main.6ccd0992.chunk.css",
     "static/js/main.1bc016a3.chunk.js"
   ]
 }

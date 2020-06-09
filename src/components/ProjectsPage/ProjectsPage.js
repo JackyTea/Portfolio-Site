@@ -71,14 +71,12 @@ class ProjectsPage extends Component {
               <p>A breadth-first search visualizer that finds the shortest path between two user-determined points on a grid.</p>
             </div>
             <div className="LinkCard">
-              <a href="https://serene-citadel-76223.herokuapp.com" target="_blank"
+              <a href="https://jackytea.github.io/GH_Gridlock_Pathfinder/" target="_blank"
                 rel="noopener noreferrer">
                 <button aria-label="live demo">Live Demo &nbsp;<VisitIcon></VisitIcon></button></a>
               <a href="https://github.com/JackyTea/Gridlock-Pathfinder" target="_blank"
                 rel="noopener noreferrer" className="gitLink">
                 <button aria-label="view source">Source Code &nbsp;<GithubIcon></GithubIcon></button></a>
-              <p className="warning"><b>Notice: </b>Heroku site might take time to connect. Find out why <a href="https://blog.heroku.com/app_sleeping_on_heroku" target="_blank"
-                rel="noopener noreferrer">here.</a></p>
             </div>
           </div>
           <div className="ProjectCard">
@@ -119,14 +117,12 @@ class ProjectsPage extends Component {
               <p>A JavaScript browser game that takes advantage of mouse events to drop falling objects from where the user clicks.</p>
             </div>
             <div className="LinkCard">
-              <a href="https://cryptic-river-57921.herokuapp.com" target="_blank"
+              <a href="https://jackytea.github.io/GH_Make_It_Rain/" target="_blank"
                 rel="noopener noreferrer">
                 <button aria-label="live demo">Live Demo &nbsp;<VisitIcon></VisitIcon></button></a>
               <a href="https://github.com/JackyTea/Make-It-Rain" target="_blank"
                 rel="noopener noreferrer" className="gitLink">
                 <button aria-label="view source">Source Code &nbsp;<GithubIcon></GithubIcon></button></a>
-              <p className="warning"><b>Notice: </b>Heroku site might take time to connect. Find out why <a href="https://blog.heroku.com/app_sleeping_on_heroku" target="_blank"
-                rel="noopener noreferrer">here.</a></p>
             </div>
           </div>
           <div className="ProjectCard">

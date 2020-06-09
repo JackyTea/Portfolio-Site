@@ -24,7 +24,7 @@ class HomePage extends Component {
           <div className="mainTitle">
             <div className="introContainer">
               <h1>Hi, I'm Jacky.</h1>
-              <h3>I'm a software engineer.</h3>
+              <h3>I'm a software developer.</h3>
               <button aria-label="view resume">
                 <a
                   className="sideLink"

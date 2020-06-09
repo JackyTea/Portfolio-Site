@@ -23,7 +23,7 @@ class ExperiencePage extends Component {
                             <SnakebyteIcon></SnakebyteIcon>
                         </div>
                         <div className="JobDescription">
-                            <h1>Software Engineer</h1>
+                            <h1>Software Developer</h1>
                             <h2>Snakebyte Studios Inc. - Toronto, Ontario</h2>
                         </div>
                         <div className="DateCard">May 2020 - Present<br />

@@ -4,9 +4,9 @@ import "./NavigationBar.css";
 
 //close sidebar if user clicks outside of it
 document.onclick = event => {
-  let sideNav = document.getElementById("sideNav");
-  let sideIcon = document.getElementById("sideBarIcon");
-  let overLay = document.getElementById("overLay");
+  var sideNav = document.getElementById("sideNav");
+  var sideIcon = document.getElementById("sideBarIcon");
+  var overLay = document.getElementById("overLay");
   if (event.target.className !== "sideBar") {
     overLay.style.width = "";
     sideNav.style.width = "";
@@ -16,9 +16,9 @@ document.onclick = event => {
 
 //close sidebar if window is resized
 window.onresize = () => {
-  let sideNav = document.getElementById("sideNav");
-  let sideIcon = document.getElementById("sideBarIcon");
-  let overLay = document.getElementById("overLay");
+  var sideNav = document.getElementById("sideNav");
+  var sideIcon = document.getElementById("sideBarIcon");
+  var overLay = document.getElementById("overLay");
   overLay.style.width = "";
   sideNav.style.width = "";
   sideIcon.className = "fa fa-lg fa-bars";
@@ -26,9 +26,9 @@ window.onresize = () => {
 
 //change transparency based on scrolling
 
-let prevScrollpos = window.pageYOffset;
+var prevScrollpos = window.pageYOffset;
 window.onscroll = () => {
-  let currentScrollPos = window.pageYOffset;
+  var currentScrollPos = window.pageYOffset;
   if (currentScrollPos <= 100) {
     document.getElementById("theNav").style.background = "none";
     document.getElementById("theNav").style.boxShadow = "none";
@@ -56,9 +56,9 @@ class NavigationBar extends Component {
 
   //sidebar toggle
   toggleSideNav = () => {
-    let sideNav = document.getElementById("sideNav");
-    let sideIcon = document.getElementById("sideBarIcon");
-    let overLay = document.getElementById("overLay");
+    var sideNav = document.getElementById("sideNav");
+    var sideIcon = document.getElementById("sideBarIcon");
+    var overLay = document.getElementById("overLay");
     if (sideNav.style.width === "") {
       overLay.style.width = "100%";
       sideNav.style.width = "50%";
@@ -72,9 +72,9 @@ class NavigationBar extends Component {
 
   //close sidebar
   closeSideNav = () => {
-    let sideNav = document.getElementById("sideNav");
-    let sideIcon = document.getElementById("sideBarIcon");
-    let overLay = document.getElementById("overLay");
+    var sideNav = document.getElementById("sideNav");
+    var sideIcon = document.getElementById("sideBarIcon");
+    var overLay = document.getElementById("overLay");
     overLay.style.width = "";
     sideNav.style.width = "";
     sideIcon.className = "fa fa-lg fa-bars";

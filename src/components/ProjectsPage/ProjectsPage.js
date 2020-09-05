@@ -15,6 +15,8 @@ import RealTimePolling from "../../screenshots/RealTimePolling_Square.svg";
 import GridLock from "../../screenshots/GridLock_Square.svg";
 import StudentEnroll from "../../screenshots/StudentEnroll_Square.svg";
 import MakeItRain from "../../screenshots/MakeItRain_Square.svg";
+import WebGL from "../../screenshots/WebGL_Square.svg";
+import DiscordPresence from "../../screenshots/DiscordPresence_Square.svg";
 import ArduinoController from "../../screenshots/Arduino_Square.svg";
 import ComputerVision from "../../screenshots/ComputerVision_Square.svg";
 import "./ProjectsPage.css";
@@ -123,6 +125,47 @@ class ProjectsPage extends Component {
                 <button aria-label="view source">Source Code &nbsp;<GithubIcon></GithubIcon></button></a>
               <p className="warning"><b>Notice: </b>Heroku site might take time to connect. Find out why <a href="https://blog.heroku.com/app_sleeping_on_heroku" target="_blank"
                 rel="noopener noreferrer">here.</a></p>
+            </div>
+          </div>
+          <div className="ProjectCard">
+            <div className="ProjectLogo">
+              <img src={WebGL} alt="WebGL Demo"></img>
+            </div>
+            <div className="ProjectDescription">
+              <h1>WebGL First Person Render</h1>
+              <ul>
+                <li>WebGL</li>
+                <li>Three.JS</li>
+              </ul>
+              <p>A first person movement demonstration using WebGL 3D rendering and Three.JS. <b>(Keyboard needed to interact)</b></p>
+            </div>
+            <div className="LinkCard">
+              <a href="https://silly-shirley-309cb3.netlify.app/" target="_blank"
+                rel="noopener noreferrer">
+                <button aria-label="live demo">Live Demo &nbsp;<VisitIcon></VisitIcon></button></a>
+              <a href="https://github.com/JackyTea/WebGL-First-Person-Render" target="_blank"
+                rel="noopener noreferrer" className="gitLink">
+                <button aria-label="view source">Source Code &nbsp;<GithubIcon></GithubIcon></button></a>
+            </div>
+          </div>
+          <div className="ProjectCard">
+            <div className="ProjectLogo">
+              <img src={DiscordPresence} alt="Discord Rich Presence Demo"></img>
+            </div>
+            <div className="ProjectDescription">
+              <h1>Custom Discord Rich Presence</h1>
+              <ul>
+                <li><NodeJSIcon></NodeJSIcon> &nbsp;Node.JS</li>
+              </ul>
+              <p>A Node.JS script for Discord users to personalize and customize their profile status with a banner similar to when they are playing a game.</p>
+            </div>
+            <div className="LinkCard">
+              <a href="https://raw.githubusercontent.com/JackyTea/Custom-Discord-Rich-Presence/master/demos/example.JPG" target="_blank"
+                rel="noopener noreferrer">
+                <button aria-label="live demo">Screenshot &nbsp;<VisitIcon></VisitIcon></button></a>
+              <a href="https://github.com/JackyTea/Custom-Discord-Rich-Presence" target="_blank"
+                rel="noopener noreferrer" className="gitLink">
+                <button aria-label="view source">Source Code &nbsp;<GithubIcon></GithubIcon></button></a>
             </div>
           </div>
           <div className="ProjectCard">

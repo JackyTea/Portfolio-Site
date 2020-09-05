@@ -16,9 +16,6 @@ import { ReactComponent as FirebaseIcon } from "../../images/icons/firebaseIcon.
 import { ReactComponent as MySQLIcon } from "../../images/icons/mysqlIcon.svg";
 import { ReactComponent as FlutterIcon } from "../../images/icons/flutterIcon.svg";
 import { ReactComponent as AndroidIcon } from "../../images/icons/androidIcon.svg";
-import { ReactComponent as ArduinoIcon } from "../../images/icons/arduinoIcon.svg";
-import { ReactComponent as RaspberryIcon } from "../../images/icons/raspberryPiIcon.svg";
-import { ReactComponent as VexIcon } from "../../images/icons/vexIcon.svg";
 import { ReactComponent as IllustratorIcon } from "../../images/icons/illustratorIcon.svg";
 import { ReactComponent as PhotoshopIcon } from "../../images/icons/photoshopIcon.svg";
 import { ReactComponent as XDIcon } from "../../images/icons/xdIcon.svg";
@@ -93,18 +90,6 @@ class SkillsPage extends Component {
                 <li><MongoIcon></MongoIcon> &nbsp;MongoDB &nbsp;</li>
                 <li><FirebaseIcon></FirebaseIcon> &nbsp;Cloud Firestore &nbsp;</li>
                 <li><MySQLIcon></MySQLIcon> &nbsp;PHPMyAdmin &nbsp;</li>
-              </ul>
-            </div>
-          </div>
-          <div className="SkillsCategory">
-            <div className="SkillsCategoryTitle">
-              <h1>Embedded Systems</h1>
-            </div>
-            <div className="SkillsList">
-              <ul>
-                <li><ArduinoIcon></ArduinoIcon> &nbsp;Arduino &nbsp;</li>
-                <li><RaspberryIcon></RaspberryIcon> &nbsp;Raspberry Pi &nbsp;</li>
-                <li><VexIcon></VexIcon> &nbsp;VEX Robotics &nbsp;</li>
               </ul>
             </div>
           </div>

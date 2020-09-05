@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7339efd497522fd32ca92f966e03a2bf",
+    "revision": "d1b6ce7f5ec88479d5fb96b786e52cdd",
     "url": "/index.html"
   },
   {
-    "revision": "7df36bf940a96e6111ff",
-    "url": "/static/css/main.6ccd0992.chunk.css"
+    "revision": "6232d734508e8a1ee591",
+    "url": "/static/css/main.e030fafd.chunk.css"
   },
   {
-    "revision": "46236672ddc662d53c18",
-    "url": "/static/js/2.27db6b02.chunk.js"
+    "revision": "a4ab4b7c38b2c8559640",
+    "url": "/static/js/2.2527b1c1.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/static/js/2.27db6b02.chunk.js.LICENSE"
+    "url": "/static/js/2.2527b1c1.chunk.js.LICENSE"
   },
   {
-    "revision": "7df36bf940a96e6111ff",
-    "url": "/static/js/main.5f8205a1.chunk.js"
+    "revision": "6232d734508e8a1ee591",
+    "url": "/static/js/main.5499aa40.chunk.js"
   },
   {
     "revision": "c9913191e565de632244",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0d0608914cbedb7478a43aa5957cd306",
     "url": "/static/media/ComputerVision_Square.0d060891.svg"
+  },
+  {
+    "revision": "2bf58eecde70baeabdcb559eaf8ae5ca",
+    "url": "/static/media/DiscordPresence_Square.2bf58eec.svg"
   },
   {
     "revision": "67d83037b426c7d2d480d95efba6d31a",
@@ -46,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7b95fbcebc1a4b1e46ba2b773b80f791",
     "url": "/static/media/StudentEnroll_Square.7b95fbce.svg"
+  },
+  {
+    "revision": "a2463783090a8472dfac94989c1b8014",
+    "url": "/static/media/WebGL_Square.a2463783.svg"
   },
   {
     "revision": "e2f582dd92f79285f5058c4a784447f3",
@@ -164,10 +172,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/pythonIcon.01766e9c.svg"
   },
   {
-    "revision": "3da67b7657fedcdded70bdf08bc9d08a",
-    "url": "/static/media/raspberryPiIcon.3da67b76.svg"
-  },
-  {
     "revision": "5178d9baf2bdb307096c1f906e2856cd",
     "url": "/static/media/reactIcon.5178d9ba.svg"
   },
@@ -186,10 +190,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "afc6f329d3020cba83ff8bd3570a7ecd",
     "url": "/static/media/topBackgroundTablet.afc6f329.svg"
-  },
-  {
-    "revision": "d041f4b2bd260e32504e98d312d46ba6",
-    "url": "/static/media/vexIcon.d041f4b2.svg"
   },
   {
     "revision": "ff048ca78b9f0632e60497e33e29a806",

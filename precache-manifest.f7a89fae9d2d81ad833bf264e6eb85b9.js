@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d1b6ce7f5ec88479d5fb96b786e52cdd",
+    "revision": "f7ed33d1e677fa63d5ff71dace2c65ea",
     "url": "/index.html"
   },
   {
-    "revision": "6232d734508e8a1ee591",
+    "revision": "bddcf232ab48dc079a9e",
     "url": "/static/css/main.e030fafd.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.2527b1c1.chunk.js.LICENSE"
   },
   {
-    "revision": "6232d734508e8a1ee591",
-    "url": "/static/js/main.5499aa40.chunk.js"
+    "revision": "bddcf232ab48dc079a9e",
+    "url": "/static/js/main.ed55441e.chunk.js"
   },
   {
     "revision": "c9913191e565de632244",
@@ -114,6 +114,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "676e8188f003ed5d4882a0d0f378dad3",
     "url": "/static/media/htmlIcon.676e8188.svg"
+  },
+  {
+    "revision": "a3a207ee27c7199a1f53b12fec1ba9c5",
+    "url": "/static/media/ibmIcon.a3a207ee.svg"
   },
   {
     "revision": "97fdc642051621b437b561fbfee9060a",

@@ -25,16 +25,16 @@ class HomePage extends Component {
             <div className="introContainer">
               <h1>Hi, I'm Jacky.</h1>
               <h3>I'm a software developer.</h3>
-              <button aria-label="view resume">
-                <a
-                  className="sideLink"
-                  href="https://github.com/JackyTea"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+              <a
+                className="sideLink"
+                href="https://github.com/JackyTea"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button aria-label="view resume">
                   Check out my GitHub.
-          </a>
               </button>
+              </a>
             </div>
           </div>
         </div>

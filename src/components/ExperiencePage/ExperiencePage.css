@@ -61,7 +61,7 @@
     background: black;
 }
 
-.ExperiencePage>.ExperienceContainer>.ExperienceCard>#snakebyte-studios>svg {
+.ExperiencePage>.ExperienceContainer>.ExperienceCard>.snakebyte-studios>svg {
     padding: 3%;
     border-radius: 10px;
     width: 5vw;

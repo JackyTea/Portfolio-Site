@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bfabf87f24faf5abf63ce0e761905831",
+    "revision": "ad55fca47f367e1bfd8dffc9a01873ad",
     "url": "/index.html"
   },
   {
-    "revision": "3f621cfe668570d9a92b",
-    "url": "/static/css/main.3721aa16.chunk.css"
+    "revision": "48c351313580d120c9d6",
+    "url": "/static/css/main.fbf20b85.chunk.css"
   },
   {
     "revision": "a4ab4b7c38b2c8559640",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.2527b1c1.chunk.js.LICENSE"
   },
   {
-    "revision": "3f621cfe668570d9a92b",
-    "url": "/static/js/main.00c8285f.chunk.js"
+    "revision": "48c351313580d120c9d6",
+    "url": "/static/js/main.80b1f298.chunk.js"
   },
   {
     "revision": "c9913191e565de632244",
@@ -116,8 +116,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/htmlIcon.676e8188.svg"
   },
   {
-    "revision": "a3a207ee27c7199a1f53b12fec1ba9c5",
-    "url": "/static/media/ibmIcon.a3a207ee.svg"
+    "revision": "321b4d76c885ab24ffd6c4eb5478970f",
+    "url": "/static/media/ibmIcon.321b4d76.svg"
   },
   {
     "revision": "97fdc642051621b437b561fbfee9060a",
@@ -156,8 +156,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/nodeJSIcon.d61c523d.svg"
   },
   {
-    "revision": "8ed821c4e350bba175f2446ba8d43eca",
-    "url": "/static/media/opencvIcon.8ed821c4.svg"
+    "revision": "9cdc9c2af9d7d70f33f63db4de12561d",
+    "url": "/static/media/opencvIcon.9cdc9c2a.svg"
   },
   {
     "revision": "663c9e0dd5f48c79e1fcb4baffa7c9ac",

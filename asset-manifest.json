@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.3721aa16.chunk.css",
-    "main.js": "/static/js/main.00c8285f.chunk.js",
-    "main.js.map": "/static/js/main.00c8285f.chunk.js.map",
+    "main.css": "/static/css/main.fbf20b85.chunk.css",
+    "main.js": "/static/js/main.80b1f298.chunk.js",
+    "main.js.map": "/static/js/main.80b1f298.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.170f8412.js",
     "runtime-main.js.map": "/static/js/runtime-main.170f8412.js.map",
     "static/js/2.2527b1c1.chunk.js": "/static/js/2.2527b1c1.chunk.js",
     "static/js/2.2527b1c1.chunk.js.map": "/static/js/2.2527b1c1.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2de0bdfdfe92770679443f7791824a0a.js": "/precache-manifest.2de0bdfdfe92770679443f7791824a0a.js",
+    "precache-manifest.5a7d40d68e4695969757fc40e5dd7428.js": "/precache-manifest.5a7d40d68e4695969757fc40e5dd7428.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.3721aa16.chunk.css.map": "/static/css/main.3721aa16.chunk.css.map",
+    "static/css/main.fbf20b85.chunk.css.map": "/static/css/main.fbf20b85.chunk.css.map",
     "static/js/2.2527b1c1.chunk.js.LICENSE": "/static/js/2.2527b1c1.chunk.js.LICENSE",
     "static/media/Arduino_Square.svg": "/static/media/Arduino_Square.8b32dfba.svg",
     "static/media/ComputerVision_Square.svg": "/static/media/ComputerVision_Square.0d060891.svg",
@@ -34,7 +34,7 @@
     "static/media/freegeekIcon.098aca5d.svg": "/static/media/freegeekIcon.098aca5d.svg",
     "static/media/githubIcon.a36a1b31.svg": "/static/media/githubIcon.a36a1b31.svg",
     "static/media/htmlIcon.676e8188.svg": "/static/media/htmlIcon.676e8188.svg",
-    "static/media/ibmIcon.a3a207ee.svg": "/static/media/ibmIcon.a3a207ee.svg",
+    "static/media/ibmIcon.321b4d76.svg": "/static/media/ibmIcon.321b4d76.svg",
     "static/media/illustratorIcon.97fdc642.svg": "/static/media/illustratorIcon.97fdc642.svg",
     "static/media/javaIcon.ea37f9fe.svg": "/static/media/javaIcon.ea37f9fe.svg",
     "static/media/jsIcon.3fd98e7e.svg": "/static/media/jsIcon.3fd98e7e.svg",
@@ -44,7 +44,7 @@
     "static/media/mysqlIcon.710d0952.svg": "/static/media/mysqlIcon.710d0952.svg",
     "static/media/nextjsIcon.b5d25ca3.svg": "/static/media/nextjsIcon.b5d25ca3.svg",
     "static/media/nodeJSIcon.d61c523d.svg": "/static/media/nodeJSIcon.d61c523d.svg",
-    "static/media/opencvIcon.8ed821c4.svg": "/static/media/opencvIcon.8ed821c4.svg",
+    "static/media/opencvIcon.9cdc9c2a.svg": "/static/media/opencvIcon.9cdc9c2a.svg",
     "static/media/photoshopIcon.663c9e0d.svg": "/static/media/photoshopIcon.663c9e0d.svg",
     "static/media/HomePage.css": "/static/media/topBackgroundTablet.afc6f329.svg",
     "static/media/pusherIcon.fe09938f.svg": "/static/media/pusherIcon.fe09938f.svg",
@@ -58,7 +58,7 @@
   "entrypoints": [
     "static/js/runtime-main.170f8412.js",
     "static/js/2.2527b1c1.chunk.js",
-    "static/css/main.3721aa16.chunk.css",
-    "static/js/main.00c8285f.chunk.js"
+    "static/css/main.fbf20b85.chunk.css",
+    "static/js/main.80b1f298.chunk.js"
   ]
 }

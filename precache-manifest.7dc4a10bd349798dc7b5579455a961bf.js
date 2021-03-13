@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a92166fa7c6e1769f35e71de2615374d",
+    "revision": "806d19d12c489adec5b05eacd4bd4ce1",
     "url": "/index.html"
   },
   {
-    "revision": "48c351313580d120c9d6",
-    "url": "/static/css/main.fbf20b85.chunk.css"
+    "revision": "91e4486e158dac0a8f62",
+    "url": "/static/css/main.7305771d.chunk.css"
   },
   {
     "revision": "a4ab4b7c38b2c8559640",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.2527b1c1.chunk.js.LICENSE"
   },
   {
-    "revision": "48c351313580d120c9d6",
-    "url": "/static/js/main.80b1f298.chunk.js"
+    "revision": "91e4486e158dac0a8f62",
+    "url": "/static/js/main.deba44a3.chunk.js"
   },
   {
     "revision": "c9913191e565de632244",
@@ -72,16 +72,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/cppIcon.858862dc.svg"
   },
   {
-    "revision": "afa245f5f9bea9b5b8cd2237f3d71978",
-    "url": "/static/media/csIcon.afa245f5.svg"
-  },
-  {
     "revision": "6971ddc761cc35ba918be0a69dfbcf50",
     "url": "/static/media/cssIcon.6971ddc7.svg"
   },
   {
     "revision": "f02160604d42f622610f1424a838c40f",
     "url": "/static/media/dartIcon.f0216060.svg"
+  },
+  {
+    "revision": "dc13e32a270c8e0c85d126e8e9469643",
+    "url": "/static/media/djangoIcon.dc13e32a.svg"
   },
   {
     "revision": "ccafd0f2b9040141c08974266d86d691",
@@ -92,8 +92,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/firebaseIcon.b04f0729.svg"
   },
   {
-    "revision": "5de19d5c0b0d67b4d031eca94f53c1da",
-    "url": "/static/media/flutterIcon.5de19d5c.svg"
+    "revision": "faf8f499559f6b2f815f454a5794eae3",
+    "url": "/static/media/flutterIcon.faf8f499.svg"
   },
   {
     "revision": "f17d68774cb90fda1b57188533c609de",
@@ -120,10 +120,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ibmIcon.321b4d76.svg"
   },
   {
-    "revision": "97fdc642051621b437b561fbfee9060a",
-    "url": "/static/media/illustratorIcon.97fdc642.svg"
-  },
-  {
     "revision": "ea37f9fe9990771d80b34197c9342fb1",
     "url": "/static/media/javaIcon.ea37f9fe.svg"
   },
@@ -144,14 +140,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/mongoIcon.8e08e1ba.svg"
   },
   {
-    "revision": "710d09528252807f7b463e1aa4f16ba4",
-    "url": "/static/media/mysqlIcon.710d0952.svg"
-  },
-  {
-    "revision": "b5d25ca3c0decaea251b75c69a934e8b",
-    "url": "/static/media/nextjsIcon.b5d25ca3.svg"
-  },
-  {
     "revision": "d61c523d827dc479bf351dba5499fb0f",
     "url": "/static/media/nodeJSIcon.d61c523d.svg"
   },
@@ -160,8 +148,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/opencvIcon.9cdc9c2a.svg"
   },
   {
-    "revision": "663c9e0dd5f48c79e1fcb4baffa7c9ac",
-    "url": "/static/media/photoshopIcon.663c9e0d.svg"
+    "revision": "eac4eb83f1459e6b9e1c72596b08e0da",
+    "url": "/static/media/postgresqlIcon.eac4eb83.svg"
   },
   {
     "revision": "8870783734ab4398805b8f5b689cebfe",
@@ -176,8 +164,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/pythonIcon.01766e9c.svg"
   },
   {
+    "revision": "fcd0fc5dc4281120b8201a681020af00",
+    "url": "/static/media/railsIcon.fcd0fc5d.svg"
+  },
+  {
     "revision": "5178d9baf2bdb307096c1f906e2856cd",
     "url": "/static/media/reactIcon.5178d9ba.svg"
+  },
+  {
+    "revision": "c99d042b5423799cb87316b10c8e5667",
+    "url": "/static/media/rubyIcon.c99d042b.svg"
+  },
+  {
+    "revision": "9e7b015941562c083f33f30b160dd61b",
+    "url": "/static/media/sassIcon.9e7b0159.svg"
   },
   {
     "revision": "42ef0404d13da4c2c716346d4f40e733",
@@ -200,11 +200,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/visitIcon.ff048ca7.svg"
   },
   {
-    "revision": "0b0e2afb14f1d664baf95bbc441556fd",
-    "url": "/static/media/winsockIcon.0b0e2afb.svg"
+    "revision": "af39691cf9c2a3751693fd0576678de4",
+    "url": "/static/media/vueIcon.af39691c.svg"
   },
   {
-    "revision": "34cd2f486052497844b033fd5da5a8eb",
-    "url": "/static/media/xdIcon.34cd2f48.svg"
+    "revision": "0b0e2afb14f1d664baf95bbc441556fd",
+    "url": "/static/media/winsockIcon.0b0e2afb.svg"
   }
 ]);

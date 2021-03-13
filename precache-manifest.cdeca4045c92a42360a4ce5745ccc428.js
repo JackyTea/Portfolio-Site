@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "806d19d12c489adec5b05eacd4bd4ce1",
+    "revision": "8d143ac0c8b823ef4f51a5754d9ed689",
     "url": "/index.html"
   },
   {
-    "revision": "91e4486e158dac0a8f62",
+    "revision": "64369bc3d725357639f5",
     "url": "/static/css/main.7305771d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.2527b1c1.chunk.js.LICENSE"
   },
   {
-    "revision": "91e4486e158dac0a8f62",
-    "url": "/static/js/main.deba44a3.chunk.js"
+    "revision": "64369bc3d725357639f5",
+    "url": "/static/js/main.453969c6.chunk.js"
   },
   {
     "revision": "c9913191e565de632244",
@@ -82,10 +82,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dc13e32a270c8e0c85d126e8e9469643",
     "url": "/static/media/djangoIcon.dc13e32a.svg"
-  },
-  {
-    "revision": "ccafd0f2b9040141c08974266d86d691",
-    "url": "/static/media/emailIcon.ccafd0f2.svg"
   },
   {
     "revision": "b04f07292686e29178f004e295b5d4b2",

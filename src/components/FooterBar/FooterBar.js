@@ -1,5 +1,4 @@
 import React from "react";
-import { ReactComponent as EmailIcon } from "../../images/icons/emailIcon.svg";
 import { ReactComponent as GithubIcon } from "../../images/icons/githubIcon.svg";
 import { ReactComponent as LinkedinIcon } from "../../images/icons/linkedinIcon.svg";
 import "./FooterBar.css";

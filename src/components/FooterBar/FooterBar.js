@@ -5,40 +5,35 @@ import { ReactComponent as LinkedinIcon } from "../../images/icons/linkedinIcon.
 import "./FooterBar.css";
 
 const FooterBar = () => {
-    return (
-      <div className="FooterBar">
-        <div className="copyright">
-          <span>&copy; Jacky Tea, {new Date().getFullYear()}</span>
-        </div>
-        <div className="links">
-          <ul className="linksList">
-            <li className="listItem">
-              <a
-                href="https://github.com/JackyTea"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <GithubIcon></GithubIcon>
-              </a>
-            </li>
-            <li className="listItem">
-              <a
-                href="https://linkedin.com/in/jackytea"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <LinkedinIcon fill="red"></LinkedinIcon>
-              </a>
-            </li>
-            <li className="listItem">
-              <a href="mailto:teajacks@outlook.com">
-                <EmailIcon></EmailIcon>
-              </a>
-            </li>
-          </ul>
-        </div>
+  return (
+    <div className="FooterBar">
+      <div className="copyright">
+        <span>&copy; Jacky Tea, {new Date().getFullYear()}</span>
       </div>
-    );
+      <div className="links">
+        <ul className="linksList">
+          <li className="listItem">
+            <a
+              href="https://github.com/JackyTea"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GithubIcon></GithubIcon>
+            </a>
+          </li>
+          <li className="listItem">
+            <a
+              href="https://linkedin.com/in/jackytea"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <LinkedinIcon fill="red"></LinkedinIcon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
 }
 
 export default FooterBar;

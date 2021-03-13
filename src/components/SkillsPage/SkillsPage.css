@@ -51,7 +51,7 @@
 
 .SkillsPage>.SkillsContainer>.SkillsCategory>.SkillsList {
     display: flex;
-    justify-content: safe;
+    justify-content: center;
 }
 
 .SkillsPage>.SkillsContainer>.SkillsCategory>.SkillsList>ul {

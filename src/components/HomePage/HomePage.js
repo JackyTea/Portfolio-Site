@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import SkillsPage from "../SkillsPage/SkillsPage";
 import FooterBar from "../FooterBar/FooterBar";
 import ProjectsPage from "../ProjectsPage/ProjectsPage";
 import ExperiencePage from "../ExperiencePage/ExperiencePage";
@@ -39,9 +38,6 @@ class HomePage extends Component {
           </div>
         </div>
         <div id="projSkills">
-          <div id="theSkillsPage" onMouseEnter={() => { this.changeTitle("Skills") }}>
-            <SkillsPage></SkillsPage>
-          </div>
           <div id="theExperiencePage" onMouseEnter={() => { this.changeTitle("Experience") }}>
             <ExperiencePage></ExperiencePage>
           </div>

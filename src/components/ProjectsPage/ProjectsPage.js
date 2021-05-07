@@ -5,19 +5,15 @@ import { ReactComponent as AngularIcon } from "../../images/icons/angularIcon.sv
 import { ReactComponent as MongoIcon } from "../../images/icons/mongoIcon.svg";
 import { ReactComponent as NodeJSIcon } from "../../images/icons/nodeJSIcon.svg";
 import { ReactComponent as PusherIcon } from "../../images/icons/pusherIcon.svg";
-import { ReactComponent as ArduinoIcon } from "../../images/icons/arduinoIcon.svg";
 import { ReactComponent as CPPIcon } from "../../images/icons/cppIcon.svg";
 import { ReactComponent as HTMLIcon } from "../../images/icons/htmlIcon.svg";
 import { ReactComponent as CSSIcon } from "../../images/icons/cssIcon.svg";
-import { ReactComponent as WinsockIcon } from "../../images/icons/winsockIcon.svg";
 import { ReactComponent as OpenCVIcon } from "../../images/icons/opencvIcon.svg";
 import RealTimePolling from "../../screenshots/RealTimePolling_Square.svg";
 import GridLock from "../../screenshots/GridLock_Square.svg";
 import StudentEnroll from "../../screenshots/StudentEnroll_Square.svg";
-import MakeItRain from "../../screenshots/MakeItRain_Square.svg";
 import WebGL from "../../screenshots/WebGL_Square.svg";
 import DiscordPresence from "../../screenshots/DiscordPresence_Square.svg";
-import ArduinoController from "../../screenshots/Arduino_Square.svg";
 import ComputerVision from "../../screenshots/ComputerVision_Square.svg";
 import "./ProjectsPage.css";
 
@@ -59,22 +55,21 @@ class ProjectsPage extends Component {
           </div>
           <div className="ProjectCard">
             <div className="ProjectLogo">
-              <img src={MakeItRain} alt="Make It Rain Demo"></img>
+              <img src={WebGL} alt="WebGL Demo"></img>
             </div>
             <div className="ProjectDescription">
-              <h1>DOM Manipulation Browser Game</h1>
+              <h1>WebGL First Person Render</h1>
               <ul>
-                <li><NodeJSIcon></NodeJSIcon> &nbsp;Node.JS</li>
-                <li><HTMLIcon></HTMLIcon> &nbsp;HTML5</li>
-                <li><CSSIcon></CSSIcon> &nbsp;CSS3</li>
+                <li>WebGL</li>
+                <li>Three.JS</li>
               </ul>
-              <p>A JavaScript browser game that takes advantage of mouse events to drop falling objects from where the user clicks.</p>
+              <p>A first person movement demonstration using WebGL 3D rendering and Three.JS. <b>(Keyboard needed to interact)</b></p>
             </div>
             <div className="LinkCard">
-              <a href="https://jackytea.github.io/GH_Make_It_Rain/" target="_blank"
+              <a href="https://silly-shirley-309cb3.netlify.app/" target="_blank"
                 rel="noopener noreferrer">
                 <button aria-label="live demo">Live Demo &nbsp;<VisitIcon></VisitIcon></button></a>
-              <a href="https://github.com/JackyTea/Make-It-Rain" target="_blank"
+              <a href="https://github.com/JackyTea/WebGL-First-Person-Render" target="_blank"
                 rel="noopener noreferrer" className="gitLink">
                 <button aria-label="view source">Source Code &nbsp;<GithubIcon></GithubIcon></button></a>
             </div>
@@ -129,27 +124,6 @@ class ProjectsPage extends Component {
           </div>
           <div className="ProjectCard">
             <div className="ProjectLogo">
-              <img src={WebGL} alt="WebGL Demo"></img>
-            </div>
-            <div className="ProjectDescription">
-              <h1>WebGL First Person Render</h1>
-              <ul>
-                <li>WebGL</li>
-                <li>Three.JS</li>
-              </ul>
-              <p>A first person movement demonstration using WebGL 3D rendering and Three.JS. <b>(Keyboard needed to interact)</b></p>
-            </div>
-            <div className="LinkCard">
-              <a href="https://silly-shirley-309cb3.netlify.app/" target="_blank"
-                rel="noopener noreferrer">
-                <button aria-label="live demo">Live Demo &nbsp;<VisitIcon></VisitIcon></button></a>
-              <a href="https://github.com/JackyTea/WebGL-First-Person-Render" target="_blank"
-                rel="noopener noreferrer" className="gitLink">
-                <button aria-label="view source">Source Code &nbsp;<GithubIcon></GithubIcon></button></a>
-            </div>
-          </div>
-          <div className="ProjectCard">
-            <div className="ProjectLogo">
               <img src={DiscordPresence} alt="Discord Rich Presence Demo"></img>
             </div>
             <div className="ProjectDescription">
@@ -162,7 +136,7 @@ class ProjectsPage extends Component {
             <div className="LinkCard">
               <a href="https://raw.githubusercontent.com/JackyTea/Custom-Discord-Rich-Presence/master/demos/example.JPG" target="_blank"
                 rel="noopener noreferrer">
-                <button aria-label="live demo">Screenshot &nbsp;<VisitIcon></VisitIcon></button></a>
+                <button aria-label="live demo">Demo GIF &nbsp;<VisitIcon></VisitIcon></button></a>
               <a href="https://github.com/JackyTea/Custom-Discord-Rich-Presence" target="_blank"
                 rel="noopener noreferrer" className="gitLink">
                 <button aria-label="view source">Source Code &nbsp;<GithubIcon></GithubIcon></button></a>
@@ -183,30 +157,8 @@ class ProjectsPage extends Component {
             <div className="LinkCard">
               <a href="https://raw.githubusercontent.com/JackyTea/Computer-Vision-Algorithm-Evaluator/master/demos/perfEval.gif" target="_blank"
                 rel="noopener noreferrer">
-                <button aria-label="live demo">Demo Gif &nbsp;<VisitIcon></VisitIcon></button></a>
+                <button aria-label="live demo">Demo GIF &nbsp;<VisitIcon></VisitIcon></button></a>
               <a href="https://github.com/JackyTea/Computer-Vision-Algorithm-Evaluator" target="_blank"
-                rel="noopener noreferrer" className="gitLink">
-                <button aria-label="view source">Source Code &nbsp;<GithubIcon></GithubIcon></button></a>
-            </div>
-          </div>
-          <div className="ProjectCard">
-            <div className="ProjectLogo">
-              <img src={ArduinoController} alt="Arduino Controller Demo"></img>
-            </div>
-            <div className="ProjectDescription">
-              <h1>Arduino Socket Remote Controller</h1>
-              <ul>
-                <li><CPPIcon></CPPIcon> &nbsp;C++</li>
-                <li><ArduinoIcon></ArduinoIcon> &nbsp;Arduino</li>
-                <li><WinsockIcon></WinsockIcon> &nbsp;Windows Socket API</li>
-              </ul>
-              <p>A TCP/IP server that sends commands to an Arduino board that parses the command using a serial port connection.</p>
-            </div>
-            <div className="LinkCard">
-              <a href="https://raw.githubusercontent.com/JackyTea/Arduino-Socket-Controller/master/Schematic/circuit.png" target="_blank"
-                rel="noopener noreferrer">
-                <button aria-label="live demo">Schematic &nbsp;<VisitIcon></VisitIcon></button></a>
-              <a href="https://github.com/JackyTea/Arduino-Socket-Controller" target="_blank"
                 rel="noopener noreferrer" className="gitLink">
                 <button aria-label="view source">Source Code &nbsp;<GithubIcon></GithubIcon></button></a>
             </div>

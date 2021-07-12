@@ -1,63 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d7207f43bd2a28c6cae9d15e5ea3e1d4",
+    "revision": "a65ac8369b54d9d8924937f43b4c1aa1",
     "url": "/index.html"
   },
   {
-    "revision": "2e45837c6f4f341fd698",
-    "url": "/static/css/main.dc47d55c.chunk.css"
+    "revision": "05655484033902d82852",
+    "url": "/static/css/main.c70b11fb.chunk.css"
   },
   {
-    "revision": "46236672ddc662d53c18",
-    "url": "/static/js/2.27db6b02.chunk.js"
+    "revision": "77fe9e9d31d401c54990",
+    "url": "/static/js/2.b21d24db.chunk.js"
   },
   {
-    "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/static/js/2.27db6b02.chunk.js.LICENSE"
+    "revision": "f0ad72fb0c1c1e4a268423d8869404c9",
+    "url": "/static/js/2.b21d24db.chunk.js.LICENSE"
   },
   {
-    "revision": "2e45837c6f4f341fd698",
-    "url": "/static/js/main.3b8bb761.chunk.js"
+    "revision": "05655484033902d82852",
+    "url": "/static/js/main.1d9e18a5.chunk.js"
   },
   {
-    "revision": "c9913191e565de632244",
-    "url": "/static/js/runtime-main.170f8412.js"
+    "revision": "4f2b1704eab49d50853b",
+    "url": "/static/js/runtime-main.19ccc7f6.js"
   },
   {
     "revision": "0d0608914cbedb7478a43aa5957cd306",
     "url": "/static/media/ComputerVision_Square.0d060891.svg"
   },
   {
-    "revision": "2bf58eecde70baeabdcb559eaf8ae5ca",
-    "url": "/static/media/DiscordPresence_Square.2bf58eec.svg"
-  },
-  {
     "revision": "67d83037b426c7d2d480d95efba6d31a",
     "url": "/static/media/GridLock_Square.67d83037.svg"
   },
   {
-    "revision": "b6b70fb23e57386bb1c87bed2b15c1f0",
-    "url": "/static/media/RealTimePolling_Square.b6b70fb2.svg"
-  },
-  {
-    "revision": "7b95fbcebc1a4b1e46ba2b773b80f791",
-    "url": "/static/media/StudentEnroll_Square.7b95fbce.svg"
+    "revision": "913a6625634b2fec56f45d558b4f7ef7",
+    "url": "/static/media/Mock_Stocks.913a6625.svg"
   },
   {
     "revision": "a2463783090a8472dfac94989c1b8014",
     "url": "/static/media/WebGL_Square.a2463783.svg"
-  },
-  {
-    "revision": "2f48820f6c967d09fd5e87d68e1dbf7c",
-    "url": "/static/media/angularIcon.2f48820f.svg"
-  },
-  {
-    "revision": "858862dc232ec8b5f038b3c082f57d91",
-    "url": "/static/media/cppIcon.858862dc.svg"
-  },
-  {
-    "revision": "6971ddc761cc35ba918be0a69dfbcf50",
-    "url": "/static/media/cssIcon.6971ddc7.svg"
   },
   {
     "revision": "f17d68774cb90fda1b57188533c609de",
@@ -72,10 +52,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/githubIcon.a36a1b31.svg"
   },
   {
-    "revision": "676e8188f003ed5d4882a0d0f378dad3",
-    "url": "/static/media/htmlIcon.676e8188.svg"
-  },
-  {
     "revision": "321b4d76c885ab24ffd6c4eb5478970f",
     "url": "/static/media/ibmIcon.321b4d76.svg"
   },
@@ -84,24 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/linkedinIcon.591e237a.svg"
   },
   {
-    "revision": "8e08e1ba858716f1e67b46e4549a8eea",
-    "url": "/static/media/mongoIcon.8e08e1ba.svg"
-  },
-  {
-    "revision": "d61c523d827dc479bf351dba5499fb0f",
-    "url": "/static/media/nodeJSIcon.d61c523d.svg"
-  },
-  {
-    "revision": "9cdc9c2af9d7d70f33f63db4de12561d",
-    "url": "/static/media/opencvIcon.9cdc9c2a.svg"
-  },
-  {
     "revision": "8870783734ab4398805b8f5b689cebfe",
     "url": "/static/media/projSkills.88707837.svg"
-  },
-  {
-    "revision": "fe09938f0d9bf87ca24d04767f0bf9e0",
-    "url": "/static/media/pusherIcon.fe09938f.svg"
   },
   {
     "revision": "42ef0404d13da4c2c716346d4f40e733",

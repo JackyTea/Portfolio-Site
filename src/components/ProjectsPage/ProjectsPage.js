@@ -1,19 +1,9 @@
 import React, { Component } from "react";
 import { ReactComponent as GithubIcon } from "../../images/projectsPage/githubIcon.svg";
 import { ReactComponent as VisitIcon } from "../../images/projectsPage/visitIcon.svg";
-import { ReactComponent as AngularIcon } from "../../images/icons/angularIcon.svg";
-import { ReactComponent as MongoIcon } from "../../images/icons/mongoIcon.svg";
-import { ReactComponent as NodeJSIcon } from "../../images/icons/nodeJSIcon.svg";
-import { ReactComponent as PusherIcon } from "../../images/icons/pusherIcon.svg";
-import { ReactComponent as CPPIcon } from "../../images/icons/cppIcon.svg";
-import { ReactComponent as HTMLIcon } from "../../images/icons/htmlIcon.svg";
-import { ReactComponent as CSSIcon } from "../../images/icons/cssIcon.svg";
-import { ReactComponent as OpenCVIcon } from "../../images/icons/opencvIcon.svg";
-import RealTimePolling from "../../screenshots/RealTimePolling_Square.svg";
+import MockStocks from "../../screenshots/Mock_Stocks.svg";
 import GridLock from "../../screenshots/GridLock_Square.svg";
-import StudentEnroll from "../../screenshots/StudentEnroll_Square.svg";
 import WebGL from "../../screenshots/WebGL_Square.svg";
-import DiscordPresence from "../../screenshots/DiscordPresence_Square.svg";
 import ComputerVision from "../../screenshots/ComputerVision_Square.svg";
 import "./ProjectsPage.css";
 
@@ -33,16 +23,37 @@ class ProjectsPage extends Component {
         <div className="ProjectContainer">
           <div className="ProjectCard">
             <div className="ProjectLogo">
+              <img src={MockStocks} alt="Mock Stocks Demo"></img>
+            </div>
+            <div className="ProjectDescription">
+              <h1>Mock Stocks Trading Platform</h1>
+              <ul>
+              <li>Socket.IO</li>
+              <li>MERN</li>
+              </ul>
+              <p className="p-6">MERN stack simulated stock trading platform with real time price updates.</p>
+            </div>
+            <div className="LinkCard">
+              <a href="https://epic-swanson-085a9a.netlify.app/" target="_blank"
+                rel="noopener noreferrer">
+                <button aria-label="live demo">Live Demo &nbsp;<VisitIcon></VisitIcon></button></a>
+              <a href="https://github.com/JackyTea/Mock-Stocks" target="_blank"
+                rel="noopener noreferrer" className="gitLink">
+                <button aria-label="view source">Source Code &nbsp;<GithubIcon></GithubIcon></button></a>
+            </div>
+          </div>
+          <div className="ProjectCard">
+            <div className="ProjectLogo">
               <img src={GridLock} alt="GridLock Pathfinder Demo"></img>
             </div>
             <div className="ProjectDescription">
               <h1>Pathfinding Algorithm Visualizer</h1>
               <ul>
-                <li><NodeJSIcon></NodeJSIcon> &nbsp;Node.JS</li>
-                <li><HTMLIcon></HTMLIcon> &nbsp;HTML5</li>
-                <li><CSSIcon></CSSIcon> &nbsp;CSS3</li>
+                <li>Node.JS</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
               </ul>
-              <p>A breadth-first search visualizer that finds the shortest path between two user-determined points on a grid.</p>
+              <p className="p-6">Finds the shortest path between 2 points on a 2D matrix.</p>
             </div>
             <div className="LinkCard">
               <a href="https://jackytea.github.io/GH_Gridlock_Pathfinder/" target="_blank"
@@ -63,7 +74,7 @@ class ProjectsPage extends Component {
                 <li>WebGL</li>
                 <li>Three.JS</li>
               </ul>
-              <p>A first person movement demonstration using WebGL 3D rendering and Three.JS. <b>(Keyboard needed to interact)</b></p>
+              <p>3D First Person Render in a browser. <strong>(Keyboard needed to interact)</strong></p>
             </div>
             <div className="LinkCard">
               <a href="https://silly-shirley-309cb3.netlify.app/" target="_blank"
@@ -76,83 +87,15 @@ class ProjectsPage extends Component {
           </div>
           <div className="ProjectCard">
             <div className="ProjectLogo">
-              <img src={StudentEnroll} alt="Student Enrollment Demo"></img>
-            </div>
-            <div className="ProjectDescription">
-              <h1>Student Enrolment Application</h1>
-              <ul>
-                <li><AngularIcon></AngularIcon> &nbsp;Angular</li>
-                <li><NodeJSIcon></NodeJSIcon> &nbsp;Node.JS</li>
-                <li><MongoIcon></MongoIcon> &nbsp;MongoDB</li>
-              </ul>
-              <p>A full-stack web application that allows students to manage their accounts and build their timetables for school.</p>
-            </div>
-            <div className="LinkCard">
-              <a href="https://quiet-cliffs-46230.herokuapp.com" target="_blank"
-                rel="noopener noreferrer">
-                <button aria-label="live demo">Live Demo &nbsp;<VisitIcon></VisitIcon></button></a>
-              <a href="https://github.com/JackyTea/Student-Enrolment-App" target="_blank"
-                rel="noopener noreferrer" className="gitLink">
-                <button aria-label="view source">Source Code &nbsp;<GithubIcon></GithubIcon></button></a>
-              <p className="warning"><b>Notice: </b>Heroku site might take time to connect. Find out why <a href="https://blog.heroku.com/app_sleeping_on_heroku" target="_blank"
-                rel="noopener noreferrer">here.</a></p>
-            </div>
-          </div>
-          <div className="ProjectCard">
-            <div className="ProjectLogo">
-              <img src={RealTimePolling} alt="Real Time Polling Demo"></img>
-            </div>
-            <div className="ProjectDescription">
-              <h1>Real Time Polling Application</h1>
-              <ul>
-                <li><NodeJSIcon></NodeJSIcon> &nbsp;Node.JS</li>
-                <li><MongoIcon></MongoIcon> &nbsp;MongoDB</li>
-                <li><PusherIcon></PusherIcon> &nbsp;Pusher API</li>
-              </ul>
-              <p>An asynchronous web application that updates changes to polling results without having to refresh the page.</p>
-            </div>
-            <div className="LinkCard">
-              <a href="https://sheltered-inlet-92987.herokuapp.com/" target="_blank"
-                rel="noopener noreferrer">
-                <button aria-label="live demo">Live Demo &nbsp;<VisitIcon></VisitIcon></button></a>
-              <a href="https://github.com/JackyTea/Real-Time-Polling-Application" target="_blank"
-                rel="noopener noreferrer" className="gitLink">
-                <button aria-label="view source">Source Code &nbsp;<GithubIcon></GithubIcon></button></a>
-              <p className="warning"><b>Notice: </b>Heroku site might take time to connect. Find out why <a href="https://blog.heroku.com/app_sleeping_on_heroku" target="_blank"
-                rel="noopener noreferrer">here.</a></p>
-            </div>
-          </div>
-          <div className="ProjectCard">
-            <div className="ProjectLogo">
-              <img src={DiscordPresence} alt="Discord Rich Presence Demo"></img>
-            </div>
-            <div className="ProjectDescription">
-              <h1>Custom Discord Rich Presence</h1>
-              <ul>
-                <li><NodeJSIcon></NodeJSIcon> &nbsp;Node.JS</li>
-              </ul>
-              <p>A Node.JS script for Discord users to personalize and customize their profile status with a banner similar to when they are playing a game.</p>
-            </div>
-            <div className="LinkCard">
-              <a href="https://raw.githubusercontent.com/JackyTea/Custom-Discord-Rich-Presence/master/demos/example.JPG" target="_blank"
-                rel="noopener noreferrer">
-                <button aria-label="live demo">Demo GIF &nbsp;<VisitIcon></VisitIcon></button></a>
-              <a href="https://github.com/JackyTea/Custom-Discord-Rich-Presence" target="_blank"
-                rel="noopener noreferrer" className="gitLink">
-                <button aria-label="view source">Source Code &nbsp;<GithubIcon></GithubIcon></button></a>
-            </div>
-          </div>
-          <div className="ProjectCard">
-            <div className="ProjectLogo">
               <img src={ComputerVision} alt="Discord Logger Bot Demo"></img>
             </div>
             <div className="ProjectDescription">
               <h1>Computer Vision Algorithm Evaluator</h1>
               <ul>
-                <li><CPPIcon></CPPIcon> &nbsp;C++</li>
-                <li><OpenCVIcon></OpenCVIcon> &nbsp;OpenCV</li>
+                <li>C++</li>
+                <li>OpenCV</li>
               </ul>
-              <p>An OpenCV program designed to let a user determine the ground truth of a set of images. This ground truth is then compared to pre-processed algorithm data to determine how well the algorithm has performed.</p>
+              <p>Determine the accuracy of a computer vision algorithm.</p>
             </div>
             <div className="LinkCard">
               <a href="https://raw.githubusercontent.com/JackyTea/Computer-Vision-Algorithm-Evaluator/master/demos/perfEval.gif" target="_blank"

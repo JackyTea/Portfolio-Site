@@ -1,0 +1,304 @@
+/* desktop */
+
+.ProjectsPage {
+    z-index: 2;
+    margin: 0;
+    padding: 0 0 3% 0;
+    width: 95%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    vertical-align: middle;
+    background: white;
+    box-shadow: 0 1.5vh 1.5vh rgba(0, 0, 0, 0.12), 0 1vh 1vh rgba(0, 0, 0, 0.24);
+    transition: all 0.2s cubic-bezier(.25, .8, .25, 1);
+    border-top: 0.1vw solid rgba(0, 0, 0, 0.158);
+    border-left: 0.1vw solid rgba(0, 0, 0, 0.158);
+    border-right: 0.1vw solid rgba(0, 0, 0, 0.158);
+}
+
+.ProjectsPage>.ProjectsPageTitle {
+    font-size: 2vw;
+    padding: 1% 0 1% 0;
+}
+
+.ProjectsPage>.ProjectContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProjectsPage>.ProjectContainer>.ProjectCard {
+    margin: 1%;
+    padding: 2.5% 1.5% 2.5% 1.5%;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 1vh 1vh rgba(0, 0, 0, 0.12), 0 0.5vh 0.5vh rgba(0, 0, 0, 0.24);
+    transition: all 0.2s cubic-bezier(.25, .8, .25, 1);
+    border-top: 0.1vw solid rgba(0, 0, 0, 0.158);
+    border-left: 0.1vw solid rgba(0, 0, 0, 0.158);
+    border-right: 0.1vw solid rgba(0, 0, 0, 0.158);
+}
+
+.ProjectsPage>.ProjectContainer>.ProjectCard>.ProjectLogo {
+    width: 30%;
+}
+
+.ProjectsPage>.ProjectContainer>.ProjectCard>.ProjectLogo>img {
+    padding-right: 5%;
+    width: 90%;
+    height: auto;
+}
+
+.ProjectsPage>.ProjectContainer>.ProjectCard>.ProjectDescription {
+    text-align: left;
+    width: 45%;
+}
+
+.ProjectsPage>.ProjectContainer>.ProjectCard>.ProjectDescription>h1 {
+    font-size: 1.5vw;
+}
+
+.ProjectsPage>.ProjectContainer>.ProjectCard>.ProjectDescription>ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1vw;
+    margin-bottom: 2%;
+}
+
+.ProjectsPage>.ProjectContainer>.ProjectCard>.ProjectDescription>ul>li {
+    margin: 1%;
+    padding: 10px 13px 10px 13px;
+    border-radius: 10px;
+    background: rgb(240, 240, 240);
+}
+
+.ProjectsPage>.ProjectContainer>.ProjectCard>.ProjectDescription>ul>li>svg {
+    width: 1vw;
+    height: 1vw;
+}
+
+.ProjectsPage>.ProjectContainer>.ProjectCard>.ProjectDescription>p {
+    font-size: 1vw;
+}
+
+.ProjectsPage>.ProjectContainer>.ProjectCard>.LinkCard {
+    font-size: 1vw;
+    width: 25%;
+}
+
+.ProjectsPage>.ProjectContainer>.ProjectCard>.LinkCard>a>button {
+    padding: 5%;
+    border-radius: 10px;
+    cursor: pointer;
+    background: rgb(31, 102, 255);
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.288);
+    margin-bottom: 10%;
+}
+
+.ProjectsPage>.ProjectContainer>.ProjectCard>.LinkCard>a>button>svg {
+    fill: white;
+    width: 0.8vw;
+    height: 0.8vw;
+}
+
+.ProjectsPage>.ProjectContainer>.ProjectCard>.LinkCard>.gitLink>button {
+    padding: 5%;
+    border-radius: 10px;
+    cursor: pointer;
+    background: rgb(107, 107, 107);
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.288);
+    margin-bottom: 3%;
+}
+
+.ProjectsPage>.ProjectContainer>.ProjectCard>.LinkCard>a>button:hover {
+    cursor: pointer;
+    transition: 0.2s;
+    background: rgb(0, 58, 182);
+}
+
+.ProjectsPage>.ProjectContainer>.ProjectCard>.LinkCard>.gitLink>button:hover {
+    cursor: pointer;
+    transition: 0.2s;
+    background: rgb(59, 59, 59);
+}
+
+.ProjectsPage>.ProjectContainer>.ProjectCard>.LinkCard>.warning {
+    border-radius: 10px;
+    padding: 1%;
+    background: rgb(255, 229, 182);
+}
+
+.ProjectsPage>.ProjectContainer>.ProjectCard>.LinkCard>.warning>a {
+    color: rgb(168, 76, 0);
+}
+
+/* tablet */
+
+@media only screen and (max-width: 1200px) {
+    .ProjectsPage>.ProjectContainer {
+        flex-direction: column;
+    }
+    .ProjectsPage>.ProjectsPageTitle {
+        font-size: 3vw;
+        padding: 2% 0 2% 0;
+    }
+    .ProjectsPage>.ProjectContainer>.ProjectCard {
+        width: 95%;
+    }
+    .ProjectsPage>.ProjectContainer>.ProjectCard>.ProjectLogo {
+        width: 50%;
+    }
+    .ProjectsPage>.ProjectContainer>.ProjectCard>.ProjectLogo>img {
+        width: 50%;
+    }
+    .ProjectsPage>.ProjectContainer>.ProjectCard>.ProjectDescription {
+        text-align: center;
+        width: 50%;
+    }
+    .ProjectsPage>.ProjectContainer>.ProjectCard>.ProjectDescription>h1 {
+        font-size: 2vw;
+        margin-bottom: 3%;
+    }
+    .ProjectsPage>.ProjectContainer>.ProjectCard>.ProjectDescription>ul {
+        font-size: 1.7vw;
+        justify-content: center;
+        margin-bottom: 2%;
+    }
+    .ProjectsPage>.ProjectContainer>.ProjectCard>.ProjectDescription>ul>li>svg {
+        width: 2vw;
+        height: 2vw;
+    }
+    .ProjectsPage>.ProjectContainer>.ProjectCard>.ProjectDescription>p {
+        font-size: 2vw;
+    }
+    .ProjectsPage>.ProjectContainer>.ProjectCard>.LinkCard {
+        font-size: 2vw;
+        width: 100%;
+    }
+    .ProjectsPage>.ProjectContainer>.ProjectCard>.LinkCard>a>button {
+        padding: 2.5% 5% 2.5% 5%;
+        margin-bottom: 2%;
+        margin-left: 2.5%;
+        margin-bottom: 2.5%;
+    }
+    .ProjectsPage>.ProjectContainer>.ProjectCard>.LinkCard>.gitLink>button {
+        padding: 2.5% 5% 2.5% 5%;
+    }
+    .ProjectsPage>.ProjectContainer>.ProjectCard>.LinkCard>a>button>svg {
+        width: 2vw;
+        height: 2vw;
+    }
+}
+
+/* mobile */
+
+@media only screen and (max-width: 650px) {
+    .ProjectsPage>.ProjectContainer {
+        flex-direction: column;
+    }
+    .ProjectsPage>.ProjectsPageTitle {
+        font-size: 5vw;
+        padding: 3% 0 3% 0;
+    }
+    .ProjectsPage>.ProjectContainer>.ProjectCard {
+        flex-direction: column;
+        width: 85%;
+        margin-bottom: 5%;
+    }
+    .ProjectsPage>.ProjectContainer>.ProjectCard>.ProjectLogo {
+        width: 100%;
+    }
+    .ProjectsPage>.ProjectContainer>.ProjectCard>.ProjectLogo>img {
+        width: 20%;
+    }
+    .ProjectsPage>.ProjectContainer>.ProjectCard>.ProjectDescription {
+        text-align: center;
+        width: 90%;
+    }
+    .ProjectsPage>.ProjectContainer>.ProjectCard>.ProjectDescription>h1 {
+        font-size: 4vw;
+    }
+    .ProjectsPage>.ProjectContainer>.ProjectCard>.ProjectDescription>ul {
+        font-size: 3vw;
+        justify-content: center;
+    }
+    .ProjectsPage>.ProjectContainer>.ProjectCard>.ProjectDescription>ul>li>svg {
+        width: 3vw;
+        height: 3vw;
+    }
+    .ProjectsPage>.ProjectContainer>.ProjectCard>.ProjectDescription>p {
+        font-size: 3vw;
+        margin-bottom: 2%;
+    }
+    .ProjectsPage>.ProjectContainer>.ProjectCard>.LinkCard {
+        font-size: 3vw;
+        width: 100%;
+    }
+    .ProjectsPage>.ProjectContainer>.ProjectCard>.LinkCard>a>button>svg {
+        width: 3vw;
+        height: 3vw;
+    }
+}
+
+/* mobile - small */
+
+@media only screen and (max-width: 450px) {
+    .ProjectsPage>.ProjectContainer {
+        flex-direction: column;
+    }
+    .ProjectsPage>.ProjectsPageTitle {
+        font-size: 6vw;
+        padding: 3% 0 3% 0;
+    }
+    .ProjectsPage>.ProjectContainer>.ProjectCard {
+        flex-direction: column;
+        width: 85%;
+        margin-bottom: 5%;
+    }
+    .ProjectsPage>.ProjectContainer>.ProjectCard>.ProjectLogo {
+        width: 100%;
+    }
+    .ProjectsPage>.ProjectContainer>.ProjectCard>.ProjectLogo>img {
+        width: 20%;
+    }
+    .ProjectsPage>.ProjectContainer>.ProjectCard>.ProjectDescription {
+        text-align: center;
+        width: 90%;
+    }
+    .ProjectsPage>.ProjectContainer>.ProjectCard>.ProjectDescription>h1 {
+        font-size: 5vw;
+    }
+    .ProjectsPage>.ProjectContainer>.ProjectCard>.ProjectDescription>ul {
+        font-size: 4vw;
+        justify-content: center;
+    }
+    .ProjectsPage>.ProjectContainer>.ProjectCard>.ProjectDescription>ul>li>svg {
+        width: 4vw;
+        height: 4vw;
+    }
+    .ProjectsPage>.ProjectContainer>.ProjectCard>.ProjectDescription>p {
+        font-size: 4vw;
+        margin-bottom: 2%;
+    }
+    .ProjectsPage>.ProjectContainer>.ProjectCard>.LinkCard {
+        font-size: 4vw;
+        width: 100%;
+    }
+    .ProjectsPage>.ProjectContainer>.ProjectCard>.LinkCard>a>button>svg {
+        width: 4vw;
+        height: 4vw;
+    }
+}

@@ -1,0 +1,288 @@
+/* animations */
+
+@keyframes blinkingCursor {
+    0% {
+        opacity: 1.0;
+    }
+    100% {
+        opacity: 0.0;
+    }
+}
+
+/* globals */
+
+/* desktop */
+
+.HomePage {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+}
+
+.HomePage>#projSkills {
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background: url("../../images/homePage/projSkills.svg");
+    background-size: contain;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+.HomePage>#projSkills>#theProjectsPage {
+    z-index: 2;
+    margin: 0 0 5% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    vertical-align: middle;
+}
+
+.HomePage>#projSkills>#theSkillsPage {
+    z-index: 2;
+    margin: 0 0 3% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    vertical-align: middle;
+}
+
+.HomePage>#projSkills>#theExperiencePage {
+    z-index: 2;
+    margin: 0 0 3% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    vertical-align: middle;
+}
+
+.HomePage>.landingSection {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+    background: url("../../images/homePage/topBackground.svg");
+    background-size: contain;
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+.HomePage>.landingSection>.mainTitle {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    min-height: 90vh;
+}
+
+.HomePage>.landingSection>.mainTitle>.introContainer {
+    margin: 0;
+    padding: 0;
+}
+
+.HomePage>.landingSection>.mainTitle>.introContainer>h1 {
+    margin: 0 0 10px 0;
+    padding: 15% 0 0 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5vw;
+    color: rgb(0, 0, 0);
+}
+
+.HomePage>.landingSection>.mainTitle>.introContainer>h3 {
+    margin: 0 0 15px 0;
+    padding: 0 0 0 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8vw;
+    color: rgb(0, 0, 0);
+}
+
+.HomePage>.landingSection>.mainTitle>.introContainer>a {
+    color: white;
+}
+
+.HomePage>.landingSection>.mainTitle>.introContainer>a>button {
+    margin: 0 0 0 50%;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    background: rgb(31, 102, 255);
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.288);
+}
+
+.HomePage>.landingSection>.mainTitle>.introContainer>a>button:hover {
+    cursor: pointer;
+    transition: 0.2s;
+    background: rgb(0, 58, 182);
+}
+
+.HomePage>.landingSection>.mainTitle>.introContainer>.external-links {
+    margin: 0 0 0 50%;
+    padding: 10px 15px 10px 15px;
+}
+
+.HomePage>.landingSection>.mainTitle>.introContainer>.external-links>button {
+    margin: 1%;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    color: rgb(255, 255, 255);
+}
+
+.HomePage>.landingSection>.mainTitle>.introContainer>.external-links>button>a>svg {
+    width: 1vw;
+    height: 1vw;
+}
+
+.HomePage>.landingSection>.mainTitle>.introContainer>.external-links>button>a {
+    color: rgb(31, 31, 31);
+}
+
+.HomePage>.landingSection>.mainTitle>.introContainer>.external-links>button:hover {
+    cursor: pointer;
+    transition: 0.2s;
+    background: rgb(209, 209, 209);
+}
+
+/* tablet */
+
+@media only screen and (max-width: 1200px) {
+    .HomePage {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .HomePage>.landingSection {
+        min-height: 100%;
+        height: auto;
+        background: url("../../images/homePage/topBackgroundTablet.svg");
+        background-size: contain;
+        background-position: top left;
+        background-repeat: no-repeat;
+    }
+    .HomePage>.landingSection>.topBar {
+        height: auto;
+        min-height: 10vh;
+    }
+    .HomePage>.landingSection>.mainTitle {
+        height: auto;
+        min-height: 90vh;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .HomePage>.landingSection>.mainTitle>.introContainer {
+        margin: 0;
+        padding: 0;
+    }
+    .HomePage>.landingSection>.mainTitle>.introContainer>h1 {
+        padding: 25% 0 0 0;
+        font-size: 5vw;
+    }
+    .HomePage>.landingSection>.mainTitle>.introContainer>h3 {
+        padding: 0;
+        font-size: 2.5vw;
+    }
+    .HomePage>.landingSection>.mainTitle>.introContainer>a>button {
+        margin: 0;
+        font-size: 2vw;
+    }
+    .HomePage>.landingSection>.mainTitle>.introContainer>.external-links {
+        margin: 0;
+    }
+    .HomePage>.landingSection>.mainTitle>.introContainer>.external-links>button {
+        font-size: 1.5vw;
+    }
+    .HomePage>.landingSection>.mainTitle>.introContainer>.external-links>button>a>svg {
+        width: 2vw;
+        height: 2vw;
+    }
+}
+
+/* mobile */
+
+@media only screen and (max-width: 650px) {
+    .HomePage>.landingSection {
+        min-height: 100%;
+        height: auto;
+        background: url("../../images/homePage/topBackgroundPhone.svg");
+        background-size: contain;
+        background-position: top left;
+        background-repeat: no-repeat;
+    }
+    .HomePage>.landingSection>.topBar {
+        height: auto;
+        min-height: 10vh;
+    }
+    .HomePage>.landingSection>.mainTitle {
+        height: auto;
+        min-height: 90vh;
+    }
+    .HomePage>.landingSection>.mainTitle>.introContainer>h1 {
+        font-size: 7vw;
+    }
+    .HomePage>.landingSection>.mainTitle>.introContainer>h3 {
+        font-size: 4vw;
+    }
+    .HomePage>.landingSection>.mainTitle>.introContainer>a>button {
+        font-size: 3.5vw;
+    }
+    .HomePage>.landingSection>.mainTitle>.introContainer>.external-links>button {
+        font-size: 3vw;
+    }
+    .HomePage>.landingSection>.mainTitle>.introContainer>.external-links>button>a>svg {
+        width: 3vw;
+        height: 3vw;
+    }
+}
+
+/*mobile - small*/
+
+@media only screen and (max-width: 450px) {
+    .HomePage>.landingSection {
+        height: auto;
+        min-height: 100%;
+        background: url("../../images/homePage/topBackgroundPhone.svg");
+        background-size: contain;
+        background-position: top left;
+        background-repeat: no-repeat;
+    }
+    .HomePage>.landingSection>.topBar {
+        height: auto;
+        min-height: 10vh;
+    }
+    .HomePage>.landingSection>.mainTitle {
+        height: auto;
+        min-height: 90vh;
+    }
+    .HomePage>.landingSection>.mainTitle>.introContainer>h1 {
+        font-size: 8vw;
+    }
+    .HomePage>.landingSection>.mainTitle>.introContainer>h3 {
+        font-size: 5vw;
+    }
+    .HomePage>.landingSection>.mainTitle>.introContainer>a>button {
+        font-size: 4vw;
+    }
+    .HomePage>.landingSection>.mainTitle>.introContainer>.external-links>button {
+        font-size: 3.5vw;
+    }
+    .HomePage>.landingSection>.mainTitle>.introContainer>.external-links>button>a>svg {
+        width: 3.5vw;
+        height: 3.5vw;
+    }
+}

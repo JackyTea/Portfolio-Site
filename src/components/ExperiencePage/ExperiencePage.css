@@ -105,6 +105,15 @@
 /* tablet */
 
 @media only screen and (max-width: 1200px) {
+    .ExperiencePage {
+        background: none;
+        box-shadow: none;
+        transition: none;
+        border: none;
+    }
+    .ExperiencePage>.ExperienceContainer>.ExperienceCard {
+        background: white;
+    }
     .ExperiencePage>.ExperiencePageTitle {
         font-size: 3vw;
         padding: 2% 0 2% 0;

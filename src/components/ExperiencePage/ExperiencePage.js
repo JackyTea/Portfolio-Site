@@ -19,9 +19,9 @@ class ExperiencePage extends Component {
                             <ShopifyIcon></ShopifyIcon>
                         </div>
                         <div className="JobDescription">
-                            <h1>Software Developer @ <a href="https://www.shopify.ca/about" target="_blank"
+                            <h1>Software Developer at <a href="https://www.shopify.ca/about" target="_blank"
                                 rel="noopener noreferrer">Shopify</a></h1>
-                            <h2>January 2022 - Present (Internship)</h2>
+                            <h2>January 2022 - April 2022 (Internship)</h2>
                         </div>
                     </div>
                     <div className="ExperienceCard">
@@ -29,7 +29,7 @@ class ExperiencePage extends Component {
                             <IBMIcon></IBMIcon>
                         </div>
                         <div className="JobDescription">
-                            <h1>Software Developer @ <a href="https://www.ibm.com/ca-en/about" target="_blank"
+                            <h1>Software Developer at <a href="https://www.ibm.com/ca-en/about" target="_blank"
                                 rel="noopener noreferrer">IBM</a></h1>
                             <h2>September 2020 - December 2021 (Internship)</h2>
                         </div>

@@ -148,6 +148,12 @@
 /* tablet */
 
 @media only screen and (max-width: 1200px) {
+    .ProjectsPage {
+        background: none;
+        box-shadow: none;
+        transition: none;
+        border: none;
+    }
     .ProjectsPage>.ProjectContainer {
         flex-direction: column;
     }
@@ -156,7 +162,8 @@
         padding: 2% 0 2% 0;
     }
     .ProjectsPage>.ProjectContainer>.ProjectCard {
-        width: 95%;
+        background: white;
+        width: 83%;
     }
     .ProjectsPage>.ProjectContainer>.ProjectCard>.ProjectLogo {
         width: 50%;

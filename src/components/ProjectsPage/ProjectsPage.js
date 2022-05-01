@@ -27,7 +27,7 @@ class ProjectsPage extends Component {
               <li>Socket.IO</li>
               <li>MERN</li>
               </ul>
-              <p className="p-6">MERN stack simulated stock trading platform with real time price updates.</p>
+              <p className="p-6">Simulated stock trading platform with real time price updates.</p>
             </div>
             <div className="LinkCard">
               <a href="https://epic-swanson-085a9a.netlify.app/" target="_blank"
@@ -45,7 +45,7 @@ class ProjectsPage extends Component {
             <div className="ProjectDescription">
               <h1>Pathfinding Algorithm Visualizer</h1>
               <ul>
-                <li>Node.JS</li>
+                <li>JavaScript</li>
                 <li>HTML5</li>
                 <li>CSS3</li>
               </ul>

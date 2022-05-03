@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bf28ead076477818ccc324b6708a6fd3",
+    "revision": "6afec41c567e9cd8ce6dd93fa84f31f3",
     "url": "/index.html"
   },
   {
-    "revision": "83a581299f8adc2a86bd",
+    "revision": "ead03ca31cc007bab964",
     "url": "/static/css/main.7e0eeccc.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.b21d24db.chunk.js.LICENSE"
   },
   {
-    "revision": "83a581299f8adc2a86bd",
-    "url": "/static/js/main.65bb2c46.chunk.js"
+    "revision": "ead03ca31cc007bab964",
+    "url": "/static/js/main.c0256d92.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a2463783090a8472dfac94989c1b8014",
     "url": "/static/media/WebGL_Square.a2463783.svg"
+  },
+  {
+    "revision": "956cb837b5505374f9846ec701e399cc",
+    "url": "/static/media/clutchIcon.956cb837.svg"
   },
   {
     "revision": "f17d68774cb90fda1b57188533c609de",
@@ -66,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8e232e0a3a876688b9297193a8059bf5",
     "url": "/static/media/shopifyIcon.8e232e0a.svg"
+  },
+  {
+    "revision": "42ef0404d13da4c2c716346d4f40e733",
+    "url": "/static/media/snakebyteIcon.42ef0404.svg"
   },
   {
     "revision": "4125c088777a9a5988f76b9a7b04c54b",

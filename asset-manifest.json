@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.7e0eeccc.chunk.css",
-    "main.js": "/static/js/main.65bb2c46.chunk.js",
-    "main.js.map": "/static/js/main.65bb2c46.chunk.js.map",
+    "main.js": "/static/js/main.c0256d92.chunk.js",
+    "main.js.map": "/static/js/main.c0256d92.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/js/2.b21d24db.chunk.js": "/static/js/2.b21d24db.chunk.js",
     "static/js/2.b21d24db.chunk.js.map": "/static/js/2.b21d24db.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a8084e0af0ab105cc52314d84bd24133.js": "/precache-manifest.a8084e0af0ab105cc52314d84bd24133.js",
+    "precache-manifest.3c821b975f6165ea44ed4ce8a2f5ece9.js": "/precache-manifest.3c821b975f6165ea44ed4ce8a2f5ece9.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.7e0eeccc.chunk.css.map": "/static/css/main.7e0eeccc.chunk.css.map",
     "static/js/2.b21d24db.chunk.js.LICENSE": "/static/js/2.b21d24db.chunk.js.LICENSE",
@@ -16,18 +16,20 @@
     "static/media/GridLock_Square.svg": "/static/media/GridLock_Square.67d83037.svg",
     "static/media/Mock_Stocks.svg": "/static/media/Mock_Stocks.913a6625.svg",
     "static/media/WebGL_Square.svg": "/static/media/WebGL_Square.a2463783.svg",
+    "static/media/clutchIcon.956cb837.svg": "/static/media/clutchIcon.956cb837.svg",
     "static/media/FooterBar.css": "/static/media/footerBackgroundPhone.4e1b1bdc.svg",
     "static/media/githubIcon.a36a1b31.svg": "/static/media/githubIcon.a36a1b31.svg",
     "static/media/ibmIcon.321b4d76.svg": "/static/media/ibmIcon.321b4d76.svg",
     "static/media/linkedinIcon.591e237a.svg": "/static/media/linkedinIcon.591e237a.svg",
     "static/media/HomePage.css": "/static/media/topBackgroundTablet.afc6f329.svg",
     "static/media/shopifyIcon.8e232e0a.svg": "/static/media/shopifyIcon.8e232e0a.svg",
+    "static/media/snakebyteIcon.42ef0404.svg": "/static/media/snakebyteIcon.42ef0404.svg",
     "static/media/visitIcon.ff048ca7.svg": "/static/media/visitIcon.ff048ca7.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/js/2.b21d24db.chunk.js",
     "static/css/main.7e0eeccc.chunk.css",
-    "static/js/main.65bb2c46.chunk.js"
+    "static/js/main.c0256d92.chunk.js"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.53afa6c0.chunk.css",
+    "main.css": "/static/css/main.90c58a39.chunk.css",
     "main.js": "/static/js/main.df0c6e1c.chunk.js",
     "main.js.map": "/static/js/main.df0c6e1c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
@@ -8,9 +8,9 @@
     "static/js/2.b21d24db.chunk.js": "/static/js/2.b21d24db.chunk.js",
     "static/js/2.b21d24db.chunk.js.map": "/static/js/2.b21d24db.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5215d57160b4546b5d2ff49dd102a90c.js": "/precache-manifest.5215d57160b4546b5d2ff49dd102a90c.js",
+    "precache-manifest.3a235fcc2b4ba98a73f9a4edce81aae4.js": "/precache-manifest.3a235fcc2b4ba98a73f9a4edce81aae4.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.53afa6c0.chunk.css.map": "/static/css/main.53afa6c0.chunk.css.map",
+    "static/css/main.90c58a39.chunk.css.map": "/static/css/main.90c58a39.chunk.css.map",
     "static/js/2.b21d24db.chunk.js.LICENSE": "/static/js/2.b21d24db.chunk.js.LICENSE",
     "static/media/ComputerVision_Square.svg": "/static/media/ComputerVision_Square.0d060891.svg",
     "static/media/GridLock_Square.svg": "/static/media/GridLock_Square.67d83037.svg",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/js/2.b21d24db.chunk.js",
-    "static/css/main.53afa6c0.chunk.css",
+    "static/css/main.90c58a39.chunk.css",
     "static/js/main.df0c6e1c.chunk.js"
   ]
 }

@@ -22,10 +22,10 @@ class ProjectsPage extends Component {
               <img src={MockStocks} alt="Mock Stocks Demo"></img>
             </div>
             <div className="ProjectDescription">
-              <h1>Mock Stocks Trading Platform</h1>
+              <h1>Stock Trading Site</h1>
               <ul>
               <li>Socket.IO</li>
-              <li>MERN</li>
+              <li>MERN Stack</li>
               </ul>
               <p className="p-6">Simulated stock trading platform with real time price updates.</p>
             </div>
@@ -43,7 +43,7 @@ class ProjectsPage extends Component {
               <img src={GridLock} alt="GridLock Pathfinder Demo"></img>
             </div>
             <div className="ProjectDescription">
-              <h1>Pathfinding Algorithm Visualizer</h1>
+              <h1>Pathfinding Visualizer</h1>
               <ul>
                 <li>JavaScript</li>
                 <li>HTML5</li>
@@ -65,7 +65,7 @@ class ProjectsPage extends Component {
               <img src={WebGL} alt="WebGL Demo"></img>
             </div>
             <div className="ProjectDescription">
-              <h1>WebGL First Person Render</h1>
+              <h1>WebGL FPS Game</h1>
               <ul>
                 <li>WebGL</li>
                 <li>Three.JS</li>
@@ -86,7 +86,7 @@ class ProjectsPage extends Component {
               <img src={ComputerVision} alt="Discord Logger Bot Demo"></img>
             </div>
             <div className="ProjectDescription">
-              <h1>Computer Vision Algorithm Evaluator</h1>
+              <h1>CV Algorithm Evaluator</h1>
               <ul>
                 <li>C++</li>
                 <li>OpenCV</li>

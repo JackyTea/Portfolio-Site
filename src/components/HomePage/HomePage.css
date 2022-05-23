@@ -80,7 +80,7 @@
     padding: 0;
     width: 100%;
     height: auto;
-    min-height: 90vh;
+    min-height: 85vh;
 }
 
 .HomePage>.landingSection>.mainTitle>.introContainer {
@@ -178,7 +178,7 @@
     }
     .HomePage>.landingSection>.mainTitle {
         height: auto;
-        min-height: 90vh;
+        min-height: 85vh;
         margin: 0;
         padding: 0;
         display: flex;
@@ -230,7 +230,7 @@
     }
     .HomePage>.landingSection>.mainTitle {
         height: auto;
-        min-height: 90vh;
+        min-height: 85vh;
     }
     .HomePage>.landingSection>.mainTitle>.introContainer>h1 {
         font-size: 7vw;
@@ -267,7 +267,7 @@
     }
     .HomePage>.landingSection>.mainTitle {
         height: auto;
-        min-height: 90vh;
+        min-height: 85vh;
     }
     .HomePage>.landingSection>.mainTitle>.introContainer>h1 {
         font-size: 8vw;

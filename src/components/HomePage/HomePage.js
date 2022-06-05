@@ -22,7 +22,7 @@ class HomePage extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button aria-label="view resume">
+                <button aria-label="visit github">
                   Check out my GitHub.
               </button>
               </a>

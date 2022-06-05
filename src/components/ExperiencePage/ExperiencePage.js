@@ -33,7 +33,7 @@ class ExperiencePage extends Component {
                         <div className="JobDescription">
                             <h1>Software Developer at <a href="https://www.shopify.ca/about" target="_blank"
                                 rel="noopener noreferrer">Shopify</a></h1>
-                            <h2>January 2022 - April 2022 (Internship)</h2>
+                            <h2>Jan. 2022 - Apr. 2022 (Internship)</h2>
                         </div>
                     </div>
                     <div className="ExperienceCard">
@@ -43,7 +43,7 @@ class ExperiencePage extends Component {
                         <div className="JobDescription">
                             <h1>Software Developer at <a href="https://www.ibm.com/ca-en/about" target="_blank"
                                 rel="noopener noreferrer">IBM</a></h1>
-                            <h2>September 2020 - December 2021 (Internship)</h2>
+                            <h2>Sep. 2020 - Dec. 2021 (Internship)</h2>
                         </div>
                     </div>
                     <div className="ExperienceCard">
@@ -53,7 +53,7 @@ class ExperiencePage extends Component {
                         <div className="JobDescription">
                             <h1>Software Developer at <a href="https://www.snakebyte.ca" target="_blank"
                                 rel="noopener noreferrer">SnakeByte</a></h1>
-                            <h2>May 2020 - August 2020 (Contract)</h2>
+                            <h2>May 2020 - Aug. 2020 (Contract)</h2>
                         </div>
                     </div>
                 </div>

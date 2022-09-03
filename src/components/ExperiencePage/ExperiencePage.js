@@ -21,7 +21,7 @@ class ExperiencePage extends Component {
                             <ClutchIcon></ClutchIcon>
                         </div>
                         <div className="JobDescription">
-                            <h1>Software Developer at <a href="https://www.clutch.ca/about" target="_blank"
+                            <h1>Software Engineer at <a href="https://www.clutch.ca/about" target="_blank"
                                 rel="noopener noreferrer">Clutch</a></h1>
                             <h2>May 2022 - Present (Full Time)</h2>
                         </div>
